@@ -1,788 +1,1100 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Morbid Metal - Charaktere, Bosse & Fortschritt",
+      "description": "Morbid Metal Hub für Charaktere, Bosse, Builds, Upgrades, Biomes und Fortschritts-Tipps. Verfolge offizielle Updates, Reviews und Steam-Launch-Infos.",
+      "keywords": "Morbid Metal, Steam, Charaktere, Bosse, Builds, Upgrades, Biomes, Fortschritt",
+      "ogTitle": "Morbid Metal - Charaktere, Bosse & Fortschritt",
+      "ogDescription": "Morbid Metal Hub für Charaktere, Bosse, Builds, Upgrades, Biomes und Fortschritts-Tipps. Verfolge offizielle Updates, Reviews und Steam-Launch-Infos.",
+      "twitterTitle": "Morbid Metal - Charaktere, Bosse & Fortschritt",
+      "twitterDescription": "Morbid Metal Hub für Charaktere, Bosse, Builds, Upgrades, Biomes und Fortschritts-Tipps. Verfolge offizielle Updates, Reviews und Steam-Launch-Infos."
     }
   },
   "nav": {
     "characters": "Morbid Metal Charaktere",
-    "feature": "Morbid Metal Funktionen",
+    "feature": "Morbid Metal Features",
     "guide": "Morbid Metal Guide",
     "platform": "Morbid Metal Plattformen",
-    "purchase": "Morbid Metal Kaufen",
-    "review": "Morbid Metal Bewertungen",
+    "purchase": "Morbid Metal kaufen",
+    "review": "Morbid Metal Reviews",
     "trailer": "Morbid Metal Trailer"
   },
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
+    "playNow": "Auf Steam spielen",
     "switchLanguage": "Sprache wechseln",
     "switchTheme": "Design wechseln",
     "lightMode": "Heller Modus",
     "darkMode": "Dunkler Modus",
     "notFound": "Seite nicht gefunden",
-    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "notFoundDescription": "Die von Ihnen gesuchte Seite existiert nicht.",
     "backToHome": "Zurück zur Startseite",
     "relatedArticles": "Ähnliche Artikel",
     "readMore": "Mehr lesen"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Dark Sci-Fi Action Roguelite",
+    "title": "Morbid Metal",
+    "description": "Morbid Metal ist ein rasantes Dark Sci-Fi Action Roguelite, das auf Echtzeit-Gestaltwandlung, stylischen Combo-Ketten, Bosskämpfen und wiederspielbarem Fortschritt basiert.",
+    "getFreeCodesCTA": "Guides erkunden",
+    "playOnSteamCTA": "Offizielle Seite",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "26.906",
+        "label": "Steam-Follower"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "1.082",
+        "label": "Spieler-Peak"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "400",
+        "label": "Steam-Reviews"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "3",
+        "label": "Spielbare Formen"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Morbid Metal Gameplay",
+    "description": "Erlebe Dark Sci-Fi Kämpfe mit Echtzeit-Gestaltwandlung, stylischen Combo-Ketten und Roguelite-Fortschritt in der Early Access Version von Morbid Metal."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "title": "Morbid Metal",
+    "titleHighlight": "Wiki",
+    "subtitle": "Vollständige Guides für Charaktere, Bosse, Combos, Upgrades und jedes System in Morbid Metal",
     "cards": [
       {
-        "icon": "Herunterladen",
-        "title": "Demo-Download",
-        "description": "Hol dir die kostenlose Steam-Demo"
-      },
-      {
-        "icon": "Buch offen",
-        "title": "Anfängerleitfaden",
-        "description": "Kernschleife und häufige Fallstricke"
-      },
-      {
-        "icon": "Benutzer",
-        "title": "Koop-Leitfaden",
-        "description": "6-Spieler-Rollen und Rettungstaktiken"
-      },
-      {
-        "icon": "Klemmbrett-Check",
-        "title": "Aufgaben & Ziele",
-        "description": "Was High-Gnome von dir will"
-      },
-      {
-        "icon": "Tastatur",
-        "title": "Steuerung & Tastenbelegung",
-        "description": "Standardtasten und wie man sie ändert"
-      },
-      {
-        "icon": "Schild",
-        "title": "Inhaltseinstellungen",
-        "description": "Inhalte für Erwachsene und Umschaltoptionen"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Crafting & Ausrüstung",
-        "description": "Rüste dich mit gestohlenen Materialien aus"
-      },
-      {
-        "icon": "Paket",
-        "title": "Beute & Gegenstände",
-        "description": "Was man stehlen sollte und Trage-Tipps"
-      },
-      {
-        "icon": "Warndreieck",
-        "title": "Gegner & Gefahren",
-        "description": "Bedrohungen und wie man mit ihnen umgeht"
-      },
-      {
-        "icon": "Auge",
-        "title": "Stealth & Flucht",
-        "description": "Bleib versteckt und extrahiere sicher"
-      },
-      {
-        "icon": "Startseite",
-        "title": "Haus-Upgrades",
-        "description": "Verbessere deine schwebende Inselbasis"
-      },
-      {
-        "icon": "Sprechblase",
-        "title": "Community & Discord",
-        "description": "Offizielle Links und Gruppensuche"
-      },
-      {
-        "icon": "Einstellungen",
-        "title": "Mods & BepInEx",
-        "description": "Installiere Framework und Mod-Setup"
-      },
-      {
-        "icon": "Stern",
-        "title": "Beliebte Mods",
-        "description": "Top-Community-Auswahlen und -Funktionen"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Controller-Unterstützung",
-        "description": "Volle Gamepad-Steuerung mit UI-Cursor"
+        "icon": "BookOpen",
+        "title": "Morbid Metal Einsteiger-Guide",
+        "description": "Überlebe deine ersten Runs mit wichtigen Tipps und Starter-Routen"
       },
       {
         "icon": "TrendingUp",
-        "title": "Spielerzahl & Trend",
-        "description": "Live-Statistiken und Peak-Tracking"
+        "title": "Morbid Metal Beste Upgrades",
+        "description": "Priorisierte permanente Upgrades für frühe Beständigkeit"
+      },
+      {
+        "icon": "Zap",
+        "title": "Morbid Metal Skills und Combos",
+        "description": "Beste Skills, Combo-Routen und Charakter-Loadouts"
+      },
+      {
+        "icon": "Users",
+        "title": "Morbid Metal Charaktere Guide",
+        "description": "Flux, Ekku und Vekta Rollen und Team-Rotation"
+      },
+      {
+        "icon": "Skull",
+        "title": "Morbid Metal Boss-Guide",
+        "description": "Angriffsmuster, Ausweich-Timing und Boss-Strategien"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Morbid Metal Achievement-Guide",
+        "description": "Alle Steam-Errungenschaften und Freischaltbedingungen"
+      },
+      {
+        "icon": "Swords",
+        "title": "Morbid Metal Kampf-Guide",
+        "description": "Wechseln, perfektes Ausweichen, Leak-Status und Stagger-Flow"
+      },
+      {
+        "icon": "Heart",
+        "title": "Morbid Metal Heilung",
+        "description": "Alle Heilungsquellen und Tipps zur Gesundheitsökonomie"
+      },
+      {
+        "icon": "Layers",
+        "title": "Morbid Metal Builds Guide",
+        "description": "Frühe Meta-Builds nach Spielstil und Skill-Synergien"
+      },
+      {
+        "icon": "Map",
+        "title": "Morbid Metal Roadmap",
+        "description": "Early Access Launch-Zeitplan und zukünftige Inhaltspläne"
+      },
+      {
+        "icon": "Monitor",
+        "title": "Morbid Metal Systemanforderungen",
+        "description": "Minimale und empfohlene PC-Specs für flüssiges Spielen"
+      },
+      {
+        "icon": "Star",
+        "title": "Morbid Metal Review",
+        "description": "Early Access Eindrücke, Kampfgefühl und Inhaltstiefe"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Morbid Metal Demo-Guide",
+        "description": "Was die Demo beinhaltet im Vergleich zur vollen Early Access Version"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Morbid Metal Flux Guide",
+        "description": "Beste Skills, Mobilität und Combo-Routen für Flux"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Morbid Metal Ekku Guide",
+        "description": "Schildbrechen, Crowd Control und Burst-Fenster für Ekku"
+      },
+      {
+        "icon": "Target",
+        "title": "Morbid Metal Vekta Guide",
+        "description": "Fernkampf-Kontrolle, Spacing und Team-Setup mit Vekta"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
-      "subtitle": "Hol dir die kostenlose Demo auf Steam",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30. Januar 2026",
-      "price": "Kostenlos",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo herunterladen",
-      "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Wo man es herunterladen kann",
-          "items": [
-            "Öffne die offizielle Steam-Store-Seite und nutze den Abschnitt \"Demo herunterladen\".",
-            "Wenn Steam dich auffordert, dich anzumelden, melde dich zuerst an und versuche es erneut."
-          ]
-        },
-        {
-          "heading": "Schnelle Überprüfung von Installation und Start",
-          "items": [
-            "Standardinstallationsort: Steam-Bibliotheksordner → steamapps → common → (Spielordner).",
-            "Wenn es nicht startet: Überprüfe die Spieldateien in Steam und starte Steam neu."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
-      "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
+    "morbidMetalBeginnerGuide": {
+      "title": "Morbid Metal Einsteiger-Guide",
+      "eyebrow": "Starter-Route",
+      "subtitle": "Morbid Metal belohnt kontrolliertes Wechseln, klare Zielpriorisierung und kluge Ausgaben im Hub weitaus mehr als bloßes Button-Mashing. Dieser Guide bietet neuen Spielern eine praktische Route durch die ersten Biomes.",
+      "intro": "Das Early Game wird viel einfacher, sobald man aufhört, Morbid Metal wie ein Actionspiel mit nur einem Charakter zu behandeln. Die besten Ergebnisse erzielt man durch das Rotieren der Rollen, den frühen Kauf einiger wichtiger permanenter Upgrades und den Schutz der Heilungs-Ökonomie, damit jeder Run den Boss mit echtem Momentum erreicht.",
       "steps": [
         {
-          "number": 1,
-          "title": "Betritt das Haus",
-          "description": "Lass dich von deiner schwebenden Inselbasis in ein menschliches Haus fallen. Spawne draußen und schleiche dich durch unverschlossene Türen oder Fenster hinein."
-        },
-        {
-          "number": 2,
-          "title": "Schließe Aufgaben ab",
-          "description": "Erledige High-Gnome-Aufgaben, bevor die Zeit abläuft. Überprüfe die Ziele über die Tab-Taste und priorisiere zuerst riskante Aufgaben."
-        },
-        {
-          "number": 3,
-          "title": "Stehle Gegenstände",
-          "description": "Sammle Wertgegenstände und Materialien zum Craften. Vermeide es, Lärm zu machen oder vom Hausbesitzer entdeckt zu werden."
-        },
-        {
-          "number": 4,
-          "title": "Flucht via Tornado",
-          "description": "Wenn der Timer endet, spawnt ein Tornado im Garten – erreiche ihn, um sicher zu extrahieren. Fang früh an, dich zu bewegen!"
-        },
-        {
-          "number": 5,
-          "title": "Upgrade & Wiederholung",
-          "description": "Verwende Belohnungen und Materialien, um Ausrüstung zu Hause herzustellen, und starte dann deinen nächsten Raubzug mit besserer Ausrüstung."
-        }
-      ],
-      "pitfalls": [
-        {
-          "title": "Erwischt werden",
-          "description": "Der Hausbesitzer wird dich verfolgen. Bleib versteckt, lenke ab und unterbreche die Sichtlinie, um zu entkommen.",
-          "icon": "Warndreieck"
-        },
-        {
-          "title": "Zeit läuft ab",
-          "description": "Der Tornado-Timer ist streng. Beginne frühzeitig mit dem Weg zur Extraktion, anstatt zu viel zu plündern.",
-          "icon": "Uhr"
-        },
-        {
-          "title": "Teamkollegen ignorieren",
-          "description": "Rette gefangene Verbündete schnell aus Kühl-/Ofenfallen – rufe sofort nach Rettung.",
-          "icon": "Benutzer"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
-      "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Späher",
-          "description": "Überprüfe auf Bedrohungen, markiere sichere Pfade und leite die Teambewegung",
-          "icon": "Auge"
-        },
-        {
-          "name": "Träger",
-          "description": "Konzentriere dich auf schwere Gegenstände mit Rucksack-Upgrades und sichere den Aufgabenfortschritt",
-          "icon": "Paket"
-        },
-        {
-          "name": "Ablenkung",
-          "description": "Locke Hausbesitzer/Haustiere vom Team weg, um sichere Fenster zu schaffen",
-          "icon": "Benutzer"
-        },
-        {
-          "name": "Retter",
-          "description": "Befreie gefangene Teamkollegen aus Kühl-/Ofen, bevor sie sterben",
-          "icon": "Schild"
-        }
-      ],
-      "threats": [
-        "Hausbesitzer (verfolgt und fängt dich)",
-        "Katzen & Mäuse (Patrouillenwege)",
-        "Staubsaugerroboter (sofortige Gefahr)",
-        "Zeitlimit (Tornado-Extraktion)"
-      ],
-      "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
-      "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
-      "taskTypes": [
-        {
-          "type": "Stehle Gegenstände",
-          "examples": [
-            "Schnapp dir bestimmte Gegenstände, die durch High-Gnome-Ziele markiert sind"
+          "title": "Spiele das ganze Team, nicht nur Flux",
+          "description": "Das Kampfsystem basiert auf Echtzeit-Wechseln. Flux beginnt Kämpfe schnell, Vekta schafft Freiraum und Fernkampfdruck, und Ekku nutzt Launches und Crowd Control mit hohem Schaden aus.",
+          "takeaways": [
+            "Bleibe nicht aus Gewohnheit bei einem Charakter",
+            "Wechsle, um Cooldowns rotieren zu lassen, anstatt sie abzuwarten",
+            "Betrachte jede Begegnung als Rotation statt als Solo-Combo-Kette"
           ]
         },
         {
-          "type": "Erreiche Orte",
-          "examples": [
-            "Navigiere zu bestimmten Bereichen im Haus"
+          "title": "Eliminiere fliegende und Fernkampf-Bedrohungen zuerst",
+          "description": "Schneller Druck aus der Luft und von außerhalb des Bildschirms ist einer der einfachsten Wege, im ersten Biome Gesundheit zu verlieren. Flux ist besonders effektiv darin, fliegende Gegner schnell zu erreichen, und später kann Vekta sie sicher aus der Ferne ausschalten.",
+          "takeaways": [
+            "Eliminiere Drohnen und Fernkämpfer, bevor du schwere Gegner bekämpfst",
+            "Nutze die Mobilität von Flux, um sofort die Distanz zu überbrücken",
+            "Sobald Vekta dabei ist, nutze Projektile, um chaotische Räume zu stabilisieren"
           ]
         },
         {
-          "type": "Verursache Unfug",
-          "examples": [
-            "Mach einen Fernseher kaputt",
-            "Überflute eine Toilette",
-            "Erzeuge Chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Erledige zuerst riskante Aufgaben, während das Team zusammen ist",
-        "Weise einem Träger Aufgabengegenstände zu, damit sie während der Verfolgungsjagden nicht verloren gehen",
-        "Beginne mit der Bewegung zur Extraktion, bevor die Zeit abläuft"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
-      "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
-      "keybinds": [
-        {
-          "action": "Nach links bewegen",
-          "key": "A"
-        },
-        {
-          "action": "Nach rechts bewegen",
-          "key": "D"
-        },
-        {
-          "action": "Nach vorne bewegen",
-          "key": "W"
-        },
-        {
-          "action": "Nach hinten bewegen",
-          "key": "S"
-        },
-        {
-          "action": "Ducken",
-          "key": "Linke Strg"
-        },
-        {
-          "action": "Angreifen",
-          "key": "Linksklick"
-        },
-        {
-          "action": "Rennen",
-          "key": "Linke Umschalttaste"
-        },
-        {
-          "action": "Gegenstand fallen lassen",
-          "key": "G"
-        },
-        {
-          "action": "Interagieren",
-          "key": "E"
-        },
-        {
-          "action": "Springen",
-          "key": "Leertaste"
-        },
-        {
-          "action": "Sprechen",
-          "key": "V"
-        },
-        {
-          "action": "Schieben",
-          "key": "Rechtsklick"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Ausrüstungsslot 1",
-          "key": "1"
-        },
-        {
-          "action": "Ausrüstungsslot 2",
-          "key": "2"
-        },
-        {
-          "action": "Ausrüstungsslot 3",
-          "key": "3"
-        },
-        {
-          "action": "Ausrüstungsslot 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventar",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
-      "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
-      "descriptors": [
-        "Etwas Nacktheit oder sexuelle Inhalte",
-        "Allgemeine Inhalte für Erwachsene"
-      ],
-      "details": [
-        {
-          "heading": "Was die Entwickler angeben",
-          "items": [
-            "Ein Mensch kann nackt erscheinen, während er Aktivitäten wie Baden ausübt.",
-            "Nacktheit wird zensiert und kann optional vollständig ausgeschaltet werden.",
-            "Gnome können zerstückelt werden und auf brutale Weise sterben."
+          "title": "Baue auf rollenspezifische Routines",
+          "description": "Routine-Belohnungen sind am stärksten, wenn sie das unterstützen, was jeder Charakter bereits gut kann. Leak-fokussierte Routines stechen früh hervor, da der Statuseffekt weiterhin Schaden verursacht, während du ausweichst, dich neu positionierst und den nächsten Wechsel vorbereitest.",
+          "takeaways": [
+            "Priorisiere Leak- und Leak-Verbreitungseffekte, wenn sie erscheinen",
+            "Vermeide Buffs, die nicht zu deiner tatsächlichen Rotation passen",
+            "Denke in den Rollen Opener, Control und Finisher"
           ]
         },
         {
-          "heading": "Wenn Steam die Community-Seite blockiert",
-          "items": [
-            "Steam kann den Community-Hub je nach deinen Inhaltseinstellungen ausblenden.",
-            "Verwende Steams \"Inhaltseinstellungen aktualisieren\", um anzupassen, was Steam anzeigen darf."
+          "title": "Kaufe die vier frühen Hub-Upgrades sofort",
+          "description": "Die ersten permanenten Upgrades, die das Spiel erleichtern, sind Perfect Dodge Counter, Ka-ching!, Iron Resilience und Run Bargain Unlock. Zusammen verbessern sie die Überlebensfähigkeit, die Ökonomie und den Zugang zu stärkeren Risiko-Belohnungs-Runs.",
+          "takeaways": [
+            "Perfect Dodge Counter: kostenlos und sofort nützlich",
+            "Ka-ching!: erhöht das Void-Matter-Einkommen um 10 Prozent pro Stufe",
+            "Iron Resilience: fügt 10 maximale Gesundheit hinzu",
+            "Run Bargain Unlock: schaltet Devil's Bargains für stärkere Skalierung frei"
+          ]
+        },
+        {
+          "title": "Schütze deine Heilungs-Ökonomie während des Runs",
+          "description": "Heilung ist knapp und sollte eingeplant werden. Die Hauptquellen für Heilung sind Emporium-Heilung, Healing Nodes, Vitality Fabricators und spezifische Routine-basierte Erholungseffekte.",
+          "takeaways": [
+            "Halte einige Credits bereit, wenn du bereits Schaden erlitten hast",
+            "Emporium-Heilung ist die zuverlässigste Basisheilung",
+            "Run Fabricator Unlock erhöht die Häufigkeit von Vitality Fabricators im Laufe der Zeit",
+            "Defensive Routines sind es wert, eingemischt zu werden, aber nicht auf Kosten des gesamten Schadens"
+          ]
+        },
+        {
+          "title": "Erkunde Nebenpfade vor dem Biome-Boss",
+          "description": "Runs skalieren besser, wenn du versteckte Routen prüfst, zusätzliche Ressourcen sammelst und den Bosskampf mit einem echten Corpora-Vorteil betrittst. Starke Corpora-Optionen wie Fountain of Life oder Stun Matrix können einen durchschnittlichen Run in einen Sieg verwandeln.",
+          "takeaways": [
+            "Sprinte nicht jedes Mal direkt zu den Zielmarkierungen",
+            "Präge dir statische Raummerkmale und versteckte Repository-Stellen ein",
+            "Versuche, den Boss mit mindestens einem bedeutenden Corpora-Power-Spike zu erreichen"
           ]
         }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
-      "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
-      "equipment": [
-        {
-          "item": "Rucksack",
-          "benefit": "Erweitert die Inventarkapazität für mehr Beute pro Durchgang"
-        },
-        {
-          "item": "Gnom-Handschuhe",
-          "benefit": "Ermöglicht es dir, Türen zu öffnen und mit mehr Objekten zu interagieren"
-        },
-        {
-          "item": "Springschuhe",
-          "benefit": "Verhindert Fallschaden bei hohen Stürzen während der Flucht"
-        },
-        {
-          "item": "Waffe",
-          "benefit": "Hilft dir, Bedrohungen wie Mäuse in die Enge zu treiben"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Wie Crafting mit Plündern zusammenhängt",
-          "items": [
-            "Stehle während eines Laufs Gegenstände und bringe sie als Crafting-Materialien zurück.",
-            "Nach der Extraktion unterstützen Belohnungen/Materialien neue Handwerke."
-          ]
-        },
-        {
-          "heading": "Basisverbesserung",
-          "items": [
-            "Stelle Möbel her und verbessere dein schwebendes Inselhaus (vollständige Spielfunktion)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
-      "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
-      "categories": [
-        {
-          "type": "Aufgabengegenstände",
-          "examples": [
-            "Gegenstände, die von High-Gnome für Ziele benötigt werden"
-          ]
-        },
-        {
-          "type": "Crafting-Materialien",
-          "examples": [
-            "Haushaltsgegenstände, die in Gnom-Ausrüstung und -Upgrades umgewandelt werden"
-          ]
-        },
-        {
-          "type": "Unfug-Ziele",
-          "examples": [
-            "Objekte, die an Aufgaben wie Zerstören oder Überfluten beteiligt sind"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Priorisiere den Aufgabenfortschritt und fülle dann die verbleibende Kapazität mit Crafting-Materialien",
-        "Wenn sich Bedrohungen in der Nähe befinden, bewege Gegenstände in kurzen, sicheren Sprüngen anstatt in langen, exponierten Tragen",
-        "Plane die Route zur Gartenextraktion, bevor der Timer endet"
-      ],
-      "riskLevels": [
-        {
-          "level": "Niedrig",
-          "description": "In der Nähe von Eingängen oder sicheren Ecken"
-        },
-        {
-          "level": "Mittel",
-          "description": "Tiefer gelegene Räume oder in der Nähe von umherziehenden Bedrohungen"
-        },
-        {
-          "level": "Hoch",
-          "description": "In der Nähe der Patrouille des Hausbesitzers oder des Staubsaugerroboters"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
-      "subtitle": "Wisse, was dich erwischen kann",
-      "threats": [
-        {
-          "name": "Der Hausbesitzer",
-          "trigger": "Beim Einbrechen oder Erledigen von Aufgaben entdeckt werden",
-          "behavior": "Er verfolgt dich und versucht, dich zu fangen",
-          "counter": "Bleib heimlich, unterbreche Sichtlinien und bleib als Team in Bewegung"
-        },
-        {
-          "name": "Katzen",
-          "trigger": "Zu nahe kommen oder ihren Weg kreuzen",
-          "behavior": "Sie werden zu einer direkten Bedrohung, während du dich schleichst",
-          "counter": "Vermeide ihre Routen und gehe leise vorbei"
-        },
-        {
-          "name": "Mäuse",
-          "trigger": "Bereiche betreten, in denen Mäuse umherstreifen",
-          "behavior": "Sie bedrohen zerbrechliche Gnome während der Läufe",
-          "counter": "Bleib wachsam in engen Räumen und sei bereit, dich zurückzuziehen"
-        },
-        {
-          "name": "Staubsaugerroboter",
-          "trigger": "Sich auf seinem Reinigungspfad befinden",
-          "behavior": "Er kann Gnome einsaugen",
-          "counter": "Höre auf ihn, halte dich von seiner Route fern und positioniere dich schnell neu"
-        },
-        {
-          "name": "Kühlschrank / Ofen-Falle",
-          "trigger": "Vom Hausbesitzer erwischt werden",
-          "behavior": "Du kannst darin eingesperrt werden; wenn Teamkollegen nicht rechtzeitig retten, stirbst du",
-          "counter": "Rufe sofort; Teamkollegen priorisieren die Rettungsroute"
-        },
-        {
-          "name": "Zeitlimit",
-          "trigger": "Der Lauf-Timer erreicht das Limit",
-          "behavior": "Der Extraktions-Tornado erscheint im Garten; du musst ihn erreichen, um zu entkommen",
-          "counter": "Hör auf, zu viel zu plündern, gruppiere dich neu und engagiere dich frühzeitig für die Extraktion"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
-      "subtitle": "Stehle mehr, stirb weniger",
-      "do": [
-        "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
-        "Nutze die Teamarbeit: rufe Bedrohungen aus und koordiniere Routen",
-        "Rette Teamkollegen schnell, wenn jemand gefangen oder am Boden ist",
-        "Reduziere deine Verluste und mache dich auf den Weg zur Extraktion, wenn der Timer knapp ist"
-      ],
-      "dont": [
-        "Werde gierig, wenn die Extraktion bevorsteht",
-        "Teile dich zu weit vom Team, wenn der Hausbesitzer aktiv ist",
-        "Ignoriere Staubsaugerroboterpfade oder Tierpatrouillen",
-        "Verzögere Rettungen, wenn ein Teamkollege eingesperrt ist"
       ],
       "quickTips": [
-        {
-          "title": "Die 3-Sekunden-Regel",
-          "text": "Wenn du deinen nächsten Zug nicht in 3 Sekunden erklären kannst, wirst du gleich entdeckt."
-        },
-        {
-          "title": "Rettung zuerst",
-          "text": "Eine schnelle Rettung hält den Lauf am Leben; Plündern kann warten."
-        },
-        {
-          "title": "Extraktionsdisziplin",
-          "text": "Gruppiere dich frühzeitig neu und engagiere dich für den Tornado, bevor Panik ausbricht."
-        }
+        "Wechsle die Charaktere, um Cooldowns rotieren zu lassen, anstatt sie in einer Form abzuwarten.",
+        "Perfect Dodge Counter ist kostenlos und sollte vor allem anderen im Hub gekauft werden.",
+        "Der Leak-Status verursacht Schaden über Zeit, während du dich neu positionierst, was ihn zu einem der besten frühen Routine-Effekte macht.",
+        "Prüfe versteckte Nebenräume vor Bossbegegnungen, um Corpora- und Credit-Vorteile zu maximieren."
       ]
     },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
-      "subtitle": "Craften, bauen, verbessern",
-      "branches": [
-        {
-          "branch": "Lagerung",
-          "summary": "Mehr tragen und mehr zurückbringen",
-          "items": [
-            "Rucksack (Inventarerweiterung)"
-          ]
-        },
-        {
-          "branch": "Dienstprogramm",
-          "summary": "Effektiver mit dem Haus interagieren",
-          "items": [
-            "Gnom-Handschuhe (ermöglichen es dir, Türen zu öffnen und mehr)"
-          ]
-        },
-        {
-          "branch": "Mobilität",
-          "summary": "Sicherer durch vertikale Räume bewegen",
-          "items": [
-            "Springschuhe (reduzieren Fallschaden)"
-          ]
-        },
-        {
-          "branch": "Verteidigung",
-          "summary": "Mit kleinen Bedrohungen umgehen, wenn nötig",
-          "items": [
-            "Waffen (für Bedrohungen wie Mäuse)"
-          ]
-        },
-        {
-          "branch": "Heimatbasis",
-          "summary": "Stelle Möbel her und verbessere dein schwebendes Inselhaus",
-          "items": [
-            "Funktionale Möbel-Upgrades"
-          ]
-        }
-      ],
-      "priority": [
+    "morbidMetalBestUpgrades": {
+      "title": "Morbid Metal Beste Upgrades",
+      "eyebrow": "Meta-Progression",
+      "subtitle": "Der schnellste Weg, Morbid Metal einfacher zu machen, besteht darin, Ausweichwert, Gesundheit, Einkommen und Skill-Uptime zu verbessern, bevor man Luxus-Knoten für das Late-Game jagt.",
+      "intro": "Permanente Upgrades bestimmen, wie schnell sich dein Account nicht mehr zerbrechlich anfühlt. Gesundheit, Ökonomie, Cooldown und Schaden zahlen sich sofort aus, während tiefere Corpora- und Build-Slot-Knoten viel stärker werden, sobald die grundlegende Run-Stabilität gegeben ist.",
+      "items": [
         {
           "rank": 1,
-          "title": "Zuerst Lagerung",
-          "reason": "Mehr Tragfähigkeit verbessert die Auszahlung jedes Laufs"
+          "upgrade": "Perfect Dodge Counter",
+          "cost": "Kostenlos",
+          "effect": "Gegenangriff nach perfektem Ausweichen",
+          "why_it_matters": "Verwandelt Verteidigung sofort in Schaden",
+          "timing": "Sofort kaufen"
         },
         {
           "rank": 2,
-          "title": "Als nächstes Dienstprogramm",
-          "reason": "Bessere Interaktionen reduzieren die Zeit, die in Gefahrenzonen verbracht wird"
+          "upgrade": "Iron Resilience",
+          "cost": "5 Void Matter",
+          "effect": "+10 maximale Gesundheit",
+          "why_it_matters": "Macht frühe Bosse und Überraschungstreffer überlebbar",
+          "timing": "Erste Runs"
         },
         {
           "rank": 3,
-          "title": "Mobilität zum Überleben",
-          "reason": "Fallschutz verhindert vermeidbare Todesfälle bei der Flucht"
+          "upgrade": "Ka-ching!",
+          "cost": "5 Void Matter",
+          "effect": "+10% Void Matter aus Kämpfen (×10)",
+          "why_it_matters": "Zentraler Ökonomie-Knoten, der jede zukünftige Freischaltung beschleunigt",
+          "timing": "Früh anfangen zu stapeln"
+        },
+        {
+          "rank": 4,
+          "upgrade": "Skill Issue",
+          "cost": "5 Void Matter",
+          "effect": "+2,5% Skill-Schaden (×10)",
+          "why_it_matters": "Skills sind das Rückgrat deiner besten Wechsel-Combos",
+          "timing": "Anfang bis Mitte"
+        },
+        {
+          "rank": 5,
+          "upgrade": "Overclocking",
+          "cost": "5 Void Matter",
+          "effect": "-2,5% Cooldown-Zeit (×10)",
+          "why_it_matters": "Setze schlagkräftigere Fähigkeiten häufiger ein",
+          "timing": "Anfang bis Mitte"
+        },
+        {
+          "rank": 6,
+          "upgrade": "Attack Speed Augments",
+          "cost": "5 Void Matter",
+          "effect": "+2,5% Angriffsgeschwindigkeit (×10)",
+          "why_it_matters": "Verbessert DPS und verkürzt Zeitfenster für Nahkampf-Exposition",
+          "timing": "Nach den Kern-Schadensknoten"
+        },
+        {
+          "rank": 7,
+          "upgrade": "Run Corpora Enhancer Unlock",
+          "cost": "30 Void Matter",
+          "effect": "Ermöglicht das Verbessern von Corpora während des Runs",
+          "why_it_matters": "Corpora ist eines der besten Skalierungssysteme im Spiel",
+          "timing": "Mittlere Progression"
+        },
+        {
+          "rank": 8,
+          "upgrade": "Additional Corpora Enhancements",
+          "cost": "30 Void Matter",
+          "effect": "Mehr Nutzungen des Corpora Enhancers",
+          "why_it_matters": "Treibt die Skalierung weiter voran, sobald die Basisstabilität geklärt ist",
+          "timing": "Mitte bis Ende"
+        },
+        {
+          "rank": 9,
+          "upgrade": "Run Bargain Unlock",
+          "cost": "30 Void Matter",
+          "effect": "Devil's Bargains erscheinen während der Runs",
+          "why_it_matters": "Modifikatoren mit hohem Risiko und hoher Belohnung für aggressive Builds",
+          "timing": "Sobald man mit dem Ausweich-Timing vertraut ist"
+        },
+        {
+          "rank": 10,
+          "upgrade": "Body Augmentation",
+          "cost": "30 Void Matter",
+          "effect": "+1 Charakter-Routine-Slot",
+          "why_it_matters": "Ermöglicht komplexe Late-Game-Loadouts und Spezialisierungen",
+          "timing": "Spätere Progression"
         }
       ]
     },
-    "community": {
-      "title": "Lucid Blocks Community & Discord",
-      "subtitle": "Finde Trupps, Updates, Diskussionen",
-      "links": [
+    "morbidMetalBestSkillsAndCombos": {
+      "title": "Morbid Metal: Beste Skills und Kombos",
+      "eyebrow": "Kampf-Loadouts",
+      "subtitle": "Das Kampfsystem von Morbid Metal entfaltet sich erst richtig, wenn man aufhört, in isolierten Zügen zu denken, und beginnt, in rollenbasierten Ketten zu planen. Dies sind die praktischsten frühen Entscheidungen und Kombo-Routen.",
+      "intro": "Die stärksten frühen Setups kombinieren die Mobilität von Flux, die Launch- oder Crowd-Control-Fähigkeiten von Ekku und das Spacing von Vekta. Für Flux und Ekku gibt es bereits klare Empfehlungen für Protokoll-Favoriten, während Vektas Aufgabe darin besteht, den Druck sicher aufrechtzuerhalten, den Bildschirm zu kontrollieren und Swaps sauberer zu gestalten.",
+      "cards": [
         {
-          "title": "Offizieller Discord",
-          "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
-        },
-        {
-          "title": "Offizielles X (Twitter)",
-          "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
-        },
-        {
-          "title": "Steam Community Hub",
-          "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
-        },
-        {
-          "title": "Steam Store Seite",
-          "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-        }
-      ]
-    },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
-      "subtitle": "Installiere Mods auf saubere Weise",
-      "steps": [
-        {
-          "step": 1,
-          "title": "Installiere BepInEx 5",
-          "text": "Lade BepInEx 5 herunter und entpacke es in den Spiel-Root-Ordner."
-        },
-        {
-          "step": 2,
-          "title": "Einmal starten, um Ordner zu generieren",
-          "text": "Starte das Spiel bis zum Hauptmenü und schließe es dann. Dadurch wird die BepInEx-Ordnerstruktur erstellt."
-        },
-        {
-          "step": 3,
-          "title": "Mods installieren",
-          "text": "Platziere Mod-.dll-Dateien in den Plugins-Ordner."
-        },
-        {
-          "step": 4,
-          "title": "Installation überprüfen",
-          "text": "Starte das Spiel neu und bestätige, dass die Mod-Funktion verfügbar ist (Kamera-Umschaltung, UI-Cursor usw.)."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
-    },
-    "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
-      "subtitle": "Top-Community-Auswahlen",
-      "mods": [
-        {
-          "title": "Spawn-Menü",
-          "tags": [
-            "Spaß",
-            "Werkzeuge",
-            "Nur Host"
+          "card_title": "Morbid Metal Flux Prioritäts-Loadout",
+          "best_picks": [
+            "Blink Strike",
+            "Nano Strike",
+            "Bladeform oder Power Blade"
           ],
-          "description": "Fügt ein Element-Spawn-Menü mit einem Flugmodus hinzu.",
-          "controls": [
+          "key_data": [
+            "Blink Strike: 140 Schaden, 8s Abklingzeit",
+            "Nano Strike: 6×60 Schaden, 14s Abklingzeit",
+            "Bladeform: 6×170 Schaden, Spezialkosten 2",
+            "Power Blade: 500 Schaden, Spezialkosten 2"
+          ],
+          "why_it_works": "Blink Strike bietet die beste Flexibilität für längere Kämpfe, Bewegung und Anti-Air. Nano Strike lässt Flux während des Schadens phasenweise verschwinden, was den Skill sowohl ausweichend als auch aggressiv macht."
+        },
+        {
+          "card_title": "Morbid Metal Ekku Prioritäts-Loadout",
+          "best_picks": [
+            "Upslam",
+            "Echo Strike",
+            "Sonic Slash oder Seismic Rift"
+          ],
+          "key_data": [
+            "Upslam: 220 Schaden, 14s Abklingzeit",
+            "Echo Strike: 200 Schaden, 14s Abklingzeit",
+            "Sonic Slash: 500 Schaden, Spezialkosten 1",
+            "Seismic Rift: bis zu 1100 Schaden, Spezialkosten 3"
+          ],
+          "why_it_works": "Upslam wird gegenüber Ground Shatter bevorzugt, da es Ziele in die Luft befördert und Luft-Routen eröffnet. Sonic Slash ist in Runs mit gemischten Charakteren flexibler."
+        },
+        {
+          "card_title": "Morbid Metal Starter-Luft-Launch-Kombo",
+          "best_picks": [
+            "Upslam (Ekku)",
+            "Swap in der Luft zu Flux",
+            "Luft-Kombo",
+            "Ekku Slam-Abschluss"
+          ],
+          "key_data": [
+            "Launch mit Ekku",
+            "Zu Flux swappen, bevor die Gegner fallen",
+            "Mit Ekku-Boden-Slam für Burst abschließen"
+          ],
+          "why_it_works": "Dies ist eine der saubersten frühen Kombo-Routen, da sie Ekkus Launch-Nutzen und Flux' schnellere Luft-Follow-ups nutzt. Sie lehrt den Kernrhythmus: Opener, Extension, Finisher."
+        },
+        {
+          "card_title": "Morbid Metal Vekta Bildschirm-Kontroll-Route",
+          "best_picks": [
+            "Mit Projektilen aus sicherer Entfernung eröffnen",
+            "Neu positionieren, dann an Flux oder Ekku übergeben"
+          ],
+          "key_data": [
+            "Vekta ist die Fernkampf-Spezialistin",
+            "Nutzt Projektile, kybernetische Shuriken und Kontrolle im Force-Pull-Stil",
+            "Stark zur Stabilisierung von Räumen und zum Ausschalten fliegender Gegner"
+          ],
+          "why_it_works": "Vekta ist der sicherste Weg, das Tempo zurückzusetzen, wenn die Kamera unübersichtlich wird oder der Nahkampfdruck zunimmt. Sie hilft dabei, Ziele zu gruppieren, Platz zu schaffen und Flux und Ekku sauberere Finisher zu ermöglichen."
+        },
+        {
+          "card_title": "Morbid Metal Boss- und Elite-Anpassung",
+          "best_picks": [
+            "Blink Strike für allgemeines Gameplay",
+            "Back Stab für Burst bei zäheren Gegnern",
+            "Zu Ekku swappen für Schilde und schwere Gegner"
+          ],
+          "key_data": [
+            "Back Stab: 250 Schaden, 14s Abklingzeit",
+            "Flux kommt gut mit Druck aus der Luft zurecht",
+            "Ekku ist stärker gegen geschützte und schwere Ziele"
+          ],
+          "why_it_works": "Blink Strike ist die bessere Allzweck-Wahl, aber Back Stab hat einen stärkeren Burst gegen Bruiser und Bosse, besonders in Kombination mit krit-unterstützenden Routinen."
+        }
+      ]
+    },
+    "morbidMetalCharactersGuide": {
+      "title": "Morbid Metal Charakter-Guide",
+      "eyebrow": "Spielbare Formen",
+      "subtitle": "Die drei Charaktere von Morbid Metal sind darauf ausgelegt, unterschiedliche Kampfprobleme zu lösen. Zu verstehen, wann jeder einzelne zu deinem Run stößt und welche Rolle er ausfüllt, lässt das Swap-System viel schneller klick machen.",
+      "intro": "Die Besetzung ist im Early Access noch klein, aber die Rollen sind scharf definiert. Flux ist dein schneller Opener, Ekku dein schwerer Kontroll-Finisher und Vekta deine Fernkampf-Stabilisatorin. Gute Runs entstehen dadurch, dass man zur richtigen Antwort wechselt, anstatt zu versuchen, jeden Kampf mit einer Lieblingsform mit roher Gewalt zu erzwingen.",
+      "characters": [
+        {
+          "character": "Flux",
+          "unlock_timing": "Startcharakter",
+          "role": "Hoher Einzelzielschaden und schneller Opener",
+          "strengths": [
+            "Schnelle Bewegung und Druck",
+            "Stark im Kampf gegen fliegende Gegner",
+            "Hervorragend zum Starten von Kombos und zum Verfolgen von Nachzüglern"
+          ],
+          "team_flow": "Kämpfe mit Flux eröffnen, den ersten Launch oder Stagger erzeugen und dann swappen, bevor dich der Nahkampfdruck umzingelt."
+        },
+        {
+          "character": "Ekku",
+          "unlock_timing": "Freigeschaltet in Biome 1, Sublime Garden",
+          "role": "Langsamer Heavy-Hitter mit Crowd Control und Schilddruck",
+          "strengths": [
+            "Fokussiert auf Angriffe gegen mehrere Ziele",
+            "Großartig zum Ausschalten schwerer Gegner und zum Durchbrechen von Schilden",
+            "Starker Launcher und Slam-Finisher"
+          ],
+          "team_flow": "Zu Ekku swappen, nachdem Flux oder Vekta den Raum vorbereitet haben, und dann gruppierte Gegner oder geschützte Ziele mit schwerem Burst erledigen."
+        },
+        {
+          "character": "Vekta",
+          "unlock_timing": "Freigeschaltet in Biome 2",
+          "role": "Spezialistin für Fernkampf-Kontrolle",
+          "strengths": [
+            "Glänzt im Fernkampf",
+            "Nutzt Projektile, kybernetische Shuriken und Kontrolle im Force-Pull-Stil",
+            "Sehr effektiv, um chaotische Bildschirme zu beruhigen und fliegende Bedrohungen zu beseitigen"
+          ],
+          "team_flow": "Vekta einsetzen, wenn Spacing wichtig ist, wenn Fernkämpfer schlechte Winkel erzwingen oder wenn du eine sicherere Übergabe an den nächsten Nahkampf-Finisher benötigst."
+        },
+        {
+          "character": "Team Rotation",
+          "unlock_timing": "Verfügbar, sobald das vollständige Team zusammengestellt ist",
+          "role": "Praktischer Flow für normale Begegnungen",
+          "strengths": [
+            "Flux beginnt die Sequenz",
+            "Vekta schafft Platz oder gruppiert Ziele",
+            "Ekku erledigt gelauchte, gruppierte oder geschützte Gegner"
+          ],
+          "team_flow": "Ein zuverlässiger früher Rhythmus ist Flux zum Angreifen, Vekta zum Stabilisieren und dann Ekku zum Abschließen. Gegen Flieger zuerst mit Flux oder Vekta beginnen; gegen schwere Gegner und Schilde mit Ekku enden."
+        }
+      ]
+    },
+    "morbidMetalBossGuide": {
+      "title": "Morbid Metal Boss-Guide",
+      "eyebrow": "Bosse",
+      "subtitle": "Biome-Boss-Strategien für Saru und Prophet",
+      "intro": "Morbid Metal beendet derzeit jedes Biome mit einem Boss, der prüft, ob dein Run genug Kontrolle, Überlebensfähigkeit und Swap-Disziplin bietet. Saru ist der erste echte Mechanik-Test, während Prophet der härtere Kampf im zweiten Biome ist, der gierige Kombo-Routen bestraft. Ein sauberer Plan ist wichtiger als wahllos aggressive Angriffe, besonders wenn Heilung und Abklingzeiten begrenzt sind.",
+      "bosses": [
+        {
+          "boss": "Saru",
+          "biome": "Sublime Garden",
+          "summary": "Saru ist der Boss von Biome 1 und der erste vollständige Mechanik-Check im Early Access. Der Kampf mischt Sprungdruck, Bodenaufschlagsangriffe, Orb-Muster und ein späteres Zeitfenster für Schilddurchbrüche.",
+          "sections": [
             {
-              "key": "F",
-              "action": "Spawn-Menü öffnen"
+              "label": "Eröffnungsmuster",
+              "content": "Erwarten Sie schnelle Sprünge in schwere Slam-Angriffe. Bleiben Sie knapp außerhalb der Aufschlagszone, weichen Sie spät aus und bestrafen Sie erst, wenn die Landeanimation beendet ist."
             },
             {
-              "key": "V",
-              "action": "Fliegen aktivieren"
-            }
-          ],
-          "note": "Nur Host; andere müssen es nicht installieren, um beizutreten."
-        },
-        {
-          "title": "ThirdPerson-Ansicht",
-          "tags": [
-            "Kamera",
-            "QoL"
-          ],
-          "description": "Fügt eine Third-Person-Kameraansicht hinzu.",
-          "controls": [
+              "label": "Orb-Druck",
+              "content": "Wenn sich die Arena mit Orb-Mustern füllt, bewegen Sie sich mit dem Muster, anstatt direkt hindurchzuschneiden. Eine flüssige Kreisroute hält den Bildschirm lesbar und gibt Ihnen Zeit, Ihre Swap-Tools bereitgehalten."
+            },
             {
-              "key": "F7",
-              "action": "First-Person / Third-Person umschalten"
+              "label": "Beste Form-Nutzung",
+              "content": "Ekku ist die sicherste Wahl für Kontrolle und Schildbruch-Druck, während Flux der saubere Burst-Finisher ist, sobald Saru offen ist. Nutzen Sie Swaps, um eine kurze Öffnung in ein echtes Schadensfenster zu verwandeln."
+            },
+            {
+              "label": "Wie man den Kampf beendet",
+              "content": "Betrachten Sie die Erholungsphasen nach Slams und Schildbruch-Momente als Ihre Hauptschadensfenster. Kurze, wiederholbare Bestrafungsschleifen sind sicherer, als eine lange Kombo zu erzwingen."
             }
           ]
         },
         {
-          "title": "Mehr Hüte",
-          "tags": [
-            "Kosmetisch"
-          ],
-          "description": "Fügt zusätzliche Hutfarboptionen für Gnome hinzu.",
-          "colors": [
-            "Blau",
-            "Grün",
-            "Orange",
-            "Lila",
-            "Schwarz",
-            "Rot"
+          "boss": "Prophet",
+          "biome": "Steel Sanctuary",
+          "summary": "Prophet ist der Boss von Biome 2 und die zweite große Hürde des aktuellen Builds. Dieser Kampf belohnt ruhigeres Spacing, präzisere Reaktionen und klügere Form-Rotation mehr als rücksichtslose Offensive.",
+          "sections": [
+            {
+              "label": "Kernplan",
+              "content": "Gehen Sie mit einem stabilen Build in den Kampf und halten Sie jederzeit eine Bewegungsoption bereit. Prophet bestraft Übermut, daher ist der sicherste Weg, klare Angriffsenden abzuwarten, anstatt in jede Öffnung hineinzuschlagen."
+            },
+            {
+              "label": "Schadensmuster",
+              "content": "Nutzen Sie Vekta, um Druck aus sicherer Entfernung auszuüben, rotieren Sie zu Flux für schnellen Burst und bringen Sie Ekku ins Spiel, wenn Sie eine härtere Bestrafung oder mehr Kontrolle benötigen. Der Kampf fühlt sich sauberer an, wenn jeder Swap einen Zweck erfüllt."
+            },
+            {
+              "label": "Arena-Disziplin",
+              "content": "Verbrauchen Sie nicht jedes Ausweichen, sobald der Druck beginnt. Heben Sie sich Ihr Ausweichen für die echte Bedrohung auf, setzen Sie Ihr Spacing nach jeder Bestrafung zurück und vermeiden Sie es, eine gute Öffnung in einen schlechten Schlagabtausch zu verwandeln."
+            },
+            {
+              "label": "Was wirklich gewinnt",
+              "content": "Statusdruck, kontrollierte Swaps und konsistente Bestrafungsfenster gewinnen diesen Kampf zuverlässiger als rohes Face-Tanking. Wenn der Run wackelig ist, spielen Sie zuerst auf Stabilität und erst an zweiter Stelle auf den Style-Rang."
+            }
+          ]
+        }
+      ]
+    },
+    "morbidMetalAchievementGuide": {
+      "title": "Morbid Metal Achievement-Guide",
+      "eyebrow": "Abschluss",
+      "subtitle": "Alle 13 Early Access Erfolge",
+      "intro": "Diese Tabelle wurde für Spieler erstellt, die eine saubere 100%-Route anstreben, ohne ständig zwischen Menüs zu wechseln. Der schnellste Weg ist, die Erfolge des natürlichen Fortschritts auf dem Weg zu Biome 2 mitzunehmen und danach die Skill-Checks und den Token-Grind zu erledigen.",
+      "items": [
+        {
+          "achievement": "Kalibrierung abgeschlossen",
+          "unlock": "Schließe das Tutorial ab",
+          "bucket": "Fortschritt",
+          "best_route": "Nicht verpassbar bei deinem ersten Durchlauf."
+        },
+        {
+          "achievement": "Dein Weg hat gerade erst begonnen",
+          "unlock": "Kaufe dein erstes Upgrade im Neural Nexus",
+          "bucket": "Meta-Progression",
+          "best_route": "Gib deine erste Währung für die Rückreise im Hub aus, sobald das System freigeschaltet wird."
+        },
+        {
+          "achievement": "Willkommen in der Leere",
+          "unlock": "Interagiere mit einem Void Rift",
+          "bucket": "Run-System",
+          "best_route": "Nutze den ersten Void Rift, den du natürlich während eines Runs findest."
+        },
+        {
+          "achievement": "Jetzt seid ihr zu zweit",
+          "unlock": "Schalte Ekku frei",
+          "bucket": "Kader",
+          "best_route": "Ergibt sich natürlich durch den frühen Fortschritt in Biome 1."
+        },
+        {
+          "achievement": "Er wird es nie erfahren",
+          "unlock": "Schließe erfolgreich eine Prüfung des Operators ab",
+          "bucket": "Herausforderung",
+          "best_route": "Beginne eine Prüfung, wenn deine Gesundheit und Abklingzeiten in einem guten Zustand sind."
+        },
+        {
+          "achievement": "Das ist das erste Kapitel",
+          "unlock": "Finde deinen ersten Lore-Kodex",
+          "bucket": "Sammlung",
+          "best_route": "Suche in Seitenpfaden und nach interaktiven Objekten, anstatt nur den Hauptweg entlangzusprinten."
+        },
+        {
+          "achievement": "So stilvoll",
+          "unlock": "Erreiche deinen ersten SSS-Stilrang in einem Kampf",
+          "bucket": "Skill",
+          "best_route": "Nutze saubere Wechsel, vermeide Treffer und baue den Rang in einem sichereren Raum mit mehreren Gegnern auf."
+        },
+        {
+          "achievement": "Du bist näher dran",
+          "unlock": "Schließe Biome 1 ab",
+          "bucket": "Boss-Sieg",
+          "best_route": "Besiege Saru und schließe Sublime Garden ab."
+        },
+        {
+          "achievement": "Und drei",
+          "unlock": "Schalte Vekta frei",
+          "bucket": "Kader",
+          "best_route": "Treibe deinen Fortschritt in das zweite Biome voran, die Erweiterung des Kaders wird folgen."
+        },
+        {
+          "achievement": "Bist du sicher?",
+          "unlock": "Akzeptiere deinen ersten Teufelspakt",
+          "bucket": "Run-System",
+          "best_route": "Gehe einen Pakt ein, sobald das System erscheint, auch wenn er nicht Teil deines idealen Builds ist."
+        },
+        {
+          "achievement": "Ich sehe dich",
+          "unlock": "Schließe Biome 2 ab",
+          "bucket": "Boss-Sieg",
+          "best_route": "Besiege Prophet und schließe Steel Sanctuary ab."
+        },
+        {
+          "achievement": "Werde stärker",
+          "unlock": "Rüste deine erste Corpora aus",
+          "bucket": "Ausrüstung",
+          "best_route": "Setze deine erste Corpora ein, sobald das System verfügbar wird."
+        },
+        {
+          "achievement": "Das reicht",
+          "unlock": "Sammle insgesamt 50.000 Token",
+          "bucket": "Grind",
+          "best_route": "Dies ist der Erfolg für die langfristige Bereinigung. Spiele also weiterhin vollständige Runs, nachdem die natürlichen Freischaltungen erledigt sind."
+        }
+      ]
+    },
+    "morbidMetalCombatGuide": {
+      "title": "Morbid Metal Kampf-Guide",
+      "eyebrow": "Kampf",
+      "subtitle": "Wie das Wechsel-Kampfsystem wirklich funktioniert",
+      "intro": "Das Spiel fühlt sich am besten an, wenn man den Kader nicht mehr als separate Charaktere betrachtet, sondern als eine gemeinsame Combo-Engine. Flux baut Druck auf, Vekta erweitert die Kontrolle aus der Distanz und Ekku stabilisiert Kämpfe mit stärkerer Crowd-Control und härteren Bestrafungswerkzeugen. Je sauberer du zwischen ihnen rotierst, desto mehr entfaltet sich das System.",
+      "items": [
+        {
+          "section": "Charakterwechsel in Echtzeit",
+          "summary": "Die Kernmechanik ist der sofortige Wechsel mitten im Kampf.",
+          "details": [
+            "Du kannst während der Kämpfe zwischen den Charakteren wechseln, anstatt dich auf eine Form festzulegen.",
+            "Wechsel ermöglichen es dir, Combos zu verlängern, dich neu zu positionieren und den Druck nach einer kurzen Öffnung aufrechtzuerhalten.",
+            "Der Kampf-Loop ist darauf ausgelegt, mehrere Formen miteinander zu verketten, anstatt einen Kämpfer isoliert zu spielen."
           ]
         },
         {
-          "title": "DOOM im Fernsehen",
-          "tags": [
-            "Spaß",
-            "Minispiel"
+          "section": "Leak-Status",
+          "summary": "Leak ist eine der stärksten frühen Kampfmechaniken.",
+          "details": [
+            "Leak ist ein stapelbarer Schaden-über-Zeit-Effekt.",
+            "Jede Anwendung hält etwa 10 Sekunden an.",
+            "Es verursacht jede Sekunde Schaden, ist für höheren Schaden stapelbar und kann auf andere Gegner überspringen.",
+            "Leak-Builds werden mächtig, weil sie normale Kills in Kettenreaktionen verwandeln."
+          ]
+        },
+        {
+          "section": "Frühe Charakterrollen",
+          "summary": "Jede Form erfüllt im Early Access Build eine andere Aufgabe im Kampf.",
+          "details": [
+            "Flux ist die Form für Präzisionsschaden und eignet sich besonders gut, um Leak schnell anzuwenden.",
+            "Vekta ist die taktische Fernkampfform, die hilft, Kämpfe zu kontrollieren und Druck sicherer zu verteilen.",
+            "Ekku ist die Form für Crowd-Control und ist besonders wertvoll, wenn du stabilere Zeitfenster für Boss-Bestrafungen benötigst."
+          ]
+        },
+        {
+          "section": "Warum sich das System anders anfühlt",
+          "summary": "Morbid Metal spielt sich eher wie ein stylisches Actionspiel als wie ein einfacher Roguelite-Brawler.",
+          "details": [
+            "Fähigkeitsbasierte Combo-Ketten sind wichtiger als einfaches Angriffs-Spamming.",
+            "Präzises Ausweichen und Timing sind Teil der Offensive, nicht nur der Defensive.",
+            "Guter Kampf entsteht durch Flow: Status anwenden, sauber wechseln, bestrafen, dann vor der nächsten Kette zurücksetzen."
+          ]
+        },
+        {
+          "section": "Wie man einen Run aufbaut",
+          "summary": "Die saubersten Runs konzentrieren sich meist auf ein paar verknüpfte Ideen, nicht auf zufällige Upgrades.",
+          "details": [
+            "Das Anstreben von zwei bis drei starken Synergien ist zuverlässiger, als Upgrades wahllos zu verteilen.",
+            "Flux' Blink-Schlag ist flexibel, da er sowohl Mobilität als auch Schadensdruck verleiht.",
+            "Ekkus Kontrollwerkzeuge sind nützlich, um Folgeschaden durch den Rest des Teams vorzubereiten."
+          ]
+        },
+        {
+          "section": "Tipps zur Ausführung",
+          "summary": "Eingabegeschwindigkeit und Routendisziplin zählen mehr als blindes Tastendrücken.",
+          "details": [
+            "Maus und Tastatur können die Ausführung schneller Wechsel für einige Spieler erleichtern.",
+            "Schnelle, saubere Eingaben helfen, den Combo-Flow aufrechtzuerhalten und verpasste Bestrafungsfenster zu reduzieren.",
+            "Der beste Schaden resultiert meist aus kurzen, wiederholbaren Routen, nicht aus einer einzigen riskanten, überdehnten Kette."
+          ]
+        }
+      ]
+    },
+    "morbidMetalHowToHeal": {
+      "title": "Morbid Metal: Wie man heilt",
+      "eyebrow": "Überleben",
+      "subtitle": "Alle verlässlichen Wege, um Gesundheit wiederherzustellen oder zu bewahren",
+      "intro": "Ein Run mit wenig Gesundheit ist nicht automatisch verloren, aber man muss wissen, was als echte Heilung zählt und was nur den eingehenden Schaden reduziert. Die Kernidee ist einfach: Credits sparen, Seitenpfade respektieren und den Zugang zum Shop als Lebensader statt als Bonusstopp betrachten.",
+      "items": [
+        {
+          "label": "Eine leichte Heilung im Emporium kaufen",
+          "detail": "Die direkteste Erholungsquelle ist das Emporium, der Shop mitten im Run, den man durch einen Void Rift erreicht. Er kann eine leichte Heilung verkaufen und ist der verlässlichste Weg, einen angeschlagenen Run zu retten.",
+          "where": "Emporium",
+          "priority": "Hoch"
+        },
+        {
+          "label": "Seitenpfade nach Heilungsknoten absuchen",
+          "detail": "Heilungsknoten existieren, sind aber selten. Wenn die Gesundheit kritisch ist, lohnt es sich, langsamer vorzugehen und Seitenpfade zu prüfen, anstatt direkt zum nächsten Kampf zu sprinten.",
+          "where": "Biome-Seitenpfade",
+          "priority": "Hoch"
+        },
+        {
+          "label": "Vitality Fabricators nutzen, wenn sie erscheinen",
+          "detail": "Vitality Fabricators sind seltener als Shop-Heilung, werden aber zu einer wichtigen Quelle für Sustain, sobald man sie öfter sieht. Sie sind besonders stark, da man mehrere Heilungen kaufen kann, wenn man genug Credits hat.",
+          "where": "Run-Begegnungen",
+          "priority": "Hoch"
+        },
+        {
+          "label": "Mehr Zugang zu Vitality Fabricators freischalten",
+          "detail": "Das Run Fabricator Unlock im Void Nexus erhöht die Chance, dass Vitality Fabricators erscheinen. Dies verwandelt eine glücksbasierte Sustain-Mechanik in einen wesentlich verlässlicheren Teil der Routenplanung.",
+          "where": "Void Nexus",
+          "priority": "Mittel"
+        },
+        {
+          "label": "Sustain beim Betreten des Shops nutzen, wie Corpora Herbal Tea",
+          "detail": "Corpora Herbal Tea stellt einen Teil des maximalen Lebens beim Betreten des Shops wieder her. Es ist keine Universallösung, macht aber jeden Besuch im Emporium wertvoller.",
+          "where": "Build-spezifisch",
+          "priority": "Mittel"
+        },
+        {
+          "label": "Barriere- oder Schild-Routinen bei instabilen Runs wählen",
+          "detail": "Einige Routinen gewähren zu Beginn eines Kampfes eine Barriere oder fügen Schilde hinzu, wenn eine Spezialfähigkeit genutzt wird. Diese ersetzen keine echte Heilung, reduzieren aber, wie oft man sie benötigt.",
+          "where": "Routine-System",
+          "priority": "Mittel"
+        },
+        {
+          "label": "Immer Notfall-Credits behalten",
+          "detail": "Gib nicht jeden Credit sofort aus. Etwas Währung aufzusparen erhöht die Chance, ein Erscheinen des Emporiums oder eines Vitality Fabricators in einen echten Reset-Punkt zu verwandeln.",
+          "where": "Run-Management",
+          "priority": "Hoch"
+        }
+      ]
+    },
+    "morbidMetalBuildsGuide": {
+      "title": "Morbid Metal Build-Guide",
+      "eyebrow": "Meta-Builds",
+      "subtitle": "Diese Morbid Metal Builds konzentrieren sich auf die klarsten Early Access Archetypen, die durch den aktuellen Skill-Pool, Charakterwechsel-Routen und permanente Upgrade-Prioritäten unterstützt werden.",
+      "intro": "Morbid Metal zwingt Spieler noch nicht in eine starre Meta, aber der aktuelle Early Access Build zeigt bereits mehrere starke Muster. Flux ist exzellent für Mobilität und Burst, Ekku verankert sicherere Crowd-Control- und Launcher-Routen, und das Wechseln zwischen Charakteren ist einer der größten Schadensmultiplikatoren des Spiels.",
+      "builds": [
+        {
+          "tier": "S",
+          "name": "Flux Blink-Assassine",
+          "playstyle": "Mobilitäts-Burst mit sicherer Neupositionierung",
+          "core_skills": [
+            "Blink Strike",
+            "Nano Strike",
+            "Bladeform or Power Blade"
           ],
-          "description": "Spiele das Original-DOOM auf einem In-Game-Fernseher, wobei der Ton über den TV-Lautsprecher kommt.",
+          "best_for": [
+            "Schnelles Säubern von Räumen",
+            "Ziele in der Luft",
+            "Boss-Ausweichfenster"
+          ],
+          "description": "Blink Strike verleiht Flux den flexibelsten Opener und ein starkes Bewegungswerkzeug, während Nano Strike Schaden im Vorbeigehen verursacht und hilft, aggressiv zu bleiben, ohne stillzustehen. Dies ist der sauberste High-Speed-Build im Early Access und am einfachsten über einen kompletten Run relevant zu halten."
+        },
+        {
+          "tier": "A",
+          "name": "Ekku Air-Launcher",
+          "playstyle": "Crowd-Control in Luft-Combo-Routen",
+          "core_skills": [
+            "Upslam",
+            "Echo Strike",
+            "Sonic Slash"
+          ],
+          "best_for": [
+            "Kämpfe sicher eröffnen",
+            "Gruppen kontrollieren",
+            "Swaps in der Luft lernen"
+          ],
+          "description": "Upslam ist der klarste Ekku-Starter für Launch-Routen, Echo Strike bietet effiziente Flächenabdeckung und Sonic Slash lässt sich leichter in Runs mit gemischten Charakteren integrieren. Ein starker Build für Spieler, die Struktur und Sicherheit wollen, ohne auf den Combo-Flow zu verzichten."
+        },
+        {
+          "tier": "A",
+          "name": "Ekku Main-Bruiser",
+          "playstyle": "Hoher Schaden und Schildbrechen, wenn Ekku länger auf dem Feld bleibt",
+          "core_skills": [
+            "Ground Shatter or Upslam",
+            "Echo Strike",
+            "Seismic Rift"
+          ],
+          "best_for": [
+            "Zähere Gegner",
+            "Gegner mit Schilden",
+            "Spieler, die weniger Wechsel bevorzugen"
+          ],
+          "description": "Seismic Rift hat das größere Schadensprofil, glänzt aber am meisten, wenn Ekku dein primärer aktiver Kämpfer ist und nicht nur ein Quick-Swap-Tool. Dieses Setup funktioniert am besten, wenn man einen langsameren, robusteren Run bevorzugt, der Betäubung und Druck in Boss-Schaden umwandelt."
+        },
+        {
+          "tier": "A",
+          "name": "Swap-Combo-Schleife",
+          "playstyle": "Verkettung von Charakterwechseln statt Fokus auf einen einzelnen Charakter",
+          "core_skills": [
+            "Ekku-Launcher gefolgt von Flux-Follow-up",
+            "Flux Blink-Wiedereinstieg",
+            "Optionales Vekta-Follow-up für größere Reichweite"
+          ],
+          "best_for": [
+            "Jagd nach Style-Punkten",
+            "Längere Combo-Routen",
+            "Spieler, die die volle Shapeshift-Identität wollen"
+          ],
+          "description": "Der Kernaspekt von Morbid Metal ist der freie Charakterwechsel, und der ausdrucksstärkste Spielstil ist derjenige, der mit Ekku startet und mit Flux abschließt. Es geht weniger darum, dass ein einzelnes Protokoll übermächtig ist, sondern darum, Wechsel in konstanten Druck und Combo-Erweiterungen zu verwandeln."
+        }
+      ]
+    },
+    "morbidMetalReleaseDateRoadmap": {
+      "title": "Morbid Metal Release-Datum und Roadmap",
+      "eyebrow": "Roadmap",
+      "subtitle": "Morbid Metal startete am 8. April 2026 in den Steam Early Access. Die offiziellen Launch-Materialien definieren bereits den Startumfang, den flexiblen Update-Ansatz für das erste Jahr und die für Erweiterungen geplanten Inhaltskategorien.",
+      "intro": "Dies ist die praxisnahe Version einer Morbid Metal Roadmap. Die offiziellen Materialien bestätigen den Beginn des Early Access, den Inhalt des Launch-Builds, die Erweiterungspläne des Teams und wie Community-Feedback in zukünftige Updates einfließt.",
+      "entries": [
+        {
+          "date": "3. April 2026",
+          "event": "Offizielle Early Access Ankündigung",
+          "details": "Ubisoft bestätigte, dass Morbid Metal am 8. April 2026 in den Steam Early Access gehen würde, und bezeichnete die Veröffentlichung als Beginn einer spielergesteuerten Entwicklung.",
+          "status": "veröffentlicht"
+        },
+        {
+          "date": "8. April 2026",
+          "event": "Morbid Metal erscheint im Steam Early Access",
+          "details": "Der Steam Store listet den 8. April 2026 sowohl als Veröffentlichungsdatum als auch als Early Access Release-Datum auf. Der Einführungspreis liegt bei 17,99 $, wobei ein Einführungsrabatt ihn während des Launch-Angebotszeitraums auf 13,49 $ senkt.",
+          "status": "veröffentlicht"
+        },
+        {
+          "date": "Launch-Zeitraum",
+          "event": "Startumfang — Über 10 Stunden Inhalt",
+          "details": "Offizielle Launch-Materialien beschreiben über 10 Stunden Inhalt mit drei spielbaren Charakteren, zwei Biomes, zwei Bossen, einem Void-Tutorial, einem Void-Hub, einem Skillbaum und Run-Progressionssystemen wie Routines, Devil's Bargains, Eden Blessings, Nano Chips, The Emporium und Repositories.",
+          "status": "veröffentlicht"
+        },
+        {
+          "date": "Während des Early Access",
+          "event": "Jahr-Eins-Roadmap — Umfassenderes Inhaltswachstum",
+          "details": "Das Team verfügt bereits über eine Roadmap für das erste Jahr und plant Erweiterungen mit einem neuen spielbaren Charakter, zusätzlichen Umgebungen und neuen Bossen, wobei das Timing flexibel an das Community-Feedback angepasst wird.",
+          "status": "geplant"
+        },
+        {
+          "date": "Laufend",
+          "event": "Community-geführte Entwicklung",
+          "details": "Updates und Diskussionen laufen über den Steam Community Hub und den offiziellen Discord. Spieler, die den Early Access erwerben, erhalten voraussichtlich alle zukünftigen Updates, einschließlich der Vollversion, ohne zusätzliche Kosten.",
+          "status": "geplant"
+        }
+      ]
+    },
+    "morbidMetalSystemRequirements": {
+      "title": "Morbid Metal System Requirements",
+      "eyebrow": "PC Specs",
+      "subtitle": "Steam lists one official minimum spec and one recommended spec for the current Early Access build. The game also supports Xbox and PlayStation controllers, and is Steam Deck compatible.",
+      "intro": "Both spec tiers use Windows 10 or 11, DirectX 11, and 30 GB of storage. The recommended tier moves up to 16 GB RAM and a mid-range GPU target, making this a clean comparison for both desktop and mobile players.",
+      "specs": [
+        {
+          "tier": "Minimum",
+          "os": "Windows 10 / 11",
+          "cpu": "Intel i3-9100F / AMD Ryzen 3 3100",
+          "gpu": "Nvidia GTX 1650 4GB / AMD RX 5500 4GB / Intel Arc A380 6GB",
+          "ram": "8 GB RAM",
+          "storage": "30 GB available space",
+          "directx": "DirectX 11"
+        },
+        {
+          "tier": "Recommended",
+          "os": "Windows 10 / 11",
+          "cpu": "Intel i5-8400 / AMD Ryzen 5 3600",
+          "gpu": "Nvidia RTX 2060 6GB / AMD RX 5700 8GB / Intel Arc A750 8GB",
+          "ram": "16 GB RAM",
+          "storage": "30 GB available space",
+          "directx": "DirectX 11"
+        }
+      ],
+      "notes": [
+        "Xbox and PlayStation controller support is included",
+        "Steam Deck compatible — listed on the official Steam store page",
+        "DirectX 11 is required for both spec tiers",
+        "30 GB of storage is needed for both minimum and recommended setups"
+      ]
+    },
+    "morbidMetalReviewImpressions": {
+      "title": "Morbid Metal Review and Impressions",
+      "eyebrow": "Reviews",
+      "subtitle": "The early reception for Morbid Metal is built around recurring themes: stylish combat, strong character-switching, impressive presentation, and a launch build that already feels polished for Early Access.",
+      "intro": "The cards below summarize the practical consensus from launch-window coverage and current user sentiment — focusing on combat feel, content depth, and what still feels like work in progress.",
+      "reviews": [
+        {
+          "source": "Steam Users",
+          "verdict": "Positive",
           "highlights": [
-            "Funktioniert im Mehrspieler, sodass andere Spieler auf demselben Fernseher zusehen können",
-            "Enthält die Shareware-DOOM-Episodendaten (Episode 1)"
+            "Fast-paced combat feels satisfying and responsive",
+            "Distinct playable characters with genuine identity",
+            "Strong audiovisual polish for an Early Access launch — 79% positive from 362 reviews"
+          ],
+          "watchouts": [
+            "Still an unfinished Early Access game with smaller content scope",
+            "Content depth will grow as the roadmap delivers new areas and characters"
+          ]
+        },
+        {
+          "source": "Rogueliker",
+          "verdict": "Positive",
+          "highlights": [
+            "Combat feels satisfying and technically nuanced",
+            "Character switching gives each encounter tactical variety",
+            "World design and exploration are stronger than expected"
+          ],
+          "watchouts": [
+            "Progression is still a slow-burn unlock path",
+            "Final judgment depends on how future updates land"
+          ]
+        },
+        {
+          "source": "Prima Games",
+          "verdict": "Positive",
+          "highlights": [
+            "Free character switching is the real hook — base kits have enough depth before RNG bonuses",
+            "Mobility and traversal feel fast and satisfying",
+            "Combat foundation is already real — most complaints look like Early Access tuning targets"
+          ],
+          "watchouts": [
+            "A mini map would improve room-to-room readability",
+            "Cooldowns on specials can occasionally interrupt combat flow"
+          ]
+        },
+        {
+          "source": "GameSpew",
+          "verdict": "Positive",
+          "highlights": [
+            "Flashy visuals stand out immediately",
+            "Permanent upgrades keep failed runs productive",
+            "Current build already feels polished — recommended for action-roguelike fans"
+          ],
+          "watchouts": [
+            "Difficulty still expects good dodge timing from the player",
+            "Larger roster and more areas will require waiting for content updates"
           ]
         }
       ]
     },
-    "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
-      "subtitle": "Volle Gamepad-Steuerung",
-      "native": {
-        "title": "In-Game-Einstellungen",
-        "description": "Verwende die Bindungs-/Einstellungsmenüs des Spiels, um die Steuerung anzupassen."
-      },
-      "mod": {
-        "title": "Controller-Support-Mod",
-        "description": "Fügt vollständige Gamepad-/Controller-Unterstützung und einen UI-Cursor für die Menünavigation hinzu."
-      },
-      "features": [
-        "Volle Gameplay-Steuerung: Bewegung, Kamera, Kampf, Interaktionen und Fähigkeiten, die dem Gamepad zugeordnet sind",
-        "UI-Cursor-Navigation: Ein weißer Kreiscursor erscheint in Menüs; drücke A, um zu klicken und Schieberegler zu ziehen",
-        "Inventarnavigation: Halte Select gedrückt, um das Inventar zu öffnen; verwende den rechten Stick, um zu navigieren, während du ihn hältst",
-        "Scrollbare Menüs: Der rechte Stick scrollt durch Crafting-Rezepte, Einstellungen und andere scrollbare UI-Bereiche",
-        "Hotbar-Cycling: D-Pad links/rechts wechselt durch 4 Hotbar-Slots",
-        "Nahtlose Eingabeumschaltung: Erkennt automatisch Tastatur/Maus vs. Controller"
+    "morbidMetalDemoGuide": {
+      "title": "Morbid Metal Demo Guide",
+      "eyebrow": "Demo",
+      "subtitle": "The demo is still the fastest way to feel Morbid Metal's shapeshift combat before buying. It gives a clean snapshot of the first biome, Flux-to-Ekku progression, and the game's combat rhythm.",
+      "intro": "Morbid Metal's free Steam demo remains useful because it teaches the core loop without asking for a full Early Access commitment. You get a section of the first biome, access to two playable characters, and enough combat time to judge whether the dodge timing, character switching, and encounter pacing work for you.",
+      "items": [
+        {
+          "title": "What the demo includes",
+          "summary": "The official free demo covers a section of the first biome and lets you unlock Ekku during the run.",
+          "bullets": [
+            "Section of the first biome",
+            "2 playable characters: Flux and Ekku",
+            "About 1 hour of content",
+            "Core shapeshift combat with Flux and Ekku"
+          ]
+        },
+        {
+          "title": "What the later demo update changed",
+          "summary": "The demo was revised after its first public run to create a stronger final stretch.",
+          "bullets": [
+            "A later demo update added a new final elite enemy",
+            "The revised demo focuses on a better end-of-run experience",
+            "It is a stronger test of combat pacing than the earliest public version"
+          ]
+        },
+        {
+          "title": "How the demo compares with Early Access",
+          "summary": "The demo is a focused slice, while the live Early Access build is the fuller version of the game.",
+          "bullets": [
+            "Demo: 2 playable characters",
+            "Early Access: 3 playable characters",
+            "Demo: first-biome sample",
+            "Early Access: over 10 hours of content"
+          ]
+        },
+        {
+          "title": "Who should still play the demo first",
+          "summary": "The demo is best for players deciding whether the combat feel is worth a buy-in.",
+          "bullets": [
+            "Players who want a fast yes-or-no on the combat system",
+            "Players who want to practice perfect dodge counters before buying",
+            "Players who want to compare Flux mobility with Ekku's heavier impact",
+            "Players who mainly care about the game's first-hour feel rather than long-run progression"
+          ]
+        }
       ]
     },
-    "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
-      "subtitle": "Live-Popularitäts-Schnappschuss",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Spieler gerade jetzt"
+    "morbidMetalFluxGuide": {
+      "title": "Morbid Metal Flux Guide",
+      "eyebrow": "Charakter",
+      "subtitle": "Flux ist der Geschwindigkeits-Charakter und der sauberste Einstiegspunkt für präzises Gameplay. Dieser Guide konzentriert sich auf hohen Druck gegen Einzelziele, Werkzeuge für die Verfolgung in der Luft und die Wechsel-Routen, mit denen Flux deine besten Kombos starten oder verlängern kann.",
+      "intro": "Flux ist auf schnellen Schaden gegen Einzelziele, saubere Bewegungen und aggressives Kombo-Routing ausgelegt. Die offizielle Charakter-Vorstellung stellt Flux als den präzisen Killer des Aufgebots dar, während aktuelle Guides Blink Strike aufgrund seiner Mobilität, der kürzeren Abklingzeit und der Fähigkeit, Druck auf Ziele in der Luft oder in Bewegung aufrechtzuerhalten, konsequent als das flexibelste Kern-Werkzeug bezeichnen.",
+      "items": [
+        {
+          "title": "Kampf-Identität",
+          "kicker": "Schneller Spezialist für Einzelziele",
+          "description": "Flux ist die flinke Form des Aufgebots und glänzt bei präzisem Schaden, schnellen Angriffen und der Verfolgung von Gegnern in der Luft.",
+          "highlights": [
+            "Bestens geeignet zum schnellen Schließen von Lücken",
+            "Stark gegen Ziele in der Luft",
+            "Hervorragend für Bestrafungsfenster bei Bossen",
+            "Idealer Opener für stylische Wechsel-Kombos"
+          ]
         },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24-Stunden-Peak"
+        {
+          "title": "Kern-Werkzeuge für den Anfang",
+          "kicker": "Mobilität und Burst",
+          "description": "Die wichtigsten Werkzeuge von Flux sind Blink Strike, Nano Strike oder Nano Blades und Bladeform.",
+          "highlights": [
+            "Blink Strike: Charakteristischer Lückenschließer und flexibelste Allround-Wahl",
+            "Nano Strike: Starke Schadensoption, die dir auch hilft, durch Druckphasen zu gleiten",
+            "Nano Blades: Sicherer Fernkampf-Schaden, wenn du weniger Risiko eingehen willst",
+            "Bladeform: Beständiger Finisher mit Exekutionswert bei geschwächten Zielen"
+          ]
         },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Allzeit-Peak"
+        {
+          "title": "Bestes praktisches Spielmuster",
+          "kicker": "Zuerst zuschlagen, in Bewegung bleiben",
+          "description": "Nutze Flux, um Kämpfe zu beginnen, Prioritätsziele zu verfolgen und nach einem perfekten Ausweichen zuzuschlagen.",
+          "highlights": [
+            "Eröffne gegen isolierte Gegner oder Ziele in der Luft",
+            "Nutze Blink Strike, um nach Ausweichbewegungen den Kontakt zu halten",
+            "Perfektes Ausweichen gefolgt von Blink Strike ist eine saubere Bestrafungsroute",
+            "Wechsle aus, wenn Schilde oder starke Massenkontrolle benötigt werden"
+          ]
+        },
+        {
+          "title": "Beste Team-Synergien",
+          "kicker": "Flux funktioniert am besten als Finisher",
+          "description": "Flux wird deutlich stärker, wenn ein anderer Charakter den Zustand des Gegners für ihn vorbereitet.",
+          "highlights": [
+            "Vekta-Pull-Setups ermöglichen Flux-Luftkombos",
+            "Ekku schleudert Ziele hoch oder betäubt sie, damit Flux sie in der Luft weiter bearbeiten kann",
+            "Eine gängige Route ist Vekta-Kontrolle gefolgt von Flux-Verfolgung",
+            "Eine weitere gängige Route ist Ekku-Launch gefolgt von Flux-Follow-up, dann zurück zu Ekku für den Slam-Finisher"
+          ]
         }
-      },
-      "milestones": [
+      ]
+    },
+    "morbidMetalEkkuGuide": {
+      "title": "Morbid Metal Ekku Guide",
+      "eyebrow": "Charakter",
+      "subtitle": "Ekku ist der Heavy Hitter im aktuellen Aufgebot von Morbid Metal. Dieser Guide konzentriert sich auf das Ausschalten von Gruppen, das Brechen von Schilden, betäubungsbasierte Setups und die Momente, in denen Ekku den Kampf anstelle von Flux übernehmen sollte.",
+      "intro": "Ekku ist der Brawler und Druckbrecher des Teams. Die offizielle Charakter-Vorstellung beschreibt Ekku mit der einfachen Idee von großen Schwüngen, großen Slams und großem Schaden. Aktuelle Guides positionieren Ekku immer wieder als die beste Antwort auf Gegnergruppen, schwere Gegner, Schilde und Boss-Phasen, in denen rohe Wucht wichtiger ist als Geschwindigkeit.",
+      "items": [
         {
-          "date": "30. Jan. 2026",
-          "title": "Demo auf Steam veröffentlicht",
-          "detail": "Öffentliche Demo wurde auf PC (Steam) verfügbar."
+          "title": "Kampf-Identität",
+          "kicker": "Schwerer Crowd-Control-Bruiser",
+          "description": "Ekku tauscht Geschwindigkeit gegen Kraft ein und ist am wertvollsten, wenn der Kampf Betäubung, Schildschaden oder einen harten Finisher erfordert.",
+          "highlights": [
+            "Bestens geeignet gegen schwere und gruppierte Gegner",
+            "Stark beim Brechen von Schilden",
+            "Fehlerverzeihender für Spieler, die gegnerische Angriffsanzeichen lernen",
+            "Hervorragend geeignet, um eine Kombo zu beenden, nachdem ein anderer Charakter sie begonnen hat"
+          ]
         },
         {
-          "date": "8. Feb. 2026",
-          "title": "Allzeit-Peak erreicht",
-          "detail": "Die Demo erreichte ihre höchste aufgezeichnete Anzahl gleichzeitiger Spieler."
+          "title": "Charakteristische Werkzeuge",
+          "kicker": "Betäubungs- und Slam-Paket",
+          "description": "Ekkus beständigste Werkzeuge sind Ground Cleave oder andere Opener zum Hochschleudern und Betäuben, Echo Strike und Seismic Rift.",
+          "highlights": [
+            "Ground Cleave / Launch-Werkzeuge: Bereiten Gegner für Luft-Routen vor",
+            "Echo Strike: Zuverlässige weite Schwünge für effizientes Ausschalten",
+            "Seismic Rift: Charakteristischer, wuchtiger Linienangriff für große Bestrafungsfenster",
+            "Juggernaut-Passiv: Belohnt Ekkus Stun-and-Smash-Spielweise"
+          ]
+        },
+        {
+          "title": "Bestes praktisches Spielmuster",
+          "kicker": "Einwechseln, wenn es auf dem Bildschirm brenzlig wird",
+          "description": "Ekku sollte nicht jeden Kampf anführen, ist aber oft die beste Antwort, sobald sich Gegner zusammenrotten oder Schilde erscheinen.",
+          "highlights": [
+            "Nutze Ekku, wenn Gegner dicht beieinander stehen",
+            "Wechsle zu Ekku bei Schilden, Eliten und Bestrafungsfenstern bei Bossen",
+            "Zuerst hochschleudern oder betäuben, dann entscheiden, ob du bleibst oder die Route zurück an Flux übergibst",
+            "Bleibe nicht zu lange gegen schnelle Einzelziele im Kampf, wenn Mobilität wichtiger ist"
+          ]
+        },
+        {
+          "title": "Beste Team-Synergien",
+          "kicker": "Ekku ist der Closer",
+          "description": "Ekku glänzt, wenn eine andere Form zuerst die Positionierung oder Zeit in der Luft vorbereitet.",
+          "highlights": [
+            "Flux kann hochgeschleuderte Gegner verfolgen, dann kehrt Ekku für den Abschluss nach unten zurück",
+            "Vekta kann Gegner gruppieren, damit Ekkus Slam mehr Ziele trifft",
+            "Ekku gefolgt von Flux ist stark für Bestrafungssequenzen bei Bossen",
+            "Vekta gefolgt von Ekku ist stark für Add-Kontrolle und das Säubern von Räumen"
+          ]
+        }
+      ]
+    },
+    "morbidMetalVektaGuide": {
+      "title": "Morbid Metal Vekta Guide",
+      "eyebrow": "Charakter",
+      "subtitle": "Vekta ist der Kontroll-Charakter im Team-Wechsel-Kampfsystem von Morbid Metal. Dieser Guide konzentriert sich auf Fernkampfdruck, Pull-basiertes Setup-Spiel und die Support-Routen, die Flux und Ekku härter und sicherer zuschlagen lassen.",
+      "intro": "Vekta bringt die klarste Identität für Raumkontrolle in das Aufgebot. Die offizielle Berichterstattung vor dem Early Access beschreibt Vekta als Fernkämpferin, die präzise Shuriken zur Raumkontrolle einsetzt, während aktuelle Guides magnetische Pull-Werkzeuge, Fernkampf-Druck und die Fähigkeit hervorheben, chaotische Kämpfe zu stabilisieren, bevor die Gegner an Flux oder Ekku zur Verwertung übergeben werden.",
+      "items": [
+        {
+          "title": "Kampf-Identität",
+          "kicker": "Fernkampf-Controller und Setup-Spezialist",
+          "description": "Vekta ist die sicherste Form, um Tempo, Abstände und die Gruppierung von Zielen zu kontrollieren.",
+          "highlights": [
+            "Einziges auf Fernkampf fokussiertes Mitglied des Trios",
+            "Bestens geeignet für Raumkontrolle und sicheren Druck",
+            "Hervorragend geeignet, um unübersichtliche Kämpfe zu ordnen, bevor man in den Nahkampf geht",
+            "Starke Support-Wahl statt eines reinen Face-Tank-Schadensausteilers"
+          ]
+        },
+        {
+          "title": "Charakteristische Werkzeuge",
+          "kicker": "Ziehen, Druck, Neupositionierung",
+          "description": "Aktuelle Berichte konzentrieren sich bei Vekta auf Shuriken-Druck, magnetische Kontrolle und Hilfsmittel, die den nächsten Charakterwechsel vorbereiten.",
+          "highlights": [
+            "Präzise Shuriken-Angriffe für Fernkampfdruck",
+            "Magnetische Pull-Werkzeuge zum Gruppieren oder Isolieren von Gegnern",
+            "Stoß- oder Abwehr-Utilities, um sich Luft zu verschaffen",
+            "Am besten geeignet, um Gegnerzustände vorzubereiten, statt sich auf Solo-Schaden zu versteifen"
+          ]
+        },
+        {
+          "title": "Bestes praktisches Spielmuster",
+          "kicker": "Zuerst kontrollieren, dann verwerten",
+          "description": "Nutze Vekta, um das Tempo im Raum zu drosseln, die richtigen Ziele zu gruppieren und sicherere Kombo-Starts zu ermöglichen.",
+          "highlights": [
+            "Schaden aus der Ferne verursachen, während man sich neu positioniert",
+            "Prioritätsziele in ein sauberes Bestrafungsfenster ziehen",
+            "Nutze Vekta, wenn der Nahkampfdruck unübersichtlich wird",
+            "Wechsle aus, sobald der Raum geordnet ist, zu einem Charakter mit höherem Burst-Schaden"
+          ]
+        },
+        {
+          "title": "Beste Team-Synergien",
+          "kicker": "Der beste Setup-Partner im Aufgebot",
+          "description": "Vektas Wert steigt sprunghaft an, wenn auf die Kontrolle eine schnelle oder schwere Verwertung folgt.",
+          "highlights": [
+            "Vekta-Pull gefolgt von Flux-Blink ist eine natürliche Verlängerungsroute",
+            "Vekta-Gruppierung gefolgt von Ekku-Slam ist die saubere Sequenz zum Ausschalten von Gruppen",
+            "Nützlich für Add-Kontrolle und Stabilisierung aus der Ferne",
+            "Bester Partner für Spieler, die sanftere Kombo-Starts mit geringerem Risiko bevorzugen"
+          ]
         }
       ]
     }
@@ -790,43 +1102,43 @@
   "faq": {
     "title": "Häufig gestellte",
     "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
+    "subtitle": "Alles, was du über Morbid Metal wissen musst",
     "questions": [
       {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
+        "question": "Was ist Morbid Metal?",
+        "answer": "Morbid Metal ist ein düsteres Sci-Fi-Action-Roguelite, das von PHO3LIX entwickelt und von Ubisoft veröffentlicht wurde. Das Spiel startete am 8. April 2026 im Early Access. Es bietet Echtzeit-Charakter-Gestaltwandlung, stylische Combo-Ketten, Bosskämpfe und wiederspielbare Roguelite-Progression über mehrere Biomes hinweg."
       },
       {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
+        "question": "Wie viele spielbare Charaktere hat Morbid Metal?",
+        "answer": "Morbid Metal hat derzeit drei spielbare Charaktere im Early Access: Flux, Ekku und Vekta. Flux ist dein schneller Starter, Ekku ist ein schwerer Crowd-Control-Finisher, der in Biome 1 freigeschaltet wird, und Vekta ist eine Fernkampf-Kontrollspezialistin, die in Biome 2 freigeschaltet wird. Weitere Charaktere sind für die EA-Content-Roadmap geplant."
       },
       {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
+        "question": "Was ist das Gestaltwandlungssystem in Morbid Metal?",
+        "answer": "Echtzeit-Gestaltwandlung ermöglicht es dir, jederzeit während des Kampfes zwischen Flux, Ekku und Vekta zu wechseln. Jeder Charakter hat eigene Abklingzeiten, sodass das Wechseln sowohl ein taktisches als auch ein Effizienz-Werkzeug ist. Der Rhythmus ist: Schaden verursachen, wechseln, bevor der aktuelle Charakter passiv wird, und zurückrotieren, wenn die Abklingzeiten des vorherigen Charakters abgelaufen sind."
       },
       {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
+        "question": "Wo kann ich Morbid Metal spielen?",
+        "answer": "Morbid Metal ist auf dem PC über Steam erhältlich (App ID 1866130). Das Spiel ging am 8. April 2026 in den Early Access. Derzeit ist keine Konsolen-Veröffentlichung angekündigt."
       },
       {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
+        "question": "Gibt es eine Steam Deck-Version von Morbid Metal?",
+        "answer": "Morbid Metal ist auf dem Steam Deck über Proton-Kompatibilität spielbar. Überprüfe die Steam-Seite für die aktuelle Steam Deck-Bewertung und etwaige Kompatibilitätshinweise für den neuesten Early Access-Build."
       },
       {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
+        "question": "Was ist die Morbid Metal Early Access-Roadmap?",
+        "answer": "Die Morbid Metal-Roadmap enthält zusätzliche Biomes, neue spielbare Charaktere, erweiterte Corpora-Systeme, mehr Routine-Optionen und tiefere Hub-Upgrade-Bäume. Der Zeitpunkt für die vollständige Veröffentlichung wurde noch nicht bekannt gegeben. Folge der offiziellen Steam-News-Seite oder Discord für die neuesten Roadmap-Updates."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
+    "title": "Bereit, Morbid Metal zu spielen?",
+    "description": "Tritt der Morbid Metal-Community auf Discord bei, um Guides, Updates und Diskussionen zu erhalten!",
     "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "joinGame": "Auf Steam spielen"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Morbid Metal Wiki",
+    "description": "Deine vollständige Ressourcen-Zentrale für Morbid Metal-Charaktere, Bosse, Combos, Upgrades, Biomes und Progressions-Guides.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
@@ -835,132 +1147,152 @@
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
     "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyright": "© 2026 Morbid Metal Wiki. Nicht verbunden mit den Entwicklern von Morbid Metal.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+    "characters": {
+      "title": "Morbid Metal Charaktere",
+      "description": "Vollständiger Guide zu allen Morbid Metal-Charakteren. Erfahre mehr über Flux, Ekku, Vekta und andere spielbare Formen mit detaillierten Werten, Fähigkeiten und Kampfstrategien.",
+      "metaTitle": "Morbid Metal Charaktere - Flux, Ekku & Vekta Guide",
+      "metaDescription": "Detaillierte Morbid Metal-Charakter-Guides zu Flux, Ekku und Vekta. Lerne jede Charakterform, Fähigkeitssynergien und die besten Strategien zum Überleben im Roguelite kennen.",
+      "categoryLabel": "CHARAKTERE",
+      "whatIs": "Was sind Morbid Metal-Charaktere?",
+      "whatIsDescription": "Morbid Metal-Charaktere sind die gestaltwandelnden Kampf-Formen, die du während deiner Runs meisterst. Jede Form – Flux, Ekku und Vekta – hat einzigartige Fähigkeiten, Spielstile und Synergien, die deine Strategie definieren.",
+      "why": "Warum Charakter-Guides lesen?",
       "whySteps": {
-        "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
-        "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
-        "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step1Title": "Meistere jede Form",
+        "step1Description": "Lerne die einzigartigen Fähigkeiten und Mechaniken jeder spielbaren Charakterform kennen",
+        "step2Title": "Wechsel-Routen optimieren",
+        "step2Description": "Entdecke die besten Charakter-Rotationssequenzen, um deinen Schadensausstoß zu maximieren",
+        "step3Title": "Synergien aufbauen",
+        "step3Description": "Verstehe, wie jeder Charakter mit Upgrades und Routine-Kombinationen interagiert"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "all": "Alle Morbid Metal-Charaktere"
     },
-    "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+    "feature": {
+      "title": "Morbid Metal Features",
+      "description": "Erkunde die Kern-Features von Morbid Metal, einschließlich Gameplay-Mechaniken, Koop-Modus, Gestaltwandlungssystemen und Kampftiefe in diesem düsteren Sci-Fi-Roguelite.",
+      "metaTitle": "Morbid Metal Features - Gameplay, Koop & Kampfsysteme",
+      "metaDescription": "Tauche tief in die Morbid Metal-Spielfeatures ein, einschließlich der Gestaltwandlungsmechanik, des Koop-Gameplays, des Kampfsystems und der Roguelite-Progression für den Early Access 2026.",
+      "categoryLabel": "FEATURES",
+      "whatIs": "Was sind Morbid Metal-Features?",
+      "whatIsDescription": "Zu den Morbid Metal-Features gehören das charakteristische Gestaltwandlungs-Kampfsystem, nahtloser Koop, tiefe Roguelite-Progression und stylisches Hack-and-Slash-Gameplay in einer düsteren Sci-Fi-Welt.",
+      "why": "Warum Spielfeatures erkunden?",
       "whySteps": {
-        "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
-        "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
-        "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step1Title": "Kernmechaniken verstehen",
+        "step1Description": "Lerne, wie das Gestaltwandlungssystem, Combos und Routinen zusammenarbeiten",
+        "step2Title": "Koop-Strategie planen",
+        "step2Description": "Koordiniere dich mit Partnern unter Nutzung von Charakterwechsel-Synergien und geteilter Progression",
+        "step3Title": "Verborgene Tiefe entdecken",
+        "step3Description": "Schalte die strategische Ebene unter dem rasanten Oberflächenkampf frei"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "all": "Alle Morbid Metal-Features"
     },
-    "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
-      "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
-      "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+    "guide": {
+      "title": "Morbid Metal Guide",
+      "description": "Detaillierte Morbid Metal-Guides zu Builds, Strategien, Upgrade-Prioritäten und Tipps zum Überleben der Roguelite-Progression im Early Access 2026.",
+      "metaTitle": "Morbid Metal Guide - Builds, Strategien & Tipps 2026",
+      "metaDescription": "Vollständige Morbid Metal-Guides für alle Fähigkeitsstufen. Meistere Builds, Upgrade-Prioritäten, Boss-Strategien und Roguelite-Mechaniken in diesem düsteren Sci-Fi-Actionspiel.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "Was sind Morbid Metal-Guides?",
+      "whatIsDescription": "Morbid Metal-Guides bieten detaillierte Walkthroughs, Build-Empfehlungen und strategische Tipps, die dir helfen, durch zunehmend schwierigere Biomes und Bosse voranzukommen.",
+      "why": "Warum Morbid Metal-Guides lesen?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
-        "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
-        "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step1Title": "Deinen Build optimieren",
+        "step1Description": "Entdecke die stärksten Build-Synergien, einschließlich Blutung-, Burst- und Support-Setups",
+        "step2Title": "Biomes schneller abschließen",
+        "step2Description": "Lerne effizientes Routing und Gegnerpriorisierung für jeden Bereich des Spiels",
+        "step3Title": "Bosse beständig besiegen",
+        "step3Description": "Studiere Boss-Muster und Ausweich-Timing, um Begegnungen ohne zu sterben zu meistern"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Gegenstände"
+      "all": "Alle Morbid Metal-Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
-      "categoryLabel": "WELTREGIONEN",
-      "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
-      "why": "Warum Biome erkunden?",
+    "platform": {
+      "title": "Morbid Metal Plattformen",
+      "description": "Morbid Metal Plattform-Guides für Steam, Steam Deck und PS5. Enthält Performance-Tipps, Systemanforderungen, Controller-Unterstützung und Kompatibilitätsdetails.",
+      "metaTitle": "Morbid Metal Plattformen - Steam, Steam Deck & PS5 Guide",
+      "metaDescription": "Plattformspezifische Guides für Morbid Metal auf Steam, Steam Deck und PS5. Deckt Performance-Einstellungen, Systemanforderungen, Controller-Unterstützung und Launch-Details ab.",
+      "categoryLabel": "PLATTFORMEN",
+      "whatIs": "Was sind Morbid Metal Plattformen?",
+      "whatIsDescription": "Morbid Metal ist auf Steam für PC verfügbar, mit Steam Deck Kompatibilität und potenzieller Konsolenerweiterung. Jede Plattform hat ihr eigenes Setup, Performance-Überlegungen und Steuerungsoptionen.",
+      "why": "Warum Plattform-Guides lesen?",
       "whySteps": {
-        "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
-        "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
-        "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step1Title": "Performance optimieren",
+        "step1Description": "Finde die besten Grafikeinstellungen für deine Hardware, um flüssige Bildraten beizubehalten",
+        "step2Title": "Steam Deck bereit",
+        "step2Description": "Überprüfe die Kompatibilität und passe die Steuerung für das Handheld-Spiel auf dem Steam Deck an",
+        "step3Title": "Controller-Unterstützung",
+        "step3Description": "Konfiguriere die Controller-Belegung für das beste Morbid Metal Erlebnis auf jeder Plattform"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Biome"
+      "all": "Alle Morbid Metal Plattform-Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
-      "categoryLabel": "BAUEN & BASEN",
-      "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
-      "why": "Warum Basen bauen?",
+    "purchase": {
+      "title": "Morbid Metal Kauf",
+      "description": "Alles über den Kauf von Morbid Metal, einschließlich Veröffentlichungsdatum, Early Access Preis, was enthalten ist und wie man auf Steam startet.",
+      "metaTitle": "Morbid Metal Kauf - Preis, Early Access & Veröffentlichungsdatum",
+      "metaDescription": "Finde heraus, wie du Morbid Metal auf Steam kaufst. Erfahre mehr über den Early Access Preis, verfügbare Inhalte, Details zum Veröffentlichungsdatum und zukünftige Roadmap-Pläne.",
+      "categoryLabel": "KAUF",
+      "whatIs": "Was ist der Morbid Metal Early Access?",
+      "whatIsDescription": "Morbid Metal startete am 8. April 2026 in den Steam Early Access. Der Kauf gewährt sofortigen Zugriff auf den aktuellen Build mit allen spielbaren Charakteren, Biomes und Roguelite-Inhalten, während die Entwicklung fortgesetzt wird.",
+      "why": "Warum Morbid Metal jetzt kaufen?",
       "whySteps": {
-        "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
-        "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
-        "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step1Title": "Vollständiger Early Access Inhalt",
+        "step1Description": "Spiele alle aktuellen Charaktere, Biomes und Bosse, die im Early Access Build verfügbar sind",
+        "step2Title": "Kostenlose Updates enthalten",
+        "step2Description": "Alle zukünftigen Early Access Patches und Inhaltserweiterungen sind im Kauf enthalten",
+        "step3Title": "Entwicklung unterstützen",
+        "step3Description": "Hilf mit, die Vollversion zu gestalten, indem du während der Early Access Phase Feedback gibst"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
+      "all": "Alle Morbid Metal Kaufinfos"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
-      "categoryLabel": "TECHNISCHER SUPPORT",
-      "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
-      "why": "Warum Support prüfen?",
+    "review": {
+      "title": "Morbid Metal Rezensionen",
+      "description": "Ehrliche Morbid Metal Rezensionen über Gameplay, Performance, Qualität der Early Access Inhalte und ob es sich lohnt, jetzt zu kaufen.",
+      "metaTitle": "Morbid Metal Rezension - Lohnt sich der Kauf im Early Access?",
+      "metaDescription": "Lies ehrliche Morbid Metal Rezensionen und Spieler-Feedback. Deckt Early Access Inhalte, Performance, Kampftiefe ab und ob es den Preis im Jahr 2026 wert ist.",
+      "categoryLabel": "REZENSIONEN",
+      "whatIs": "Was ist Morbid Metal?",
+      "whatIsDescription": "Morbid Metal ist ein düsteres Sci-Fi-Action-Roguelite, entwickelt von Screen Juice. Es kombiniert Gestaltwandler-Kämpfe, stylische Hack-and-Slash-Mechaniken und tiefe Roguelite-Progression in einer brutalistischen postapokalyptischen Welt.",
+      "why": "Warum Rezensionen vor dem Kauf lesen?",
       "whySteps": {
-        "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
-        "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
-        "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step1Title": "Early Access Qualität bewerten",
+        "step1Description": "Verstehe, welche Inhalte bereits ausgereift sind und welche sich noch in der Entwicklung befinden",
+        "step2Title": "Performance-Berichte prüfen",
+        "step2Description": "Sieh dir echtes Spieler-Feedback zu Bildraten, Abstürzen und dem Optimierungsstatus an",
+        "step3Title": "Wert einschätzen",
+        "step3Description": "Bestimme, ob der aktuelle Inhalt den Preis für deinen Spielstil rechtfertigt"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Support-Artikel"
+      "all": "Alle Morbid Metal Rezensionen"
+    },
+    "trailer": {
+      "title": "Morbid Metal Trailer",
+      "description": "Sieh dir alle offiziellen Morbid Metal Trailer an, einschließlich des Early Access Launch-Trailers, Charakter-Trailer, Gameplay-Enthüllungen und Ankündigungen zum Veröffentlichungsdatum.",
+      "metaTitle": "Morbid Metal Trailer - Launch, Charaktere & Gameplay-Videos",
+      "metaDescription": "Alle offiziellen Morbid Metal Trailer und Gameplay-Videos. Sieh dir den Early Access Launch-Trailer, Charakter-Enthüllungen und Gameplay-Analysen für den Release 2026 an.",
+      "categoryLabel": "TRAILER",
+      "whatIs": "Was sind Morbid Metal Trailer?",
+      "whatIsDescription": "Offizielle Morbid Metal Trailer präsentieren die düstere Sci-Fi-Ästhetik, die Gestaltwandler-Kampfmechaniken, Charakter-Enthüllungen und Biome-Umgebungen des Spiels.",
+      "why": "Warum Morbid Metal Trailer ansehen?",
+      "whySteps": {
+        "step1Title": "Vorschau auf Kampfmechaniken",
+        "step1Description": "Sieh das Gestaltwandler-System, Combo-Ketten und Bosskämpfe in Aktion",
+        "step2Title": "Neue Charaktere entdecken",
+        "step2Description": "Sieh dir charakterspezifische Trailer an, die Fähigkeiten und Spielstile enthüllen",
+        "step3Title": "Updates verfolgen",
+        "step3Description": "Bleibe über neue Inhaltserweiterungen durch offizielle Gameplay-Enthüllungen informiert"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Morbid Metal Trailer"
     }
   }
 }
