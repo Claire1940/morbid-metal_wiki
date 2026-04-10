@@ -10,14 +10,7 @@
       "twitterDescription": "Morbid Metal hub for characters, bosses, builds, upgrades, biomes, and progression tips. Track official updates, reviews, and Steam launch info."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
