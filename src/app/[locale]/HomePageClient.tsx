@@ -712,21 +712,42 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.morbidMetalBuildsGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-5">
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
             {t.modules.morbidMetalBuildsGuide.builds.map((build: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col">
-                <h3 className="font-bold text-base text-[hsl(var(--nav-theme-light))] mb-1">
-                  <LinkedTitle linkData={moduleLinkMap[`morbidMetalBuildsGuide::builds::${index}`]} locale={locale}>
-                    {build.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-xs text-muted-foreground mb-3">{build.playstyle}</p>
+                <div className="flex items-center gap-3 mb-3">
+                  {build.tier && (
+                    <span className={`flex-shrink-0 w-9 h-9 rounded-lg flex items-center justify-center text-sm font-bold border-2 ${build.tier === 'S' ? 'bg-amber-500/20 border-amber-500/60 text-amber-400' : 'bg-[hsl(var(--nav-theme)/0.15)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]'}`}>
+                      {build.tier}
+                    </span>
+                  )}
+                  <div className="min-w-0">
+                    <h3 className="font-bold text-base text-[hsl(var(--nav-theme-light))] leading-tight">
+                      <LinkedTitle linkData={moduleLinkMap[`morbidMetalBuildsGuide::builds::${index}`]} locale={locale}>
+                        {build.name}
+                      </LinkedTitle>
+                    </h3>
+                    <p className="text-xs text-muted-foreground">{build.playstyle}</p>
+                  </div>
+                </div>
                 <div className="flex flex-wrap gap-1 mb-3">
                   {build.core_skills.map((s: string, si: number) => (
                     <span key={si} className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{s}</span>
                   ))}
                 </div>
-                <p className="text-sm text-muted-foreground flex-1">{build.description}</p>
+                <p className="text-sm text-muted-foreground flex-1 mb-3">{build.description}</p>
+                {build.best_for && (
+                  <div className="border-t border-border/50 pt-3">
+                    <p className="text-xs font-semibold text-[hsl(var(--nav-theme-light))] mb-1">Best for</p>
+                    <ul className="space-y-0.5">
+                      {build.best_for.map((b: string, bi: number) => (
+                        <li key={bi} className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                          <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />{b}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -817,14 +838,19 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.morbidMetalReviewImpressions.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-5">
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
             {t.modules.morbidMetalReviewImpressions.reviews.map((review: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col">
                 <div className="flex items-center gap-3 mb-4">
-                  <h3 className="font-bold">{review.source}</h3>
-                  <span className={`text-xs px-2 py-0.5 rounded-full border ${review.verdict === 'Positive' ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-400' : review.verdict === 'Promising' ? 'bg-sky-500/10 border-sky-500/30 text-sky-400' : 'bg-amber-500/10 border-amber-500/30 text-amber-400'}`}>{review.verdict}</span>
+                  <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] flex items-center justify-center flex-shrink-0">
+                    <MessageCircle className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-sm">{review.source}</h3>
+                    <span className={`text-xs px-2 py-0.5 rounded-full border ${review.verdict === 'Positive' ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-400' : review.verdict === 'Promising' ? 'bg-sky-500/10 border-sky-500/30 text-sky-400' : 'bg-amber-500/10 border-amber-500/30 text-amber-400'}`}>{review.verdict}</span>
+                  </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="flex-1 space-y-4">
                   <div>
                     <p className="text-xs font-semibold text-emerald-400 mb-2">Highlights</p>
                     <ul className="space-y-1">

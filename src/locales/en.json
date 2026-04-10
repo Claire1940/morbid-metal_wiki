@@ -687,170 +687,202 @@
     },
     "morbidMetalBuildsGuide": {
       "title": "Morbid Metal Builds Guide",
-      "eyebrow": "Run Templates",
-      "subtitle": "Morbid Metal builds are defined by your Routine selections, Corpora boons, and character swap habits. These starter templates give you a reliable foundation for consistent early clears.",
-      "intro": "There is no single best build in Morbid Metal because every run offers different Routine options. The strongest players identify which build archetype the RNG is supporting and commit to it rather than trying to force a predetermined loadout.",
+      "eyebrow": "Meta Builds",
+      "subtitle": "These Morbid Metal builds focus on the clearest Early Access archetypes supported by the current skill pool, character-switch routes, and permanent upgrade priorities.",
+      "intro": "Morbid Metal does not lock players into one rigid meta yet, but the current Early Access build already shows several strong patterns. Flux is excellent for mobility and burst, Ekku anchors safer crowd control and launcher routes, and switching between characters is one of the game's biggest damage multipliers.",
       "builds": [
         {
-          "name": "Leak Pressure Build",
-          "playstyle": "Status-focused sustained damage",
+          "tier": "S",
+          "name": "Flux Blink Assassin",
+          "playstyle": "Mobility burst with safe repositioning",
           "core_skills": [
-            "Blink Strike (Flux)",
-            "Upslam (Ekku)",
-            "Leak-spread Routine"
+            "Blink Strike",
+            "Nano Strike",
+            "Bladeform or Power Blade"
           ],
-          "upgrades": [
-            "Skill Issue",
-            "Overclocking",
-            "Ka-ching!"
+          "best_for": [
+            "Fast room clears",
+            "Airborne targets",
+            "Boss dodge windows"
           ],
-          "description": "Apply Leak with Routines and let it tick while you cycle cooldowns through swapping. Strong in biomes with heavy enemy density where status spreads."
+          "description": "Blink Strike gives Flux the most flexible opener and movement tool, while Nano Strike adds phase-style damage and helps you stay aggressive without standing still. This is the cleanest high-speed build in Early Access and the easiest one to keep relevant across a full run."
         },
         {
-          "name": "Burst Combo Build",
-          "playstyle": "Spike damage on cooldown windows",
+          "tier": "A",
+          "name": "Ekku Air Launcher",
+          "playstyle": "Crowd control into airborne combo routes",
           "core_skills": [
-            "Nano Strike (Flux)",
-            "Seismic Rift (Ekku)",
-            "Power Blade (Flux)"
+            "Upslam",
+            "Echo Strike",
+            "Sonic Slash"
           ],
-          "upgrades": [
-            "Overclocking",
-            "Skill Issue",
-            "Body Augmentation"
+          "best_for": [
+            "Opening fights safely",
+            "Controlling groups",
+            "Learning mid-air swaps"
           ],
-          "description": "Cycle through characters to keep big cooldowns active. Nano Strike phases Flux out while dealing damage; return on Seismic Rift for boss stagger into maximum burst."
+          "description": "Upslam is the clearest Ekku starter for launch routes, Echo Strike gives efficient area coverage, and Sonic Slash is easier to fit into mixed-character runs. A strong build for players who want structure and safety without giving up combo flow."
         },
         {
-          "name": "Defensive Sustain Build",
-          "playstyle": "Low damage taken, consistent long runs",
+          "tier": "A",
+          "name": "Ekku Main Bruiser",
+          "playstyle": "Heavy damage and shield-breaking with Ekku on field longer",
           "core_skills": [
-            "Blink Strike (Flux)",
-            "Echo Strike (Ekku)",
-            "Recovery Routine"
+            "Ground Shatter or Upslam",
+            "Echo Strike",
+            "Seismic Rift"
           ],
-          "upgrades": [
-            "Iron Resilience",
-            "Perfect Dodge Counter",
-            "Run Fabricator Unlock"
+          "best_for": [
+            "Tankier enemies",
+            "Shielded targets",
+            "Players who prefer fewer swaps"
           ],
-          "description": "Maximize healing sources and perfect dodge windows. Trades peak damage for longevity — ideal for learning boss patterns or when the run does not offer strong offensive Routines."
+          "description": "Seismic Rift has the bigger damage profile, but it shines most when Ekku is your main active fighter rather than a quick swap tool. This setup works best when you want a slower, sturdier run that converts stun and pressure into boss damage."
+        },
+        {
+          "tier": "A",
+          "name": "Swap Combo Loop",
+          "playstyle": "Character-switch chaining instead of single-character commitment",
+          "core_skills": [
+            "Ekku launcher into Flux follow-up",
+            "Flux blink re-entry",
+            "Optional Vekta follow-up for wider coverage"
+          ],
+          "best_for": [
+            "Style score chasing",
+            "Longer combo routes",
+            "Players who want the full shapeshift identity"
+          ],
+          "description": "Morbid Metal's core hook is free character switching, and the strongest expressive playstyle is the one that launches with Ekku and cashes out with Flux. Less about one protocol being broken and more about turning swaps into constant pressure and combo extensions."
         }
       ]
     },
     "morbidMetalReleaseDateRoadmap": {
       "title": "Morbid Metal Release Date and Roadmap",
-      "eyebrow": "Early Access",
-      "subtitle": "Morbid Metal launched in Early Access on April 8, 2026. The roadmap covers planned content expansions, new characters, and full release targets.",
-      "intro": "Morbid Metal is developed by PHO3LIX and published by Ubisoft. The game entered Steam Early Access on April 8, 2026, with a discounted launch price. The developer has outlined a content roadmap covering additional biomes, characters, and system expansions during the EA period.",
+      "eyebrow": "Roadmap",
+      "subtitle": "Morbid Metal launched into Steam Early Access on April 8, 2026. The official launch materials already define the starting scope, the flexible Year One update approach, and the content categories planned for expansion.",
+      "intro": "This is the practical version of a Morbid Metal roadmap. The official materials confirm when Early Access began, what the launch build contains, how the team plans to expand it, and where community feedback feeds into future updates.",
       "entries": [
         {
-          "date": "April 8, 2026",
-          "event": "Early Access Launch",
-          "details": "Steam Early Access begins at 25% launch discount. Three playable characters, two biomes, and core roguelite systems available.",
+          "date": "April 3, 2026",
+          "event": "Official Early Access Announcement",
+          "details": "Ubisoft confirmed that Morbid Metal would enter Steam Early Access on April 8, 2026 and framed the release as the start of player-guided development.",
           "status": "released"
         },
         {
-          "date": "EA Period",
-          "event": "Biome Expansion",
-          "details": "Additional biomes and environmental content planned as part of the Early Access roadmap.",
+          "date": "April 8, 2026",
+          "event": "Morbid Metal Launches on Steam Early Access",
+          "details": "The Steam store lists April 8, 2026 as both the release date and the Early Access release date. The launch price is $17.99, with an introductory discount bringing it to $13.49 during the launch offer window.",
+          "status": "released"
+        },
+        {
+          "date": "Launch Window",
+          "event": "Starting Scope — Over 10 Hours of Content",
+          "details": "Official launch materials describe over 10 hours of content with three playable characters, two biomes, two bosses, a Void tutorial, a Void Hub, a skill tree, and run progression systems such as Routines, Devil's Bargains, Eden Blessings, Nano Chips, The Emporium, and Repositories.",
+          "status": "released"
+        },
+        {
+          "date": "During Early Access",
+          "event": "Year One Roadmap — Broader Content Growth",
+          "details": "The team already has a Year One roadmap and plans to expand with a new playable character, additional environments, and new bosses, while keeping the timing flexible around community feedback.",
           "status": "planned"
         },
         {
-          "date": "EA Period",
-          "event": "New Characters",
-          "details": "Additional playable characters beyond Flux, Ekku, and Vekta are planned for the Early Access content pipeline.",
+          "date": "Ongoing",
+          "event": "Community-Led Development",
+          "details": "Updates and discussion run through the Steam Community Hub and the official Discord. Players who buy into Early Access are expected to receive future updates, including the final version, at no additional charge.",
           "status": "planned"
-        },
-        {
-          "date": "EA Period",
-          "event": "System Depth",
-          "details": "Deeper Corpora systems, additional Routine options, and expanded hub upgrade trees are part of the development roadmap.",
-          "status": "planned"
-        },
-        {
-          "date": "Full Release",
-          "event": "Version 1.0",
-          "details": "Full release target date has not been announced. The developer targets a complete EA period before moving to full release.",
-          "status": "tba"
         }
       ]
     },
     "morbidMetalSystemRequirements": {
       "title": "Morbid Metal System Requirements",
       "eyebrow": "PC Specs",
-      "subtitle": "Check if your PC can run Morbid Metal at minimum or recommended settings. The game runs on DirectX 12 and is available on Windows 10 and 11.",
-      "intro": "Morbid Metal is a visually demanding dark sci-fi action game. The recommended specs ensure smooth 60 fps gameplay at medium to high settings. Steam Deck support is available via Proton.",
+      "subtitle": "Steam lists one official minimum spec and one recommended spec for the current Early Access build. The game also supports Xbox and PlayStation controllers, and is Steam Deck compatible.",
+      "intro": "Both spec tiers use Windows 10 or 11, DirectX 11, and 30 GB of storage. The recommended tier moves up to 16 GB RAM and a mid-range GPU target, making this a clean comparison for both desktop and mobile players.",
       "specs": [
         {
           "tier": "Minimum",
-          "os": "Windows 10 (64-bit)",
-          "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
-          "gpu": "NVIDIA GeForce GTX 1060 / AMD RX 580 (6GB VRAM)",
-          "ram": "16 GB",
-          "storage": "20 GB SSD",
-          "directx": "DirectX 12"
+          "os": "Windows 10 / 11",
+          "cpu": "Intel i3-9100F / AMD Ryzen 3 3100",
+          "gpu": "Nvidia GTX 1650 4GB / AMD RX 5500 4GB / Intel Arc A380 6GB",
+          "ram": "8 GB RAM",
+          "storage": "30 GB available space",
+          "directx": "DirectX 11"
         },
         {
           "tier": "Recommended",
-          "os": "Windows 10/11 (64-bit)",
-          "cpu": "Intel Core i7-10700K / AMD Ryzen 7 3800X",
-          "gpu": "NVIDIA RTX 2070 / AMD RX 5700 XT (8GB VRAM)",
-          "ram": "16 GB",
-          "storage": "20 GB SSD",
-          "directx": "DirectX 12"
+          "os": "Windows 10 / 11",
+          "cpu": "Intel i5-8400 / AMD Ryzen 5 3600",
+          "gpu": "Nvidia RTX 2060 6GB / AMD RX 5700 8GB / Intel Arc A750 8GB",
+          "ram": "16 GB RAM",
+          "storage": "30 GB available space",
+          "directx": "DirectX 11"
         }
       ],
       "notes": [
-        "Steam Deck is supported via Proton compatibility layer",
-        "DirectX 12 is required — older GPUs without DX12 support may not run the game",
-        "SSD storage is strongly recommended for load times",
-        "The game is PC-only at launch; no console version has been announced"
+        "Xbox and PlayStation controller support is included",
+        "Steam Deck compatible — listed on the official Steam store page",
+        "DirectX 11 is required for both spec tiers",
+        "30 GB of storage is needed for both minimum and recommended setups"
       ]
     },
     "morbidMetalReviewImpressions": {
       "title": "Morbid Metal Review and Impressions",
-      "eyebrow": "Early Access Verdict",
-      "subtitle": "Morbid Metal earned positive early reception for its combat feel and character variety. Here is what reviewers and players are saying about the Early Access build.",
-      "intro": "The consensus from early preview coverage and player feedback centers on the shapeshifting combat system as a genuine standout mechanic. The main early criticisms focus on content depth expected to expand during the EA period.",
+      "eyebrow": "Reviews",
+      "subtitle": "The early reception for Morbid Metal is built around recurring themes: stylish combat, strong character-switching, impressive presentation, and a launch build that already feels polished for Early Access.",
+      "intro": "The cards below summarize the practical consensus from launch-window coverage and current user sentiment — focusing on combat feel, content depth, and what still feels like work in progress.",
       "reviews": [
         {
-          "source": "Early Access Players",
+          "source": "Steam Users",
           "verdict": "Positive",
           "highlights": [
-            "Real-time shapeshifting delivers on its promise",
-            "Each character plays and feels distinctly different",
-            "Combat flow rewards mastery and builds momentum naturally"
+            "Fast-paced combat feels satisfying and responsive",
+            "Distinct playable characters with genuine identity",
+            "Strong audiovisual polish for an Early Access launch — 79% positive from 362 reviews"
           ],
           "watchouts": [
-            "Content depth is limited in the EA build",
-            "Boss variety will expand over the EA period"
+            "Still an unfinished Early Access game with smaller content scope",
+            "Content depth will grow as the roadmap delivers new areas and characters"
           ]
         },
         {
-          "source": "Preview Coverage",
-          "verdict": "Promising",
+          "source": "Rogueliker",
+          "verdict": "Positive",
           "highlights": [
-            "Combo system has genuine depth once you learn the swap rhythm",
-            "Visual design and character aesthetics are strong",
-            "Roguelite loop feels satisfying with the Corpora boon system"
+            "Combat feels satisfying and technically nuanced",
+            "Character switching gives each encounter tactical variety",
+            "World design and exploration are stronger than expected"
           ],
           "watchouts": [
-            "Final build will depend on how well the roadmap content lands",
-            "Difficulty balance may shift as new content releases"
+            "Progression is still a slow-burn unlock path",
+            "Final judgment depends on how future updates land"
           ]
         },
         {
-          "source": "Steam Community",
-          "verdict": "Mixed-Positive",
+          "source": "Prima Games",
+          "verdict": "Positive",
           "highlights": [
-            "Combat is one of the smoothest action-roguelite feels in recent memory",
-            "Performance is solid on mid-range hardware",
-            "Developer is active in responding to feedback"
+            "Free character switching is the real hook — base kits have enough depth before RNG bonuses",
+            "Mobility and traversal feel fast and satisfying",
+            "Combat foundation is already real — most complaints look like Early Access tuning targets"
           ],
           "watchouts": [
-            "Some players feel the current EA content is light for the price point",
-            "Full value likely realized after content expansions"
+            "A mini map would improve room-to-room readability",
+            "Cooldowns on specials can occasionally interrupt combat flow"
+          ]
+        },
+        {
+          "source": "GameSpew",
+          "verdict": "Positive",
+          "highlights": [
+            "Flashy visuals stand out immediately",
+            "Permanent upgrades keep failed runs productive",
+            "Current build already feels polished — recommended for action-roguelike fans"
+          ],
+          "watchouts": [
+            "Difficulty still expects good dodge timing from the player",
+            "Larger roster and more areas will require waiting for content updates"
           ]
         }
       ]
