@@ -889,97 +889,204 @@
     },
     "morbidMetalDemoGuide": {
       "title": "Morbid Metal Demo Guide",
-      "eyebrow": "Free Trial",
-      "subtitle": "The Morbid Metal demo gave players an early look at the combat system before Early Access. Here is what the demo included and how it compares to the current build.",
-      "intro": "The Morbid Metal demo was available on Steam before the Early Access launch, giving players a taste of the shapeshifting combat and first biome. The demo and the current EA build differ in scope and content depth.",
-      "faqs": [
+      "eyebrow": "Demo",
+      "subtitle": "The demo is still the fastest way to feel Morbid Metal's shapeshift combat before buying. It gives a clean snapshot of the first biome, Flux-to-Ekku progression, and the game's combat rhythm.",
+      "intro": "Morbid Metal's free Steam demo remains useful because it teaches the core loop without asking for a full Early Access commitment. You get a section of the first biome, access to two playable characters, and enough combat time to judge whether the dodge timing, character switching, and encounter pacing work for you.",
+      "items": [
         {
-          "question": "Is the Morbid Metal demo still available?",
-          "answer": "The demo (Steam App ID 3762220) was available as a separate listing before Early Access launched. Once Early Access begins, demo availability depends on the developer's decision to keep it live alongside the main game."
+          "title": "What the demo includes",
+          "summary": "The official free demo covers a section of the first biome and lets you unlock Ekku during the run.",
+          "bullets": [
+            "Section of the first biome",
+            "2 playable characters: Flux and Ekku",
+            "About 1 hour of content",
+            "Core shapeshift combat with Flux and Ekku"
+          ]
         },
         {
-          "question": "What did the Morbid Metal demo include?",
-          "answer": "The demo included a portion of Biome 1 (Sublime Garden) and the core shapeshifting combat system. Flux was playable in the demo, giving players a feel for the fast-paced combat before committing to purchase."
+          "title": "What the later demo update changed",
+          "summary": "The demo was revised after its first public run to create a stronger final stretch.",
+          "bullets": [
+            "A later demo update added a new final elite enemy",
+            "The revised demo focuses on a better end-of-run experience",
+            "It is a stronger test of combat pacing than the earliest public version"
+          ]
         },
         {
-          "question": "How does the demo compare to Early Access?",
-          "answer": "The full Early Access build adds Ekku and Vekta as playable characters, additional biomes, the full hub upgrade system (Void Matter progression), the Corpora boon system, and Devil's Bargain modifiers. The demo represents a small fraction of the current Early Access content."
+          "title": "How the demo compares with Early Access",
+          "summary": "The demo is a focused slice, while the live Early Access build is the fuller version of the game.",
+          "bullets": [
+            "Demo: 2 playable characters",
+            "Early Access: 3 playable characters",
+            "Demo: first-biome sample",
+            "Early Access: over 10 hours of content"
+          ]
         },
         {
-          "question": "Should I play the demo before buying?",
-          "answer": "If the demo is still available, it is a useful way to confirm that the combat feel clicks with you before purchasing. The game's entire identity is built around the shapeshifting system, and the demo communicates it clearly."
+          "title": "Who should still play the demo first",
+          "summary": "The demo is best for players deciding whether the combat feel is worth a buy-in.",
+          "bullets": [
+            "Players who want a fast yes-or-no on the combat system",
+            "Players who want to practice perfect dodge counters before buying",
+            "Players who want to compare Flux mobility with Ekku's heavier impact",
+            "Players who mainly care about the game's first-hour feel rather than long-run progression"
+          ]
         }
       ]
     },
     "morbidMetalFluxGuide": {
       "title": "Morbid Metal Flux Guide",
-      "eyebrow": "Starting Character",
-      "subtitle": "Flux is the fastest character in Morbid Metal and your default opener for most encounters. Mastering Flux's mobility and skill timing makes the entire swap system smoother.",
-      "intro": "Flux is the character you will spend the most time with early in every run. Her speed, anti-air capabilities, and flexible skill options make her the ideal opener for most encounter types.",
-      "cards": [
+      "eyebrow": "Character",
+      "subtitle": "Flux is the speed character and the cleanest entry point for precision play. This guide focuses on high single-target pressure, aerial chase tools, and the swap routes that let Flux start or extend your best combos.",
+      "intro": "Flux is built around fast single-target damage, clean movement, and aggressive combo routing. Official character coverage frames Flux as the precise killer of the roster, while current guide coverage consistently points to Blink Strike as the most flexible core tool thanks to its mobility, shorter cooldown, and ability to keep pressure on airborne or mobile targets.",
+      "items": [
         {
-          "name": "Role: Fast Opener",
-          "description": "Flux starts fights quickly and pressures enemies before they can group up. Her job is to initiate, create the first stagger or launch, and set up Ekku or Vekta for follow-up damage."
+          "title": "Combat identity",
+          "kicker": "Fast single-target specialist",
+          "description": "Flux is the nimble form of the roster and excels at precision damage, fast engagement, and chasing airborne enemies.",
+          "highlights": [
+            "Best at quick gap-closing",
+            "Strong against airborne targets",
+            "Great for boss punish windows",
+            "Ideal opener for stylish switch combos"
+          ]
         },
         {
-          "name": "Best Skills",
-          "description": "Blink Strike (140 damage, 8s cooldown) is the all-purpose pick for mobility and anti-air. Nano Strike phases Flux out while dealing damage, adding an evasive dimension. Power Blade offers the strongest burst for those committed to Flux-heavy loadouts."
+          "title": "Core tools to learn first",
+          "kicker": "Mobility and burst",
+          "description": "The most important Flux tools are Blink Strike, Nano Strike or Nano Blades, and Bladeform.",
+          "highlights": [
+            "Blink Strike: signature gap-closer and most flexible all-around pick",
+            "Nano Strike: strong damage option that also helps you phase through pressure",
+            "Nano Blades: safer ranged chip if you want less commitment",
+            "Bladeform: consistent finisher with execution value on weakened targets"
+          ]
         },
         {
-          "name": "Anti-Air Specialist",
-          "description": "Flux is the best character for targeting airborne enemies in the first biome. Her Blink Strike closes vertical distance instantly, making her the default answer when drones or ranged fliers appear."
+          "title": "Best practical play pattern",
+          "kicker": "Hit first, stay moving",
+          "description": "Use Flux to start encounters, chase priority targets, and cash in after a perfect dodge.",
+          "highlights": [
+            "Open on isolated or airborne enemies",
+            "Use Blink Strike to keep contact after evasive movement",
+            "Perfect dodge into Blink Strike is a clean punish route",
+            "Swap out when shields or heavy crowd control are needed"
+          ]
         },
         {
-          "name": "Combo Starter",
-          "description": "Most high-value combo routes begin with Flux because she can engage the fastest and apply the first stagger. Once targets are in the air or stunned, swap to Ekku for the launch follow-up or Vekta for ranged clean-up."
+          "title": "Best team synergies",
+          "kicker": "Flux works best as the finisher",
+          "description": "Flux becomes much stronger when another character sets the enemy state for them.",
+          "highlights": [
+            "Vekta pull setups feed Flux air combos",
+            "Ekku launches or stuns targets so Flux can extend in the air",
+            "A common route is Vekta control into Flux chase",
+            "Another common route is Ekku launch into Flux follow-up, then back to Ekku for the slam finisher"
+          ]
         }
       ]
     },
     "morbidMetalEkkuGuide": {
       "title": "Morbid Metal Ekku Guide",
-      "eyebrow": "Heavy Hitter",
-      "subtitle": "Ekku is your crowd control and burst damage specialist. Knowing when to rotate into Ekku is the key to dealing with shielded enemies, heavies, and boss punish windows.",
-      "intro": "Ekku unlocks in Biome 1 (Sublime Garden) and immediately becomes the team's finisher. Her slower pace is offset by multi-hit attacks, shield breaking, and the strongest slam damage in the roster.",
-      "cards": [
+      "eyebrow": "Character",
+      "subtitle": "Ekku is the heavy hitter of Morbid Metal's current roster. This guide centers on crowd clearing, shield breaking, stun-based setups, and the moments where Ekku should take over a fight instead of Flux.",
+      "intro": "Ekku is the roster's brawler and pressure breaker. Official character coverage describes Ekku with the simple idea of big swings, big slams, and big damage, and current guide coverage repeatedly positions Ekku as the best answer to crowds, heavy enemies, shields, and boss windows where raw impact matters more than speed.",
+      "items": [
         {
-          "name": "Role: Finisher and Shield Breaker",
-          "description": "Ekku's job is to cash out the setups created by Flux and Vekta. She excels at grouped enemies, shielded heavies, and punish windows after boss attacks."
+          "title": "Combat identity",
+          "kicker": "Heavy crowd-control bruiser",
+          "description": "Ekku trades speed for force and is most valuable when the fight needs stun, shield damage, or a hard finisher.",
+          "highlights": [
+            "Best against heavies and grouped enemies",
+            "Strong at shield breaking",
+            "More forgiving for players learning telegraphs",
+            "Excellent for ending a combo after another character starts it"
+          ]
         },
         {
-          "name": "Best Skills",
-          "description": "Upslam (220 damage, 14s cooldown) is preferred over Ground Shatter because it launches targets and opens airborne routes. Seismic Rift (up to 1100 damage) is the best boss damage option when paired with a reliable punish window."
+          "title": "Signature tools",
+          "kicker": "Stun and slam package",
+          "description": "Ekku's most consistent tools are Ground Cleave or other launch-and-stun openers, Echo Strike, and Seismic Rift.",
+          "highlights": [
+            "Ground Cleave / launch tools: set up enemies for aerial routes",
+            "Echo Strike: reliable wide swings for efficient clearing",
+            "Seismic Rift: signature high-impact line attack for big punish windows",
+            "Juggernaut passive: rewards Ekku's stun-and-smash game plan"
+          ]
         },
         {
-          "name": "Shield and Heavy Specialist",
-          "description": "When enemies have shields or high poise, swap to Ekku. Her attack weight and multi-hit patterns break defensive stances faster than Flux or Vekta. Heavies that survive the first room are almost always Ekku targets."
+          "title": "Best practical play pattern",
+          "kicker": "Swap in when the screen gets heavy",
+          "description": "Ekku should not lead every encounter, but Ekku is often the best answer once enemies bunch up or shields appear.",
+          "highlights": [
+            "Use Ekku when enemies stack on top of each other",
+            "Swap in for shields, elites, and boss punish windows",
+            "Launch or stun first, then decide whether to stay in or hand the route back to Flux",
+            "Do not overstay against fast single targets when mobility matters more"
+          ]
         },
         {
-          "name": "Slam Combo Finisher",
-          "description": "The core use of Ekku in a swap combo is to enter after Flux has launched a target and finish with a slam. This two-step sequence is the most reliable high-damage window in the early game and scales well with Skill Issue upgrades."
+          "title": "Best team synergies",
+          "kicker": "Ekku is the closer",
+          "description": "Ekku shines when another form creates position or airtime first.",
+          "highlights": [
+            "Flux can chase launched enemies, then Ekku returns for the downward finish",
+            "Vekta can group enemies so Ekku's slam covers more targets",
+            "Ekku into Flux is strong for boss punish sequences",
+            "Vekta into Ekku is strong for add control and room cleanup"
+          ]
         }
       ]
     },
     "morbidMetalVektaGuide": {
       "title": "Morbid Metal Vekta Guide",
-      "eyebrow": "Ranged Control",
-      "subtitle": "Vekta is the team's ranged specialist and screen stabilizer. Learning when to swap into Vekta prevents most of the chip damage that comes from chaotic room states.",
-      "intro": "Vekta unlocks in Biome 2 and completes the team's full rotation. Her ranged projectiles, cybernetic shurikens, and force-pull style control add a completely different pace to encounters.",
-      "cards": [
+      "eyebrow": "Character",
+      "subtitle": "Vekta is the control character in Morbid Metal's team-switching combat. This guide is built around ranged pressure, pull-based setup play, and the support routes that make Flux and Ekku hit harder and safer.",
+      "intro": "Vekta brings the roster's clearest space-control identity. Official pre-Early-Access coverage describes Vekta as a ranged fighter using precise shurikens to control space, while current guide coverage highlights magnetic pull tools, ranged chip pressure, and the ability to stabilize chaotic fights before handing enemies to Flux or Ekku for conversion.",
+      "items": [
         {
-          "name": "Role: Ranged Stabilizer",
-          "description": "Vekta's job is to reset the pace when rooms get chaotic. Swap into Vekta when enemies are spreading out, when ranged threats are dominating the screen, or when you need to group targets for Ekku's area attacks."
+          "title": "Combat identity",
+          "kicker": "Ranged controller and setup specialist",
+          "description": "Vekta is the safest form for controlling tempo, spacing, and target grouping.",
+          "highlights": [
+            "Only ranged-focused member of the trio",
+            "Best for space control and safe pressure",
+            "Excellent for organizing messy fights before committing",
+            "Strong support pick rather than a pure face-tank damage dealer"
+          ]
         },
         {
-          "name": "Best Use Cases",
-          "description": "Flying enemies, off-screen ranged attackers, and rooms with many small enemies are all Vekta situations. Her projectiles let you deal damage from positions where melee would be unsafe, preserving your health for the biome boss."
+          "title": "Signature tools",
+          "kicker": "Pull, pressure, reposition",
+          "description": "Current coverage centers Vekta around shuriken pressure, magnetic control, and utility that shapes the next character swap.",
+          "highlights": [
+            "Precise shuriken attacks for ranged pressure",
+            "Magnetic pull tools for grouping or isolating enemies",
+            "Push-or-repulse utility to create breathing room",
+            "Best used to set enemy states rather than tunnel on solo damage"
+          ]
         },
         {
-          "name": "Team Setup Role",
-          "description": "Vekta is most valuable when used as a bridge between Flux's opener and Ekku's finisher. After Flux creates the initial stagger, bring Vekta in to group targets at range and line them up before committing Ekku's area slam."
+          "title": "Best practical play pattern",
+          "kicker": "Control first, convert second",
+          "description": "Use Vekta to slow the room down, group the right targets, and open safer combo starts.",
+          "highlights": [
+            "Chip from range while repositioning",
+            "Pull priority enemies into a clean punish window",
+            "Use Vekta when melee pressure gets messy",
+            "Swap out once the room is organized for a bigger burst character"
+          ]
         },
         {
-          "name": "Skill Options",
-          "description": "Vekta's cybernetic shurikens and force-pull mechanics make her the best option for hitting multiple targets simultaneously. Focus her Routine picks around projectile damage amplification and screen control to maximize her team support value."
+          "title": "Best team synergies",
+          "kicker": "The best setup partner in the roster",
+          "description": "Vekta's value spikes when you follow control with a fast or heavy conversion.",
+          "highlights": [
+            "Vekta pull into Flux blink is a natural extension route",
+            "Vekta grouping into Ekku slam is the clean crowd-clear sequence",
+            "Useful for add control and ranged stabilization",
+            "Best partner for players who want smoother, lower-risk combo starts"
+          ]
         }
       ]
     }

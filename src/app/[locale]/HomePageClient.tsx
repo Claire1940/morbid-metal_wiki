@@ -890,14 +890,27 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.morbidMetalDemoGuide.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.morbidMetalDemoGuide.faqs.map((faq: any, index: number) => (
-              <details key={index} className="group border border-border rounded-xl overflow-hidden">
-                <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-white/5 transition-colors list-none">
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 ml-3" />
+          <div className="scroll-reveal space-y-3">
+            {t.modules.morbidMetalDemoGuide.items.map((item: any, index: number) => (
+              <details key={index} className="group border border-border rounded-xl overflow-hidden bg-card">
+                <summary className="flex items-center justify-between gap-4 p-5 cursor-pointer hover:bg-white/5 transition-colors list-none">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[hsl(var(--nav-theme)/0.15)] flex items-center justify-center text-xs font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+                    <span className="font-semibold">{item.title}</span>
+                  </div>
+                  <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 text-muted-foreground" />
                 </summary>
-                <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
+                <div className="border-t border-border px-5 py-4">
+                  <p className="text-sm text-muted-foreground mb-3">{item.summary}</p>
+                  <ul className="space-y-1.5">
+                    {item.bullets.map((bullet: string, bIdx: number) => (
+                      <li key={bIdx} className="flex items-start gap-2 text-sm">
+                        <Check className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                        <span className="text-muted-foreground">{bullet}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </details>
             ))}
           </div>
@@ -917,14 +930,21 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.morbidMetalFluxGuide.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
-            {t.modules.morbidMetalFluxGuide.cards.map((card: any, index: number) => (
+            {t.modules.morbidMetalFluxGuide.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-base text-[hsl(var(--nav-theme-light))] mb-3">
-                  <LinkedTitle linkData={moduleLinkMap[`morbidMetalFluxGuide::cards::${index}`]} locale={locale}>
-                    {card.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-sm text-muted-foreground">{card.description}</p>
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))]">{item.kicker}</span>
+                </div>
+                <h3 className="font-bold text-base mb-2">{item.title}</h3>
+                <p className="text-sm text-muted-foreground mb-3">{item.description}</p>
+                <ul className="space-y-1.5">
+                  {item.highlights.map((h: string, hIdx: number) => (
+                    <li key={hIdx} className="flex items-start gap-2 text-sm">
+                      <Check className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="text-muted-foreground">{h}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
@@ -944,14 +964,21 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.morbidMetalEkkuGuide.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
-            {t.modules.morbidMetalEkkuGuide.cards.map((card: any, index: number) => (
+            {t.modules.morbidMetalEkkuGuide.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-base text-[hsl(var(--nav-theme-light))] mb-3">
-                  <LinkedTitle linkData={moduleLinkMap[`morbidMetalEkkuGuide::cards::${index}`]} locale={locale}>
-                    {card.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-sm text-muted-foreground">{card.description}</p>
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))]">{item.kicker}</span>
+                </div>
+                <h3 className="font-bold text-base mb-2">{item.title}</h3>
+                <p className="text-sm text-muted-foreground mb-3">{item.description}</p>
+                <ul className="space-y-1.5">
+                  {item.highlights.map((h: string, hIdx: number) => (
+                    <li key={hIdx} className="flex items-start gap-2 text-sm">
+                      <Check className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="text-muted-foreground">{h}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
@@ -971,14 +998,21 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.morbidMetalVektaGuide.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
-            {t.modules.morbidMetalVektaGuide.cards.map((card: any, index: number) => (
+            {t.modules.morbidMetalVektaGuide.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-base text-[hsl(var(--nav-theme-light))] mb-3">
-                  <LinkedTitle linkData={moduleLinkMap[`morbidMetalVektaGuide::cards::${index}`]} locale={locale}>
-                    {card.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-sm text-muted-foreground">{card.description}</p>
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))]">{item.kicker}</span>
+                </div>
+                <h3 className="font-bold text-base mb-2">{item.title}</h3>
+                <p className="text-sm text-muted-foreground mb-3">{item.description}</p>
+                <ul className="space-y-1.5">
+                  {item.highlights.map((h: string, hIdx: number) => (
+                    <li key={hIdx} className="flex items-start gap-2 text-sm">
+                      <Check className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="text-muted-foreground">{h}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
