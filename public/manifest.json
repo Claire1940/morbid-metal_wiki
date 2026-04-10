@@ -1,12 +1,14 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Morbid Metal Wiki - Characters, Bosses & Progression",
+  "short_name": "Morbid Metal",
+  "description": "Morbid Metal hub for characters, bosses, builds, upgrades, biomes, and progression tips. Track official updates, reviews, and Steam launch info.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#d97706",
   "background_color": "#0a0a0a",
+  "lang": "en",
+  "categories": ["games", "entertainment"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
