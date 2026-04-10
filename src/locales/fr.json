@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Fabrication",
-    "items": "Objets",
-    "biomes": "Biomes",
-    "building": "Construction",
-    "support": "Support"
+    "characters": "Morbid Metal Personnages",
+    "feature": "Morbid Metal Fonctionnalités",
+    "guide": "Morbid Metal Guide",
+    "platform": "Morbid Metal Plateformes",
+    "purchase": "Morbid Metal Achat",
+    "review": "Morbid Metal Avis",
+    "trailer": "Morbid Metal Bandes-annonces"
   },
   "common": {
     "home": "Accueil",

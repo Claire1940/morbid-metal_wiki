@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "characters": "Morbid Metal Персонажи",
+    "feature": "Morbid Metal Функции",
+    "guide": "Morbid Metal Руководство",
+    "platform": "Morbid Metal Платформы",
+    "purchase": "Morbid Metal Покупка",
+    "review": "Morbid Metal Обзоры",
+    "trailer": "Morbid Metal Трейлеры"
   },
   "common": {
     "home": "Главная",

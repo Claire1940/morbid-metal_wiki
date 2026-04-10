@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "characters": "Morbid Metal Karakterler",
+    "feature": "Morbid Metal Özellikler",
+    "guide": "Morbid Metal Rehber",
+    "platform": "Morbid Metal Platformlar",
+    "purchase": "Morbid Metal Satın Al",
+    "review": "Morbid Metal İncelemeler",
+    "trailer": "Morbid Metal Fragmanlar"
   },
   "common": {
     "home": "Ana Sayfa",

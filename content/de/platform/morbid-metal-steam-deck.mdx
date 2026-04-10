@@ -1,0 +1,115 @@
+export const metadata = {
+  title: "Morbid Metal Steam Deck: Performance-Guide & Beste Einstellungen 2026",
+  description: "Meistern Sie Morbid Metal auf dem Steam Deck mit unserem Leitfaden für optimierte Einstellungen. Erfahren Sie, wie Sie im Jahr 2026 mit Lossless Scaling und FSR 60 FPS erreichen.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Morbid+Metal+Steam+Deck+Guide",
+  date: "2026-04-10",
+  author: "Morbid Metal Wiki Team"
+}
+
+Die Ankunft dieses rasanten, gestaltwandelnden Action-Roguelikes hat bei Handheld-Enthusiasten großes Interesse geweckt, insbesondere bei denjenigen, die ihr **Morbid Metal Steam Deck** Erlebnis optimieren möchten. Als Early-Access-Titel fordert das Spiel die Hardware mit seinen schnellen Kämpfen und detaillierten Charaktermodellen heraus und verlangt ein sorgfältiges Gleichgewicht zwischen visueller Treue und Bildratenstabilität. Spieler müssen sich oft zwischen der rohen Intensität der Kämpfe und der Klarheit des Bildschirms entscheiden.
+
+Die Optimierung des **Morbid Metal Steam Deck** Setups erfordert ein Verständnis der aktuellen technischen Grenzen der Spiel-Engine, insbesondere deren Abhängigkeit von älteren Upscaling-Technologien. Während das Spiel eine viszerale Erfahrung bietet, die an Klassiker wie Ninja Gaiden erinnert, erfordert das Erreichen von stabilen 60 FPS auf Valves Handheld einige strategische Anpassungen. In diesem umfassenden Guide werden wir die besten Einstellungen, die Auswirkungen von FSR 1 und die Nutzung externer Tools erläutern, um sicherzustellen, dass Ihre Jagd flüssig und reaktionsschnell bleibt.
+
+## Morbid Metal Steam Deck Performance-Übersicht
+
+In seinem aktuellen Early-Access-Zustand ist das Spiel überraschend gut spielbar, erfordert jedoch spezifische Konfigurationen, um intensive Kampfsituationen zu bewältigen. Die größte Herausforderung für Nutzer des **Morbid Metal Steam Deck** ist der derzeitige Mangel an nativer FSR 3- oder Frame-Generation-Unterstützung. Stattdessen setzt das Spiel auf FSR 1, was in den Modi "Ultra Performance" zu einer gewissen Körnigkeit führen kann.
+
+Trotz dieser Hürden hält das Spiel in schweren Kampfszenarien auf niedrigen Voreinstellungen respektable 40 bis 50 FPS. In ruhigeren Bereichen der Spielwelt sind 60 FPS durchaus möglich. Da die Kämpfe jedoch so schnell sind, kann jeder Einbruch der Bildrate schnell zum Tod führen, weshalb Stabilität wichtiger ist als Spitzenperformance.
+
+| Performance-Metrik | Erwartetes Ergebnis (Niedrig) | Erwartetes Ergebnis (Mittel) |
+| :--- | :--- | :--- |
+| **Durchschnittliche FPS (Nativ)** | 45 - 55 FPS | 30 - 40 FPS |
+| **Intensiver Kampf FPS** | 35 - 45 FPS | 25 - 30 FPS |
+| **Eingabelatenz** | Niedrig | Moderat |
+| **Visuelle Klarheit** | Leicht körnig | Scharf |
+
+## Optimierte Grafikeinstellungen für das Handheld-Spiel
+
+Um das Beste aus Ihren **Morbid Metal Steam Deck** Sessions herauszuholen, sollten Sie Performance-Einstellungen priorisieren, die Ruckler minimieren. Das Preset "Niedrig" ist der zuverlässigste Ausgangspunkt, aber Sie können bestimmte Einstellungen selektiv erhöhen, wenn Sie Upscaling-Tools verwenden.
+
+| Einstellung | Empfohlener Wert | Auswirkung auf Performance |
+| :--- | :--- | :--- |
+| **Auflösung** | 1280x800 | Native Deck-Auflösung |
+| **Grafik-Preset** | **Niedrig / Benutzerdefiniert** | Hoch |
+| **FSR-Modus** | Performance | Hohe Verbesserung |
+| **Texturqualität** | Mittel | Geringe Auswirkung |
+| **Schattenqualität** | Niedrig | Hohe Auswirkung |
+| **Anti-Aliasing** | Aus (wenn FSR an ist) | Moderat |
+
+> **💡 Tipp:** Vermeiden Sie die FSR-Einstellung "Ultra Performance", wenn Sie das Bild als zu körnig empfinden. Die Einstellung "Performance" bietet eine viel bessere Balance für den 7-Zoll-Bildschirm des Decks.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/dqaOMR5Csn0"
+    title="Morbid Metal Just Released On The Steam Deck! Is It Playable?"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Lossless Scaling für 60 FPS nutzen
+
+Einer der effektivsten Wege, **Morbid Metal Steam Deck** mit konstanten 60 FPS zu spielen, ist der Einsatz des Tools "Lossless Scaling", das auf [Steam](https://store.steampowered.com/app/993090/Lossless_Scaling/) erhältlich ist. Da das Spiel keine integrierte Frame-Generation besitzt, kann dieses externe Dienstprogramm die Lücke schließen.
+
+Wenn Sie Lossless Scaling verwenden, können Sie es sich leisten, die spielinternen Einstellungen auf das **Mittlere Preset** zu erhöhen. Dies ermöglicht ein viel saubereres visuelles Erlebnis, während das Skalierungstool die Frame-Interpolation übernimmt. Überraschenderweise ist die zusätzliche Latenz durch Lossless Scaling selbst in einem so schnellen Spiel minimal und während des normalen Gameplays oft unbemerkt.
+
+### Schritte zur Konfiguration von Lossless Scaling:
+1. Starten Sie das Spiel und stellen Sie es auf den **Fenstermodus** bei 1280x800 oder 1024x640 ein.
+2. Öffnen Sie die Lossless Scaling App.
+3. Stellen Sie den Skalierungsmodus auf "Auto" und den Skalierungstyp auf "LS1" oder "FSR".
+4. Aktivieren Sie **Frame Generation (LSFG)**.
+5. Kehren Sie zum Spiel zurück und lösen Sie das Skalierungs-Kürzel aus.
+
+| Feature | Ohne Lossless Scaling | Mit Lossless Scaling |
+| :--- | :--- | :--- |
+| **Visuelles Preset** | Niedrig | **Mittel** |
+| **Bildrate** | 40-50 FPS | **60 FPS (Stabil)** |
+| **Akkuverbrauch** | Moderat | Etwas höher |
+| **Bildstabilität** | Variabel | **Konsistent** |
+
+## Kampf- und Gameplay-Mechaniken auf dem Deck
+
+Das Spielen von **Morbid Metal Steam Deck** fühlt sich sehr ähnlich an wie bei rasanten Character-Action-Games. Sie übernehmen die Kontrolle über verschiedene "Metal"-Formen, jede mit einzigartigen Fähigkeiten und Waffen. Die Kernmechanik besteht darin, mitten in einer Combo zwischen diesen Formen zu wechseln, um gegnerische Schwächen auszunutzen.
+
+Auf dem kleineren Bildschirm des Steam Decks ist es relativ einfach, diese Transformationen im Auge zu behalten, aber die intensiven Partikeleffekte während der Bosskämpfe können gelegentlich ankommende Angriffe verdecken. Da man sehr leicht sterben kann, ist es wichtig, die Rücktasten (L4/L5/R4/R5) mit den Tasten für Ausweichen und Transformation zu belegen. So können Sie Ihre Daumen jederzeit auf den Sticks lassen, was für die 360-Grad-Kampfumgebung unerlässlich ist.
+
+> **⚠️ Warnung:** Das Spiel befindet sich derzeit im Early Access. Es kann gelegentlich zu Abstürzen oder UI-Fehlern kommen, wenn das Steam Deck aus dem Ruhemodus geweckt wird. Es wird empfohlen, häufig an Checkpoints zu speichern.
+
+## Akkulaufzeit und Wärmemanagement
+
+Aufgrund der intensiven 3D-Umgebungen des Spiels liegt die Akkulaufzeit beim **Morbid Metal Steam Deck** typischerweise zwischen 1,5 und 2,5 Stunden beim Standard-LCD-Modell und etwas länger bei der OLED-Variante. Um Ihre Spielzeit zu verlängern, sollten Sie in Erwägung ziehen, die TDP (Thermal Design Power) im Steam-Schnellzugriffsmenü zu begrenzen.
+
+| TDP-Limit | Performance-Auswirkung | Akkulaufzeit-Verlängerung |
+| :--- | :--- | :--- |
+| **15W (Max)** | Keine | Basiswert (ca. 90 Min.) |
+| **12W** | Minimal | +20 Minuten |
+| **10W** | Spürbar bei Bossen | +45 Minuten |
+
+Wenn Sie die oben erwähnte Lossless Scaling-Methode verwenden, sollten Sie die TDP bei 12W oder höher halten, um sicherzustellen, dass die CPU genug Spielraum hat, um den Frame-Generation-Prozess ohne Ruckler zu bewältigen.
+
+## Zukünftige Updates und Erwartungen
+
+Die Entwickler haben angedeutet, dass Performance-Optimierungen während der gesamten Early-Access-Phase Priorität haben. Für Nutzer des **Morbid Metal Steam Deck** wäre das am sehnlichsten erwartete Update die Implementierung von FSR 2.1 oder FSR 3. Diese neueren Versionen der AMD-Upscaling-Technologie bieten eine deutlich bessere zeitliche Stabilität, was den körnigen "Schimmereffekt" eliminieren würde, der derzeit bei FSR 1 auftritt.
+
+Darüber hinaus erwarten wir mit dem Weg zur vollständigen 1.0-Veröffentlichung Ende 2026 eine bessere Steam Deck-Verifizierung. Während das Spiel derzeit als "Spielbar" eingestuft ist, bringt der offizielle "Verifiziert"-Status normalerweise ein optimiertes Shader-Caching mit sich, was die kleineren Ruckler beim Wechsel zwischen großen Arenazonen beseitigen würde.
+
+## FAQ
+
+**F: Ist Morbid Metal Steam Deck Verifiziert?**
+
+A: Stand Anfang 2026 ist das Spiel als "Spielbar" klassifiziert. Es läuft gut mit manuellen Einstellungen, obwohl einige Texte auf dem Handheld-Bildschirm klein erscheinen könnten und für bestimmte Namensfunktionen die Bildschirmtastatur erforderlich ist.
+
+**F: Wie behebe ich die körnige Grafik auf dem Steam Deck?**
+
+A: Körnigkeit wird meist durch die FSR 1-Einstellung "Ultra Performance" verursacht. Um dies zu beheben, ändern Sie Ihre FSR-Einstellung auf "Qualität" oder "Ausbalanciert" oder schalten Sie das spielinterne FSR ganz aus und nutzen Sie das systemweite FSR des Steam Decks im Schnellzugriffsmenü.
+
+**F: Unterstützt das Spiel Cloud-Saves zwischen PC und Steam Deck?**
+
+A: Ja, das Spiel unterstützt Steam Cloud, sodass Sie nahtlos zwischen Ihrem Desktop-PC und Ihrem **Morbid Metal Steam Deck** Setup wechseln können, ohne den Fortschritt in Ihren Roguelike-Runs zu verlieren.
+
+**F: Was ist der beste Weg, um konstante 60 FPS zu erreichen?**
+
+A: Die zuverlässigste Methode ist die Verwendung der Lossless Scaling App mit aktivierter Frame Generation. Stellen Sie die Bildrate im Spiel auf 30 FPS ein und lassen Sie das Skalierungstool diese auf flüssige 60 FPS verdoppeln.

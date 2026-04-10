@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "characters": "Morbid Metal キャラクター",
+    "feature": "Morbid Metal 機能",
+    "guide": "Morbid Metal ガイド",
+    "platform": "Morbid Metal プラットフォーム",
+    "purchase": "Morbid Metal 購入",
+    "review": "Morbid Metal レビュー",
+    "trailer": "Morbid Metal トレーラー"
   },
   "common": {
     "home": "ホーム",

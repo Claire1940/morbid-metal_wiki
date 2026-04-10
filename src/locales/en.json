@@ -10,7 +10,15 @@
       "twitterDescription": "Morbid Metal hub for characters, bosses, builds, upgrades, biomes, and progression tips. Track official updates, reviews, and Steam launch info."
     }
   },
-  "nav": {},
+  "nav": {
+    "characters": "Morbid Metal Characters",
+    "feature": "Morbid Metal Features",
+    "guide": "Morbid Metal Guide",
+    "platform": "Morbid Metal Platforms",
+    "purchase": "Morbid Metal Purchase",
+    "review": "Morbid Metal Reviews",
+    "trailer": "Morbid Metal Trailers"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1146,165 +1154,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "beginner": {
-      "title": "Morbid Metal Beginner Guides",
-      "description": "Essential beginner guides for Morbid Metal. Learn the combat basics, character rotation, upgrade priorities, and how to survive your first runs.",
-      "metaTitle": "Morbid Metal Beginner Guide - Tips, Tricks & First Run Strategies",
-      "metaDescription": "Complete beginner guides for Morbid Metal covering combat basics, character swapping, permanent upgrade priorities, and early biome survival tips.",
-      "categoryLabel": "BEGINNER GUIDES",
-      "whatIs": "What are Beginner Guides?",
-      "whatIsDescription": "Practical guides covering the basics of surviving in Morbid Metal. Learn the swap system, upgrade priorities, and how to beat the first biome boss.",
-      "why": "Why read beginner guides?",
-      "whySteps": {
-        "step1Title": "Learn the Swap System",
-        "step1Description": "Understand how to rotate between Flux, Ekku, and Vekta effectively",
-        "step2Title": "Prioritize Upgrades",
-        "step2Description": "Spend Void Matter on the upgrades that improve consistency fastest",
-        "step3Title": "Survive Early Biomes",
-        "step3Description": "Learn target priority, healing routing, and boss dodge timing"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Beginner Guides"
-    },
     "characters": {
       "title": "Morbid Metal Characters",
-      "description": "Character guides for Flux, Ekku, and Vekta in Morbid Metal. Discover each character's role, best skills, unlock timing, and team rotation strategies.",
+      "description": "Complete guide to all Morbid Metal characters. Learn about Flux, Ekku, Vekta and other playable forms with in-depth stats, abilities, and combat strategies.",
       "metaTitle": "Morbid Metal Characters - Flux, Ekku & Vekta Guide",
-      "metaDescription": "Complete character guides for Morbid Metal including Flux, Ekku, and Vekta. Learn each character's role, best skills, combo routes, and team rotation strategy.",
+      "metaDescription": "Detailed Morbid Metal character guides covering Flux, Ekku, and Vekta. Learn each character form, ability synergies, and the best strategies for surviving the roguelite.",
       "categoryLabel": "CHARACTERS",
-      "whatIs": "What are Character Guides?",
-      "whatIsDescription": "Detailed breakdowns of each playable character in Morbid Metal. Understand roles, skill choices, unlock timing, and how each character fits into the team.",
+      "whatIs": "What are Morbid Metal Characters?",
+      "whatIsDescription": "Morbid Metal characters are the shapeshifting combat forms you master throughout your runs. Each form - Flux, Ekku, and Vekta - has unique abilities, playstyles, and synergies that define your strategy.",
       "why": "Why read character guides?",
       "whySteps": {
-        "step1Title": "Understand Roles",
-        "step1Description": "Learn why Flux opens, Ekku finishes, and Vekta stabilizes",
-        "step2Title": "Pick Best Skills",
-        "step2Description": "Choose the strongest Protocol options for each character",
-        "step3Title": "Build Team Combos",
-        "step3Description": "Develop swap sequences that maximize your damage output"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Character Guides"
-    },
-    "combos": {
-      "title": "Morbid Metal Combos",
-      "description": "Combo and skill guides for Morbid Metal. Master the best swap sequences, character loadouts, and Routine synergies for high-damage runs.",
-      "metaTitle": "Morbid Metal Best Combos - Skills, Loadouts & Swap Routes",
-      "metaDescription": "Morbid Metal combo and skill guides covering the best swap routes, character loadouts, Routine synergies, and high-damage sequences for every playstyle.",
-      "categoryLabel": "COMBOS & SKILLS",
-      "whatIs": "What are Combo Guides?",
-      "whatIsDescription": "Practical skill and combo guides that break down the strongest move sequences and character loadouts for Morbid Metal's current Early Access build.",
-      "why": "Why master combos?",
-      "whySteps": {
-        "step1Title": "Maximize Damage",
-        "step1Description": "Execute launch sequences and cooldown cycling for peak DPS",
-        "step2Title": "Learn Swap Timing",
-        "step2Description": "Know exactly when to switch characters for maximum efficiency",
+        "step1Title": "Master Each Form",
+        "step1Description": "Learn the unique abilities and mechanics of every playable character form",
+        "step2Title": "Optimize Swap Routes",
+        "step2Description": "Discover the best character rotation sequences to maximize your damage output",
         "step3Title": "Build Synergies",
-        "step3Description": "Combine Routines and skills that compound each other's effects"
+        "step3Description": "Understand how each character interacts with upgrades and Routine combinations"
       },
       "featured": "Featured & Essential",
-      "all": "All Combo Guides"
+      "all": "All Morbid Metal Characters"
     },
-    "upgrades": {
-      "title": "Morbid Metal Upgrades",
-      "description": "Permanent upgrade guides for Morbid Metal. Discover the best early unlocks, upgrade priority order, and Void Matter investment strategies.",
-      "metaTitle": "Morbid Metal Best Upgrades - Permanent Unlock Priority Order",
-      "metaDescription": "Complete upgrade guide for Morbid Metal. Learn which permanent upgrades to unlock first, the best Void Matter investment path, and how upgrades affect run consistency.",
-      "categoryLabel": "UPGRADES",
-      "whatIs": "What are Upgrade Guides?",
-      "whatIsDescription": "Strategic guides for Morbid Metal's permanent upgrade system. Learn which hub upgrades to prioritize, how to build your progression path, and what each unlock changes.",
-      "why": "Why follow upgrade guides?",
+    "feature": {
+      "title": "Morbid Metal Features",
+      "description": "Explore the core features of Morbid Metal including gameplay mechanics, co-op mode, shapeshifting systems, and combat depth in this dark sci-fi roguelite.",
+      "metaTitle": "Morbid Metal Features - Gameplay, Co-op & Combat Systems",
+      "metaDescription": "Deep dive into Morbid Metal game features including the shapeshifting mechanic, co-op gameplay, combat system, and roguelite progression for Early Access 2026.",
+      "categoryLabel": "FEATURES",
+      "whatIs": "What are Morbid Metal Features?",
+      "whatIsDescription": "Morbid Metal features include its signature shapeshifting combat system, seamless co-op, deep roguelite progression, and stylish hack-and-slash gameplay set in a dark sci-fi world.",
+      "why": "Why explore game features?",
       "whySteps": {
-        "step1Title": "Save Void Matter",
-        "step1Description": "Avoid wasting permanent currency on low-impact early upgrades",
-        "step2Title": "Improve Consistency",
-        "step2Description": "Unlock the nodes that make every run start stronger",
-        "step3Title": "Plan Your Path",
-        "step3Description": "Map out your upgrade tree from early to late progression"
+        "step1Title": "Understand Core Mechanics",
+        "step1Description": "Learn how the shapeshifting system, combos, and Routines work together",
+        "step2Title": "Plan Your Co-op Strategy",
+        "step2Description": "Coordinate with partners using character swap synergies and shared progression",
+        "step3Title": "Discover Hidden Depth",
+        "step3Description": "Unlock the strategic layer beneath the fast-paced surface combat"
       },
       "featured": "Featured & Essential",
-      "all": "All Upgrade Guides"
+      "all": "All Morbid Metal Features"
     },
-    "bosses": {
-      "title": "Morbid Metal Boss Guides",
-      "description": "Boss guides for Morbid Metal. Learn attack patterns, phase transitions, dodge timing, and the best character to use for each boss fight.",
-      "metaTitle": "Morbid Metal Boss Guide - Attack Patterns & Strategies",
-      "metaDescription": "Complete boss guides for Morbid Metal covering attack patterns, phase transitions, dodge timing, and recommended character loadouts for every boss encounter.",
-      "categoryLabel": "BOSS GUIDES",
-      "whatIs": "What are Boss Guides?",
-      "whatIsDescription": "Detailed guides for every boss in Morbid Metal. Learn when to dodge, when to trade, which character to use in each phase, and how to handle phase transitions.",
-      "why": "Why use boss guides?",
+    "guide": {
+      "title": "Morbid Metal Guide",
+      "description": "In-depth Morbid Metal guides covering builds, strategies, upgrade priorities, and tips for surviving the roguelite progression in Early Access 2026.",
+      "metaTitle": "Morbid Metal Guide - Builds, Strategies & Tips 2026",
+      "metaDescription": "Complete Morbid Metal guides for all skill levels. Master builds, upgrade priorities, boss strategies, and roguelite mechanics in this dark sci-fi action game.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Morbid Metal Guides?",
+      "whatIsDescription": "Morbid Metal guides provide detailed walkthroughs, build recommendations, and strategic tips to help you progress through increasingly difficult biomes and bosses.",
+      "why": "Why read Morbid Metal guides?",
       "whySteps": {
-        "step1Title": "Read Attack Patterns",
-        "step1Description": "Learn the tells and timing for every boss attack string",
-        "step2Title": "Plan Your Characters",
-        "step2Description": "Know which character handles each boss phase best",
-        "step3Title": "Perfect Punish Windows",
-        "step3Description": "Identify the safe moments to burst and cash out damage"
+        "step1Title": "Optimize Your Build",
+        "step1Description": "Discover the strongest build synergies including bleed, burst, and support setups",
+        "step2Title": "Clear Biomes Faster",
+        "step2Description": "Learn efficient routing and enemy priority for each area of the game",
+        "step3Title": "Beat Bosses Consistently",
+        "step3Description": "Study boss patterns and dodge timing to clear encounters without dying"
       },
       "featured": "Featured & Essential",
-      "all": "All Boss Guides"
+      "all": "All Morbid Metal Guides"
     },
-    "biomes": {
-      "title": "Morbid Metal Biomes",
-      "description": "Biome guides for Morbid Metal. Explore each area's layout, enemy types, hidden paths, and resource locations across the game's dark sci-fi world.",
-      "metaTitle": "Morbid Metal Biomes - Areas, Enemies & Exploration Guide",
-      "metaDescription": "Complete biome guides for Morbid Metal. Learn each area's layout, enemy pressure points, hidden routes, and resource locations to optimize your run progression.",
-      "categoryLabel": "BIOMES",
-      "whatIs": "What are Biome Guides?",
-      "whatIsDescription": "Area guides covering each Morbid Metal biome's layout, enemy density, hidden paths, and the best way to route through them before the boss fight.",
-      "why": "Why read biome guides?",
+    "platform": {
+      "title": "Morbid Metal Platforms",
+      "description": "Morbid Metal platform guides for Steam, Steam Deck, and PS5. Includes performance tips, system requirements, controller support, and compatibility details.",
+      "metaTitle": "Morbid Metal Platforms - Steam, Steam Deck & PS5 Guide",
+      "metaDescription": "Platform-specific guides for Morbid Metal on Steam, Steam Deck, and PS5. Covers performance settings, system requirements, controller support, and launch details.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are Morbid Metal Platforms?",
+      "whatIsDescription": "Morbid Metal is available on Steam for PC, with Steam Deck compatibility and potential console expansion. Each platform has its own setup, performance considerations, and control options.",
+      "why": "Why check platform guides?",
       "whySteps": {
-        "step1Title": "Learn Hidden Routes",
-        "step1Description": "Find side paths and hidden Repositories for bonus resources",
-        "step2Title": "Understand Enemy Types",
-        "step2Description": "Know which characters to use against each biome's threats",
-        "step3Title": "Optimize Progression",
-        "step3Description": "Enter every boss fight with a Corpora advantage"
+        "step1Title": "Optimize Performance",
+        "step1Description": "Find the best graphics settings for your hardware to maintain smooth frame rates",
+        "step2Title": "Steam Deck Ready",
+        "step2Description": "Verify compatibility and adjust controls for handheld play on Steam Deck",
+        "step3Title": "Controller Support",
+        "step3Description": "Configure controller bindings for the best Morbid Metal experience on any platform"
       },
       "featured": "Featured & Essential",
-      "all": "All Biome Guides"
+      "all": "All Morbid Metal Platform Guides"
     },
-    "performance": {
-      "title": "Morbid Metal Performance Guides",
-      "description": "Performance and technical guides for Morbid Metal. Optimize your settings, check Steam Deck compatibility, and resolve common technical issues.",
-      "metaTitle": "Morbid Metal Performance Guide - Best Settings & Steam Deck",
-      "metaDescription": "Morbid Metal performance guides covering best graphics settings, Steam Deck setup, controller configuration, system requirements, and common technical fixes.",
-      "categoryLabel": "PERFORMANCE",
-      "whatIs": "What are Performance Guides?",
-      "whatIsDescription": "Technical guides for getting the best experience in Morbid Metal. Covers optimal settings for different hardware, Steam Deck compatibility, and controller setup.",
-      "why": "Why check performance guides?",
+    "purchase": {
+      "title": "Morbid Metal Purchase",
+      "description": "Everything about buying Morbid Metal including release date, Early Access price, what is included, and how to get started on Steam.",
+      "metaTitle": "Morbid Metal Purchase - Price, Early Access & Release Date",
+      "metaDescription": "Find out how to buy Morbid Metal on Steam. Learn about the Early Access price, what content is available, release date details, and future roadmap plans.",
+      "categoryLabel": "PURCHASE",
+      "whatIs": "What is Morbid Metal Early Access?",
+      "whatIsDescription": "Morbid Metal entered Steam Early Access on April 8, 2026. Purchasing gives you immediate access to the current build with all playable characters, biomes, and roguelite content as development continues.",
+      "why": "Why buy Morbid Metal now?",
       "whySteps": {
-        "step1Title": "Optimize Settings",
-        "step1Description": "Find the best graphics balance for your specific hardware",
-        "step2Title": "Steam Deck Setup",
-        "step2Description": "Configure Proton and controls for handheld play",
-        "step3Title": "Fix Technical Issues",
-        "step3Description": "Resolve crashes, input problems, and compatibility issues"
+        "step1Title": "Full Early Access Content",
+        "step1Description": "Play all current characters, biomes, and bosses available in the Early Access build",
+        "step2Title": "Free Updates Included",
+        "step2Description": "All future Early Access patches and content additions are included with purchase",
+        "step3Title": "Support Development",
+        "step3Description": "Help shape the full release by providing feedback during the Early Access period"
       },
       "featured": "Featured & Essential",
-      "all": "All Performance Guides"
+      "all": "All Morbid Metal Purchase Info"
     },
-    "updates": {
-      "title": "Morbid Metal Updates",
-      "description": "Patch notes, update history, and roadmap coverage for Morbid Metal's Early Access development cycle.",
-      "metaTitle": "Morbid Metal Updates - Patch Notes & Roadmap",
-      "metaDescription": "Morbid Metal update coverage including patch notes, Early Access roadmap milestones, new character releases, biome additions, and developer announcements.",
-      "categoryLabel": "UPDATES",
-      "whatIs": "What are Update Guides?",
-      "whatIsDescription": "Coverage of Morbid Metal's Early Access update history and roadmap. Track what changed, what was added, and what is coming in future content drops.",
-      "why": "Why track updates?",
+    "review": {
+      "title": "Morbid Metal Reviews",
+      "description": "Honest Morbid Metal reviews covering gameplay, performance, Early Access content quality, and whether it is worth buying right now.",
+      "metaTitle": "Morbid Metal Review - Is it Worth Buying in Early Access?",
+      "metaDescription": "Read honest Morbid Metal reviews and player feedback. Covers Early Access content, performance, combat depth, and whether it is worth the price in 2026.",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "What is Morbid Metal?",
+      "whatIsDescription": "Morbid Metal is a dark sci-fi action roguelite developed by Screen Juice. It combines shapeshifting combat, stylish hack-and-slash mechanics, and deep roguelite progression in a brutalist post-apocalyptic world.",
+      "why": "Why read reviews before buying?",
       "whySteps": {
-        "step1Title": "Track Balance Changes",
-        "step1Description": "Stay current on skill adjustments and mechanic tweaks",
-        "step2Title": "Know What's New",
-        "step2Description": "Learn about new characters, biomes, and systems as they release",
-        "step3Title": "Follow the Roadmap",
-        "step3Description": "Plan around upcoming content and Early Access milestones"
+        "step1Title": "Evaluate Early Access Quality",
+        "step1Description": "Understand what content is fully polished versus still in development",
+        "step2Title": "Check Performance Reports",
+        "step2Description": "See real player feedback on frame rates, crashes, and optimization status",
+        "step3Title": "Assess Value",
+        "step3Description": "Determine if the current content justifies the price for your playstyle"
       },
       "featured": "Featured & Essential",
-      "all": "All Update Articles"
+      "all": "All Morbid Metal Reviews"
+    },
+    "trailer": {
+      "title": "Morbid Metal Trailers",
+      "description": "Watch all official Morbid Metal trailers including the Early Access launch trailer, character trailers, gameplay reveals, and release date announcements.",
+      "metaTitle": "Morbid Metal Trailers - Launch, Characters & Gameplay Videos",
+      "metaDescription": "All official Morbid Metal trailers and gameplay videos. Watch the Early Access launch trailer, character reveals, and gameplay breakdowns for the 2026 release.",
+      "categoryLabel": "TRAILERS",
+      "whatIs": "What are Morbid Metal Trailers?",
+      "whatIsDescription": "Official Morbid Metal trailers showcase the dark sci-fi aesthetic, shapeshifting combat mechanics, character reveals, and biome environments from the game.",
+      "why": "Why watch Morbid Metal trailers?",
+      "whySteps": {
+        "step1Title": "Preview Combat Mechanics",
+        "step1Description": "See the shapeshifting system, combo chains, and boss fights in action",
+        "step2Title": "Discover New Characters",
+        "step2Description": "Watch character-specific trailers revealing abilities and playstyles",
+        "step3Title": "Track Updates",
+        "step3Description": "Stay informed about new content additions through official gameplay reveals"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Morbid Metal Trailers"
     }
   }
 }
