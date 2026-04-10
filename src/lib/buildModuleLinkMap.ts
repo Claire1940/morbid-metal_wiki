@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  morbidMetalBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  morbidMetalBestUpgrades: { field: 'items', nameKey: 'upgrade' },
+  morbidMetalBestSkillsAndCombos: { field: 'cards', nameKey: 'card_title' },
+  morbidMetalCharactersGuide: { field: 'characters', nameKey: 'character' },
+  morbidMetalBossGuide: { field: 'bosses', nameKey: 'boss' },
+  morbidMetalAchievementGuide: { field: 'items', nameKey: 'achievement' },
+  morbidMetalCombatGuide: { field: 'items', nameKey: 'section' },
+  morbidMetalHowToHeal: { field: 'items', nameKey: 'label' },
+  morbidMetalBuildsGuide: { field: 'builds', nameKey: 'name' },
+  morbidMetalReleaseDateRoadmap: { field: 'entries', nameKey: 'event' },
+  morbidMetalSystemRequirements: { field: 'specs', nameKey: '' },
+  morbidMetalReviewImpressions: { field: 'reviews', nameKey: '' },
+  morbidMetalDemoGuide: { field: 'items', nameKey: 'title' },
+  morbidMetalFluxGuide: { field: 'items', nameKey: 'title' },
+  morbidMetalEkkuGuide: { field: 'items', nameKey: 'title' },
+  morbidMetalVektaGuide: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  morbidMetalBeginnerGuide: ['beginner', 'tutorial', 'starter', 'tips', 'starting'],
+  morbidMetalBestUpgrades: ['upgrades', 'dodge', 'counter', 'progression', 'best'],
+  morbidMetalBestSkillsAndCombos: ['skills', 'combos', 'loadout', 'blink strike', 'nano strike'],
+  morbidMetalCharactersGuide: ['flux', 'vekta', 'ekku', 'characters', 'roster', 'unlock'],
+  morbidMetalBossGuide: ['boss', 'saru', 'biome', 'garden', 'strategy'],
+  morbidMetalAchievementGuide: ['achievement', 'calibration', 'progression', 'unlock'],
+  morbidMetalCombatGuide: ['combat', 'swapping', 'parry', 'shapeshift', 'tips'],
+  morbidMetalHowToHeal: ['heal', 'recovery', 'emporium', 'void rift', 'health'],
+  morbidMetalBuildsGuide: ['build', 'assassin', 'loadout', 'playstyle', 'tier'],
+  morbidMetalReleaseDateRoadmap: ['release', 'roadmap', 'early access', 'launch', 'update'],
+  morbidMetalSystemRequirements: ['system', 'requirements', 'pc', 'specs', 'minimum', 'recommended'],
+  morbidMetalReviewImpressions: ['review', 'impressions', 'steam', 'rating', 'verdict'],
+  morbidMetalDemoGuide: ['demo', 'free', 'trial', 'preview'],
+  morbidMetalFluxGuide: ['flux', 'blink strike', 'fast', 'single target', 'mobility'],
+  morbidMetalEkkuGuide: ['ekku', 'crowd control', 'bruiser', 'stun', 'shield'],
+  morbidMetalVektaGuide: ['vekta', 'ranged', 'control', 'spacing'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['morbid', 'metal', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Morbid Metal")
+  const strippedQuery = normalizedQuery.replace(/morbid metal\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/morbid metal\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
@@ -159,14 +159,16 @@ export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMa
       linkMap[moduleKey] = findBestMatch(moduleTitle, allArticles, extraKw, 15)
     }
 
-    // Match sub-items
-    const subItems = moduleData[fieldConfig.field] as any[]
-    if (Array.isArray(subItems)) {
-      for (let i = 0; i < subItems.length; i++) {
-        const itemName = subItems[i]?.[fieldConfig.nameKey] as string
-        if (itemName) {
-          const key = `${moduleKey}::${fieldConfig.field}::${i}`
-          linkMap[key] = findBestMatch(itemName, allArticles)
+    // Match sub-items (skip if nameKey is empty — identifier-type fields not suitable for matching)
+    if (fieldConfig.nameKey) {
+      const subItems = moduleData[fieldConfig.field] as any[]
+      if (Array.isArray(subItems)) {
+        for (let i = 0; i < subItems.length; i++) {
+          const itemName = subItems[i]?.[fieldConfig.nameKey] as string
+          if (itemName) {
+            const key = `${moduleKey}::${fieldConfig.field}::${i}`
+            linkMap[key] = findBestMatch(itemName, allArticles)
+          }
         }
       }
     }
