@@ -8,8 +8,10 @@ import {
   ChevronDown,
   ExternalLink,
   Heart,
+  MapPin,
   MessageCircle,
   Sparkles,
+  Swords,
   TrendingUp,
   Users,
   Zap,
@@ -527,47 +529,36 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 {t.modules.morbidMetalBossGuide.title}
               </LinkedTitle>
             </h2>
+            <p className="text-sm font-medium text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.morbidMetalBossGuide.subtitle}</p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.morbidMetalBossGuide.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-5">
+          <div className="scroll-reveal space-y-6">
             {t.modules.morbidMetalBossGuide.bosses.map((boss: any, index: number) => (
-              <details key={index} className="group border border-border rounded-xl overflow-hidden">
-                <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-white/5 transition-colors list-none">
-                  <div className="flex items-center gap-3">
-                    <div className="flex-shrink-0">
-                      <span className={`text-xs px-2 py-0.5 rounded-full border ${boss.difficulty === 'Intro Boss' ? 'bg-amber-500/10 border-amber-500/30 text-amber-400' : 'bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]'}`}>{boss.difficulty}</span>
-                    </div>
-                    <div>
-                      <h3 className="font-bold">{boss.name}</h3>
-                      <p className="text-xs text-muted-foreground">{boss.biome}</p>
-                    </div>
+              <div key={index} className="border border-border rounded-xl overflow-hidden">
+                <div className="flex items-center gap-4 p-5 bg-white/[0.03] border-b border-border">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)] flex items-center justify-center">
+                    <Swords className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   </div>
-                  <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 text-muted-foreground" />
-                </summary>
-                <div className="px-5 pb-5 space-y-4">
-                  <div>
-                    <h4 className="text-sm font-semibold text-[hsl(var(--nav-theme-light))] mb-2">Phases</h4>
-                    <ul className="space-y-1">
-                      {boss.phases.map((p: string, pi: number) => (
-                        <li key={pi} className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />{p}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <p className="text-sm text-muted-foreground">{boss.strategy}</p>
-                  <div>
-                    <h4 className="text-sm font-semibold text-[hsl(var(--nav-theme-light))] mb-2">Dodge Tips</h4>
-                    <ul className="space-y-1">
-                      {boss.dodge_tips.map((tip: string, ti: number) => (
-                        <li key={ti} className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />{tip}
-                        </li>
-                      ))}
-                    </ul>
+                  <div className="flex-1">
+                    <h3 className="font-bold text-lg">{boss.boss}</h3>
+                    <p className="text-xs text-muted-foreground">{boss.biome}</p>
                   </div>
                 </div>
-              </details>
+                <div className="p-5">
+                  <p className="text-sm text-muted-foreground mb-4">{boss.summary}</p>
+                  <div className="space-y-3">
+                    {boss.sections.map((sec: any, si: number) => (
+                      <details key={si} className="group border border-border/60 rounded-lg overflow-hidden">
+                        <summary className="flex items-center justify-between px-4 py-3 cursor-pointer hover:bg-white/5 transition-colors list-none">
+                          <span className="text-sm font-semibold text-[hsl(var(--nav-theme-light))]">{sec.label}</span>
+                          <ChevronDown className="w-4 h-4 flex-shrink-0 transition-transform group-open:rotate-180 text-muted-foreground" />
+                        </summary>
+                        <div className="px-4 pb-4 pt-1 text-sm text-muted-foreground">{sec.content}</div>
+                      </details>
+                    ))}
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
         </div>
@@ -583,24 +574,44 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 {t.modules.morbidMetalAchievementGuide.title}
               </LinkedTitle>
             </h2>
+            <p className="text-sm font-medium text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.morbidMetalAchievementGuide.subtitle}</p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.morbidMetalAchievementGuide.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-6">
-            {t.modules.morbidMetalAchievementGuide.groups.map((group: any, gi: number) => (
-              <div key={gi} className="p-6 bg-white/5 border border-border rounded-xl">
-                <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))] mb-4">
-                  <LinkedTitle linkData={moduleLinkMap[`morbidMetalAchievementGuide::groups::${gi}`]} locale={locale}>
-                    {group.name}
-                  </LinkedTitle>
-                </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  {group.achievements.map((a: any, ai: number) => (
-                    <div key={ai} className="p-3 bg-white/5 border border-border rounded-lg">
-                      <p className="font-semibold text-sm text-[hsl(var(--nav-theme-light))]">{a.title}</p>
-                      <p className="text-xs text-muted-foreground mt-1">{a.description}</p>
-                    </div>
-                  ))}
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.08)] border-b border-border">
+                  <th className="text-left px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))]">Achievement</th>
+                  <th className="text-left px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))]">How to Unlock</th>
+                  <th className="text-left px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))] whitespace-nowrap">Category</th>
+                  <th className="text-left px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))]">Best Route</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.morbidMetalAchievementGuide.items.map((item: any, index: number) => (
+                  <tr key={index} className={`border-b border-border/50 hover:bg-white/5 transition-colors ${index % 2 === 0 ? '' : 'bg-white/[0.02]'}`}>
+                    <td className="px-4 py-3 font-medium text-foreground">{item.achievement}</td>
+                    <td className="px-4 py-3 text-muted-foreground">{item.unlock}</td>
+                    <td className="px-4 py-3">
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] whitespace-nowrap">{item.bucket}</span>
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground text-xs">{item.best_route}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {/* Mobile stacked cards */}
+          <div className="scroll-reveal md:hidden space-y-3">
+            {t.modules.morbidMetalAchievementGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-4 bg-white/5 border border-border rounded-xl">
+                <div className="flex items-start justify-between gap-2 mb-2">
+                  <p className="font-semibold text-sm text-foreground">{item.achievement}</p>
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] flex-shrink-0">{item.bucket}</span>
                 </div>
+                <p className="text-xs text-muted-foreground mb-1"><span className="font-medium text-foreground/70">Unlock:</span> {item.unlock}</p>
+                <p className="text-xs text-muted-foreground"><span className="font-medium text-foreground/70">Route:</span> {item.best_route}</p>
               </div>
             ))}
           </div>
@@ -617,16 +628,34 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 {t.modules.morbidMetalCombatGuide.title}
               </LinkedTitle>
             </h2>
+            <p className="text-sm font-medium text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.morbidMetalCombatGuide.subtitle}</p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.morbidMetalCombatGuide.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.morbidMetalCombatGuide.faqs.map((faq: any, index: number) => (
+          <div className="scroll-reveal space-y-3">
+            {t.modules.morbidMetalCombatGuide.items.map((item: any, index: number) => (
               <details key={index} className="group border border-border rounded-xl overflow-hidden">
                 <summary className="w-full flex items-center justify-between p-5 cursor-pointer hover:bg-white/5 transition-colors list-none">
-                  <span className="font-semibold text-left">{faq.question}</span>
-                  <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 ml-3" />
+                  <div className="flex items-center gap-3 flex-1 min-w-0">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                      <Swords className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div className="text-left min-w-0">
+                      <p className="font-semibold truncate">{item.section}</p>
+                      <p className="text-xs text-muted-foreground truncate">{item.summary}</p>
+                    </div>
+                  </div>
+                  <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 ml-3 text-muted-foreground" />
                 </summary>
-                <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
+                <div className="px-5 pb-5 border-t border-border/50">
+                  <ul className="space-y-2 mt-4">
+                    {item.details.map((d: string, di: number) => (
+                      <li key={di} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        {d}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </details>
             ))}
           </div>
@@ -643,22 +672,28 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 {t.modules.morbidMetalHowToHeal.title}
               </LinkedTitle>
             </h2>
+            <p className="text-sm font-medium text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.morbidMetalHowToHeal.subtitle}</p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.morbidMetalHowToHeal.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-4">
-            {t.modules.morbidMetalHowToHeal.sources.map((src: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Heart className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`morbidMetalHowToHeal::sources::${index}`]} locale={locale}>
-                      {src.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{src.type}</span>
+          <div className="scroll-reveal space-y-3">
+            {t.modules.morbidMetalHowToHeal.items.map((item: any, index: number) => (
+              <div key={index} className="flex gap-4 p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 mt-0.5">
+                  <div className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                    <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
                 </div>
-                <p className="text-sm text-muted-foreground mb-2">{src.description}</p>
-                <p className="text-xs text-[hsl(var(--nav-theme-light))] border-t border-border pt-2 mt-2">💡 {src.tip}</p>
+                <div className="flex-1 min-w-0">
+                  <div className="flex flex-wrap items-center gap-2 mb-1.5">
+                    <h3 className="font-semibold text-sm">{item.label}</h3>
+                    <span className={`text-xs px-2 py-0.5 rounded-full border flex-shrink-0 ${item.priority === 'High' ? 'bg-amber-500/10 border-amber-500/30 text-amber-400' : 'bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]'}`}>{item.priority}</span>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-1.5">{item.detail}</p>
+                  <div className="flex items-center gap-1.5">
+                    <MapPin className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                    <span className="text-xs text-muted-foreground">{item.where}</span>
+                  </div>
+                </div>
               </div>
             ))}
           </div>

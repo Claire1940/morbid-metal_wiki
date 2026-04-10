@@ -434,177 +434,254 @@
     },
     "morbidMetalBossGuide": {
       "title": "Morbid Metal Boss Guide",
-      "eyebrow": "Combat Challenge",
-      "subtitle": "Morbid Metal bosses each have distinct phases and attack patterns. Knowing when to dodge, when to trade, and which character to use can turn a tough fight into a consistent clear.",
-      "intro": "Boss fights in Morbid Metal test your ability to adapt your rotation on the fly. The core principles are: read the phase transition, use Ekku on shielded or heavy phases, and save your burst skill for exposed windows.",
+      "eyebrow": "Bosses",
+      "subtitle": "Biome Boss Strategies for Saru and Prophet",
+      "intro": "Morbid Metal currently ends each biome with a boss that checks whether your run has enough control, survivability, and swap discipline. Saru is the first true mechanics test, while Prophet is the tougher second-biome fight that punishes greedy combo routes. A clean plan matters more than random aggression, especially when your healing and cooldowns are limited.",
       "bosses": [
         {
-          "name": "Saru",
-          "biome": "Biome 1 — Sublime Garden",
-          "difficulty": "Intro Boss",
-          "phases": [
-            "Phase 1: Melee rushes and slam attacks",
-            "Phase 2: Increased speed and area attacks after 50% health"
-          ],
-          "strategy": "Stay mobile with Flux for Phase 1 to dodge rush attacks. Swap to Ekku during stunned windows to dump burst damage. Use Vekta to clear any adds that spawn.",
-          "dodge_tips": [
-            "Perfect dodge his lunge to open a counterattack window",
-            "Back away from slam indicators before they land",
-            "Phase 2 transitions often start with a sweep—get behind him"
+          "boss": "Saru",
+          "biome": "Sublime Garden",
+          "summary": "Saru is the Biome 1 boss and the first full mechanics check of Early Access. The fight mixes leap pressure, ground impact attacks, orb patterns, and a later shield-break window.",
+          "sections": [
+            {
+              "label": "Opening pattern",
+              "content": "Expect fast jumps into heavy slam attacks. Stay just outside the impact zone, dodge late, and only punish after the landing animation finishes."
+            },
+            {
+              "label": "Orb pressure",
+              "content": "When the arena starts filling with orb patterns, keep moving with the pattern instead of cutting straight through it. A smooth circling route keeps the screen readable and gives you time to hold your swap tools."
+            },
+            {
+              "label": "Best form usage",
+              "content": "Ekku is the safest pick for control and shield-break pressure, while Flux is the clean burst finisher once Saru is open. Use swaps to turn a short opening into a real damage window."
+            },
+            {
+              "label": "How to close the fight",
+              "content": "Treat post-slam recovery and shield-break moments as your main damage windows. Short, repeatable punish loops are safer than forcing one long combo."
+            }
           ]
         },
         {
-          "name": "General Boss Tips",
-          "biome": "All Biomes",
-          "difficulty": "Universal",
-          "phases": [
-            "Opening phase: feel out attack patterns",
-            "Mid-fight: exploit openings between attack strings",
-            "Final phase: increased aggression, commit to dodging first"
-          ],
-          "strategy": "Learn the pattern before committing heavy cooldowns. Vekta is often the safest opener for phase reading. Ekku's burst should be saved for clear punish windows after telegraphed attacks.",
-          "dodge_tips": [
-            "Perfect dodge is worth practicing — it gives a free counter",
-            "Avoid greedy melee strings during unfamiliar patterns",
-            "Watch for audio and visual cues that signal phase transitions"
+          "boss": "Prophet",
+          "biome": "Steel Sanctuary",
+          "summary": "Prophet is the Biome 2 boss and the second major wall of the current build. This fight rewards calmer spacing, tighter reactions, and smarter form rotation more than reckless offense.",
+          "sections": [
+            {
+              "label": "Core plan",
+              "content": "Go in with a stable build and keep one movement option ready at all times. Prophet punishes overextension, so the safest route is to play around clear attack endings instead of swinging through every opening."
+            },
+            {
+              "label": "Damage pattern",
+              "content": "Use Vekta to keep pressure from safer range, rotate into Flux for fast burst, and bring Ekku in when you need a heavier punish or more control. The fight feels cleaner when every swap has a purpose."
+            },
+            {
+              "label": "Arena discipline",
+              "content": "Do not spend every dodge as soon as pressure starts. Hold your evade for the real threat, reset your spacing after each punish, and avoid turning a good opening into a bad trade."
+            },
+            {
+              "label": "What actually wins",
+              "content": "Status pressure, controlled swaps, and consistent punish windows win this fight more reliably than raw face-tanking. If the run is shaky, play for stability first and style rank second."
+            }
           ]
         }
       ]
     },
     "morbidMetalAchievementGuide": {
       "title": "Morbid Metal Achievement Guide",
-      "eyebrow": "Steam Achievements",
-      "subtitle": "Track every Steam achievement in Morbid Metal. Most unlock through natural progression, while a few require specific challenge runs or discovery milestones.",
-      "intro": "Morbid Metal achievements cover story milestones, combat challenges, character mastery, and progression goals. A handful are missable in a given run, so knowing what to watch for helps you knock them out efficiently.",
-      "groups": [
+      "eyebrow": "Completion",
+      "subtitle": "All 13 Early Access Achievements",
+      "intro": "This table is built for players chasing a clean 100% route without bouncing between menus. The fastest approach is to grab the natural progression achievements on the way to Biome 2, then clean up the skill checks and token grind afterward.",
+      "items": [
         {
-          "name": "Story & Progression",
-          "achievements": [
-            {
-              "title": "First Blood",
-              "description": "Complete your first run and defeat a biome boss"
-            },
-            {
-              "title": "Form Shift",
-              "description": "Switch between all three characters in a single run"
-            },
-            {
-              "title": "Deep Run",
-              "description": "Reach Biome 2 for the first time"
-            },
-            {
-              "title": "Full Roster",
-              "description": "Unlock all three playable characters"
-            }
-          ]
+          "achievement": "Calibration complete",
+          "unlock": "Finish the Tutorial",
+          "bucket": "Progression",
+          "best_route": "Unmissable on your first run."
         },
         {
-          "name": "Combat Mastery",
-          "achievements": [
-            {
-              "title": "Perfect Counter",
-              "description": "Land a counterattack after a perfect dodge"
-            },
-            {
-              "title": "Combo Builder",
-              "description": "Execute a three-character swap combo in a single encounter"
-            },
-            {
-              "title": "Leak Mastery",
-              "description": "Apply Leak status and deal follow-up damage in the same fight"
-            },
-            {
-              "title": "Flawless Phase",
-              "description": "Complete a biome without taking damage from a boss in one phase"
-            }
-          ]
+          "achievement": "Your path has just begun",
+          "unlock": "Buy your first upgrade in the Neural Nexus",
+          "bucket": "Meta Progression",
+          "best_route": "Spend your first return-trip currency in the hub as soon as the system opens."
         },
         {
-          "name": "Progression & Meta",
-          "achievements": [
-            {
-              "title": "Void Collector",
-              "description": "Earn 100 Void Matter total across all runs"
-            },
-            {
-              "title": "Hub Investor",
-              "description": "Unlock 5 permanent upgrades at the hub"
-            },
-            {
-              "title": "Devil's Bargain",
-              "description": "Accept your first Devil's Bargain modifier"
-            },
-            {
-              "title": "Corpora Enhanced",
-              "description": "Enhance a Corpora power during a run"
-            }
-          ]
+          "achievement": "Welcome to the Void",
+          "unlock": "Interact with a Void Rift",
+          "bucket": "Run System",
+          "best_route": "Take the first Void Rift you naturally find during a run."
+        },
+        {
+          "achievement": "Now you're two",
+          "unlock": "Unlock Ekku",
+          "bucket": "Roster",
+          "best_route": "Comes naturally through early Biome 1 progression."
+        },
+        {
+          "achievement": "He will never know",
+          "unlock": "Successfully complete an Operator's Trial",
+          "bucket": "Challenge",
+          "best_route": "Enter a Trial when your health and cooldowns are in a good place."
+        },
+        {
+          "achievement": "That's the first chapter",
+          "unlock": "Find your first lore codex",
+          "bucket": "Collection",
+          "best_route": "Check side paths and interactables instead of only sprinting the main lane."
+        },
+        {
+          "achievement": "So stylish",
+          "unlock": "Reach your first SSS stylerank in a combat",
+          "bucket": "Skill",
+          "best_route": "Use clean swaps, avoid getting clipped, and build the rank in a safer multi-enemy room."
+        },
+        {
+          "achievement": "You're closer",
+          "unlock": "Complete Biome 1",
+          "bucket": "Boss Clear",
+          "best_route": "Defeat Saru and finish Sublime Garden."
+        },
+        {
+          "achievement": "And three",
+          "unlock": "Unlock Vekta",
+          "bucket": "Roster",
+          "best_route": "Push your progression into the second biome and roster expansion will follow."
+        },
+        {
+          "achievement": "Are you sure?",
+          "unlock": "Accept your first Devil's Bargain",
+          "bucket": "Run System",
+          "best_route": "Take one bargain once the system appears, even if it is not part of your ideal build."
+        },
+        {
+          "achievement": "I see you",
+          "unlock": "Complete Biome 2",
+          "bucket": "Boss Clear",
+          "best_route": "Defeat Prophet and finish Steel Sanctuary."
+        },
+        {
+          "achievement": "Be stronger",
+          "unlock": "Equip your first Corpora",
+          "bucket": "Equipment",
+          "best_route": "Slot your first Corpora as soon as the system becomes available."
+        },
+        {
+          "achievement": "That's enough",
+          "unlock": "Collect a total of 50000 tokens",
+          "bucket": "Grind",
+          "best_route": "This is the long-term cleanup achievement, so keep playing full runs after the natural unlocks are done."
         }
       ]
     },
     "morbidMetalCombatGuide": {
       "title": "Morbid Metal Combat Guide",
-      "eyebrow": "Core Systems",
-      "subtitle": "Understanding swapping, perfect dodge timing, status effects, and stagger flow is the difference between chaotic play and consistent clear runs in Morbid Metal.",
-      "intro": "Morbid Metal's combat is deeper than it appears. The shapeshift system is not just a gimmick—it is how you manage cooldowns, exploit weaknesses, and maintain momentum through entire biomes.",
-      "faqs": [
+      "eyebrow": "Combat",
+      "subtitle": "How the Switching Combat System Actually Works",
+      "intro": "The game feels best once you stop treating the roster as separate characters and start treating them as one shared combo engine. Flux starts pressure, Vekta extends control from range, and Ekku stabilizes fights with stronger crowd control and heavier punish tools. The more cleanly you rotate between them, the more the system opens up.",
+      "items": [
         {
-          "question": "How does real-time shapeshifting work in Morbid Metal?",
-          "answer": "You can switch between Flux, Ekku, and Vekta at any time during combat. Each character has their own cooldowns, so swapping lets you keep dealing damage while the others recover. The rhythm is: deal damage, swap before your cooldowns make you passive, and rotate back when the previous character is ready."
+          "section": "Real-time character swapping",
+          "summary": "The core mechanic is instant swapping mid-combat.",
+          "details": [
+            "You can switch characters during fights instead of committing to one form.",
+            "Swaps let you extend combos, reposition, and keep pressure going after a short opening.",
+            "The combat loop is designed around chaining multiple forms together rather than playing one fighter in isolation."
+          ]
         },
         {
-          "question": "What is the perfect dodge system in Morbid Metal?",
-          "answer": "Morbid Metal's perfect dodge triggers a brief invulnerability window and, with the Perfect Dodge Counter upgrade, grants a free counterattack. Timing the dodge to the last moment before impact is the core defensive skill. It is worth practicing early because the counter payoff compounds as you unlock more upgrades."
+          "section": "Leak status",
+          "summary": "Leak is one of the strongest early combat mechanics.",
+          "details": [
+            "Leak is a stackable damage-over-time effect.",
+            "Each application lasts around 10 seconds.",
+            "It deals damage every second, stacks for higher damage, and can spread between enemies.",
+            "Leak builds become powerful because they turn normal clears into chain-reaction clears."
+          ]
         },
         {
-          "question": "What is Leak status and why does it matter?",
-          "answer": "Leak is a damage-over-time status that keeps dealing damage even while you reposition or dodge. It is one of the most efficient early Routine effects because it extends your effective damage window beyond when you can safely stay in melee range. Prioritize Leak-spread Routines when they appear."
+          "section": "Early character roles",
+          "summary": "Each form fills a different combat job in the Early Access build.",
+          "details": [
+            "Flux is the precision damage form and is especially good at applying Leak quickly.",
+            "Vekta is the tactical ranged form that helps control fights and spread pressure more safely.",
+            "Ekku is the crowd-control form and is especially valuable when you need more stable boss punish windows."
+          ]
         },
         {
-          "question": "How does stagger and knockback work in Morbid Metal?",
-          "answer": "Enemies stagger when their poise threshold is broken by heavy hits. Ekku's slam attacks are particularly strong at triggering stagger and keeping heavies locked down. Staggered enemies take bonus damage and cannot attack, making stagger a key part of your burst window timing."
+          "section": "Why the system feels different",
+          "summary": "Morbid Metal plays closer to a stylish action game than a basic roguelite brawler.",
+          "details": [
+            "Ability-driven combo chains matter more than simple attack spam.",
+            "Precision dodging and timing are part of the offense, not just defense.",
+            "Good combat comes from flow: apply status, swap cleanly, punish, then reset before the next string."
+          ]
         },
         {
-          "question": "What is Corpora and how do I use it?",
-          "answer": "Corpora are powerful passive effects you pick up during a run, similar to boons in other roguelites. Each Corpora shapes your strategy for the rest of that run. Once you unlock Run Corpora Enhancer, you can upgrade Corpora mid-run for even stronger bonuses. Prioritize Corpora that amplify your current rotation rather than those that require changing your approach."
+          "section": "How to build a run",
+          "summary": "The cleanest runs usually focus on a few linked ideas, not random upgrades.",
+          "details": [
+            "Aiming for two to three strong synergies is more reliable than scattering upgrades everywhere.",
+            "Flux's Blink Strike is flexible because it adds both mobility and damage pressure.",
+            "Ekku's control tools are useful for setting up follow-up damage from the rest of the team."
+          ]
+        },
+        {
+          "section": "Execution tips",
+          "summary": "Input speed and route discipline matter more than button mashing.",
+          "details": [
+            "Mouse and keyboard can make rapid swap execution easier for some players.",
+            "Fast, clean inputs help maintain combo flow and reduce dropped punish windows.",
+            "The best damage usually comes from short repeatable routes, not one risky overextended string."
+          ]
         }
       ]
     },
     "morbidMetalHowToHeal": {
       "title": "Morbid Metal How to Heal",
-      "eyebrow": "Health Economy",
-      "subtitle": "Healing in Morbid Metal is scarce and strategic. Knowing all your sources and when to use them keeps your runs alive longer than raw skill alone.",
-      "intro": "Health management is one of the most important meta-skills in Morbid Metal. Unlike action games where healing is on demand, every heal source here has a cost or condition attached to it.",
-      "sources": [
+      "eyebrow": "Survival",
+      "subtitle": "Every Reliable Way to Recover or Preserve Health",
+      "intro": "A low-health run is not automatically dead, but you need to know what counts as real healing and what only reduces incoming damage. The core idea is simple: save credits, respect side paths, and treat shop access as a lifeline instead of a bonus stop.",
+      "items": [
         {
-          "name": "Emporium Healing",
-          "type": "Shop Purchase",
-          "description": "The most reliable baseline heal. Spend credits at the Emporium between encounters to restore health. Always keep a reserve of credits if you are already damaged.",
-          "tip": "Budget credits for heals before elite encounters, not just boss rooms."
+          "label": "Buy a slight heal in the Emporium",
+          "detail": "The most direct recovery source is the Emporium, the mid-run shop reached through a Void Rift. It can sell a slight heal and is the most dependable way to patch up a damaged run.",
+          "where": "Emporium",
+          "priority": "High"
         },
         {
-          "name": "Healing Nodes",
-          "type": "Map Feature",
-          "description": "Fixed health restoration points scattered throughout each biome. Learning where they appear in each room layout helps you route around them before tough fights.",
-          "tip": "Do not burn Healing Nodes on minor chip damage — save them for post-elite recovery."
+          "label": "Check side paths for healing nodes",
+          "detail": "Healing nodes are real but not common. If your health is shaky, it is worth slowing down and checking side routes instead of speed-running straight to the next fight.",
+          "where": "Biome side paths",
+          "priority": "High"
         },
         {
-          "name": "Vitality Fabricators",
-          "type": "Progression Unlock",
-          "description": "Healing stations that appear more frequently as you unlock the Run Fabricator Unlock upgrade. Once unlocked, they become a steady supplemental heal across longer runs.",
-          "tip": "Unlock Run Fabricator Unlock early to increase their spawn rate across all biomes."
+          "label": "Use Vitality Fabricators when they appear",
+          "detail": "Vitality Fabricators are rarer than shop healing, but they become a major sustain source once you start seeing them more often. They are especially strong because you can buy multiple heals if you have enough credits.",
+          "where": "Run encounters",
+          "priority": "High"
         },
         {
-          "name": "Routine-Based Recovery",
-          "type": "Build Option",
-          "description": "Certain Routine effects grant health back on specific conditions — on kill, on perfect dodge, or on status application. Mixing in one or two defensive Routines adds passive sustain without sacrificing your whole build.",
-          "tip": "One defensive Routine per loadout is usually worth it; more than two starts to hurt your damage output."
+          "label": "Unlock more Vitality Fabricator access",
+          "detail": "The Run Fabricator Unlock in the Void Nexus increases the chance that Vitality Fabricators appear. This turns a lucky sustain mechanic into a much more dependable part of your routing.",
+          "where": "Void Nexus",
+          "priority": "Medium"
         },
         {
-          "name": "Corpora Effects",
-          "type": "Run Bonus",
-          "description": "Some Corpora boons directly restore health or provide damage-reduction effects that reduce how much healing you need. Fountain of Life is a standout pick if it appears.",
-          "tip": "Corpora with healing effects compound over a full run — pick them even when you are currently healthy."
+          "label": "Use shop-entry sustain like Corpora Herbal Tea",
+          "detail": "Corpora Herbal Tea restores a portion of your max life when entering the Shop. It is not a universal answer, but it makes every Emporium visit more valuable.",
+          "where": "Build-specific",
+          "priority": "Medium"
+        },
+        {
+          "label": "Take barrier or shield routines on unstable runs",
+          "detail": "Some Routines give a barrier at the start of combat or add shields when using a special skill. These do not replace true healing, but they reduce how often you need it.",
+          "where": "Routine system",
+          "priority": "Medium"
+        },
+        {
+          "label": "Always keep emergency credits",
+          "detail": "Do not spend every credit the moment you get it. Leaving some currency unspent gives you a better chance to turn an Emporium or Vitality Fabricator appearance into an actual reset point.",
+          "where": "Run management",
+          "priority": "High"
         }
       ]
     },
