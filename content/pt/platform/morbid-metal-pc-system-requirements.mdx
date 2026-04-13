@@ -1,0 +1,120 @@
+export const metadata = {
+  title: "Requisitos do Sistema de Morbid Metal para PC: Guia de Desempenho e Otimização 2026",
+  description: "Confira os requisitos de sistema mais recentes de Morbid Metal para PC. Saiba como otimizar sua taxa de quadros, reduzir engasgos de travessia e escolher o melhor hardware para este roguelite de ação.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/450a0a/fff?text=Morbid+Metal+PC+Requirements",
+  date: "2026-04-12",
+  author: "Equipe Morbid Metal Wiki"
+}
+
+Com o lançamento do aguardado roguelite de ação em Acesso Antecipado no dia 8 de abril de 2026, os jogadores estão ansiosos para saber se suas máquinas aguentam o combate intenso de troca de personagens. Entender os **requisitos do sistema de morbid metal para pc** é crucial porque este título prioriza a estética de "spectacle fighter" e combos de alta velocidade que exigem uma taxa de quadros estável. Se o seu hardware ficar para trás, as esquivas de precisão milimétrica e as trocas no meio do combo necessárias para sobreviver aos seus biomas punitivos se tornarão significativamente mais difíceis de executar.
+
+Neste guia, detalhamos os **requisitos do sistema de morbid metal para pc** com base em testes de desempenho reais no motor Unity. Esteja você usando uma placa de ponta da série RTX 50 ou uma configuração intermediária mais modesta, otimizar suas configurações é a chave para dominar a filosofia de combate de "dar um show" do jogo. Abaixo, você encontrará níveis de hardware estimados, benchmarks de desempenho e dicas para suavizar os obstáculos técnicos comuns encontrados na versão atual de Acesso Antecipado.
+
+## Requisitos de Sistema Oficiais e Estimados
+
+Morbid Metal foi construído no motor Unity, o que evita muitos dos problemas de "luta contra travamentos" associados aos títulos modernos da Unreal Engine 5, mas ainda é um jogo visualmente exigente. O desenvolvedor forneceu um menu de opções granular, permitindo ajustes significativos. No entanto, como o jogo apresenta modelos de personagens de alta fidelidade e efeitos cinematográficos de "hit-stop", a base para uma experiência suave de 60 FPS é mais alta do que a do seu roguelite indie comum.
+
+### Requisitos Mínimos do Sistema (Estimados)
+
+Essas especificações visam jogadores que buscam atingir a resolução 1080p a 30-60 FPS nas configurações Baixa a Média. Note que em um jogo rápido como este, 30 FPS podem parecer "imprecisos" devido à forma como o motor lida com a física.
+
+| Componente | Especificação Mínima |
+| :--- | :--- |
+| **SO** | Windows 10/11 (64 bits) |
+| **Processador** | Intel Core i5-9600K / AMD Ryzen 5 3600 |
+| **Memória** | **16 GB de RAM** |
+| **Placa de Vídeo** | NVIDIA GTX 1070 / AMD Radeon RX 5600 XT |
+| **DirectX** | Versão 12 |
+| **Armazenamento** | 30 GB de espaço disponível (SSD altamente recomendado) |
+
+### Requisitos de Sistema Recomendados (Estimados)
+
+Para uma experiência estável em 1440p nas configurações Altas, o jogo exige uma arquitetura moderna. O combate de alta velocidade com personagens como Flux e Vector envolve muitos efeitos de partículas e projéteis baseados em física que podem sobrecarregar CPUs mais antigas.
+
+| Componente | Especificação Recomendada |
+| :--- | :--- |
+| **SO** | Windows 11 (64 bits) |
+| **Processador** | Intel Core i7-12700K / AMD Ryzen 7 7800X3D |
+| **Memória** | **32 GB de RAM** |
+| **Placa de Vídeo** | NVIDIA RTX 3080 / AMD Radeon RX 6800 XT |
+| **Armazenamento** | SSD NVMe |
+
+> **⚠️ Aviso:** Rodar o jogo em um HDD tradicional (Hard Disk Drive) piorará significativamente o "stutter de travessia" experimentado ao se mover entre as seções do mapa. Um SSD é considerado obrigatório para uma experiência imersiva.
+
+## Análise de Desempenho: High-End vs. Intermediário
+
+Relatórios iniciais de desempenho de abril de 2026 sugerem que Morbid Metal é bastante pesado para a GPU, mesmo em 1440p. Em testes com hardware topo de linha — como o Ryzen 9800 X3D e a RTX 5090 — o jogo permanece limitado pela GPU. Mesmo com o DLSS definido para o modo Desempenho, as placas de primeira linha são levadas ao limite para manter altas taxas de atualização sem recorrer à Geração de Quadros (Frame Generation).
+
+Para aqueles com hardware intermediário (como uma RTX 3060 ou 4060), os resultados podem variar. Esses usuários costumam relatar tempos de quadro inconsistentes durante encontros de combate intenso. Para manter a sensação de "Devil May Cry" que o jogo almeja, você provavelmente precisará utilizar tecnologias de upscaling.
+
+### Tabela de Escalonamento de Desempenho
+
+| Nível de Hardware | Resolução | FPS Alvo | Configuração DLSS/FSR |
+| :--- | :--- | :--- | :--- |
+| **Entusiasta (RTX 5090)** | 4K / 1440p | 144+ | Qualidade / Nativo |
+| **High-End (RTX 4080)** | 1440p | 100-120 | Equilibrado |
+| **Intermediário (RTX 3070)** | 1080p | 60-90 | Desempenho |
+| **Entrada (RTX 2060)** | 1080p | 60 | Ultra Desempenho |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/V0bJKi0bJ-w"
+    title="Peak Action Roguelite Spectacle Fighter - Morbid Metal (Review)"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Principais Recursos Técnicos e Peculiaridades do Motor
+
+O uso do motor Unity por Morbid Metal fornece uma base estável, mas não está isento de ressalvas. Os jogadores devem estar cientes de alguns comportamentos técnicos específicos que impactam como os **requisitos do sistema de morbid metal para pc** se traduzem na jogabilidade real.
+
+### Stutter de Travessia
+Um dos problemas mais notáveis na versão de Acesso Antecipado é o "stutter de travessia" (engasgos de carregamento). Isso ocorre quando o jogo carrega novas seções do mapa enquanto você se move entre os biomas. Embora os tempos de quadro permaneçam estáveis durante o combate ativo (onde mais importa), os solavancos repentinos durante a exploração podem quebrar a imersão. Isso é em grande parte uma limitação do motor relacionada ao streaming de ativos e é menos prevalente em unidades NVMe mais rápidas.
+
+### DLSS e Upscaling
+O jogo suporta as versões mais recentes do DLSS. Curiosamente, ele também funciona bem com o "DLSS Swapper", permitindo que os jogadores injetem manualmente diferentes versões da DLL do DLSS para encontrar o melhor equilíbrio entre clareza visual e desempenho. Se você achar a implementação padrão muito embaçada, trocar para uma versão mais nova do upscaler pode ajudar a nitidez da imagem.
+
+### Controle Granular
+O desenvolvedor forneceu um excelente nível de controle no menu de configurações. Você pode ajustar:
+*   **Qualidade das Sombras:** Alto impacto na GPU.
+*   **Densidade de Partículas:** Crítico para o desempenho durante os ataques de shuriken do Vector.
+*   **Pós-processamento:** Inclui opções para desfoque de movimento, profundidade de campo e aberração cromática.
+*   **Campo de Visão (FOV):** Embora atualmente limitado, há pedidos da comunidade para expandir isso para permitir uma visão mais ampla do campo de batalha.
+
+## Otimizando para Fluidez de Combate
+
+Em Morbid Metal, o combate é um exercício de eficiência. Você joga com três personagens distintos — Flux (Katana), Ekko (Lança) e Vector (Shuriken/Gravidade) — e pode alternar entre eles no meio do combo. Essa mecânica exige que o jogo mantenha vários modelos de personagens de alta contagem de polígonos e seus efeitos de habilidade associados carregados na VRAM o tempo todo.
+
+Se o seu PC atende aos **requisitos do sistema de morbid metal para pc**, mas você ainda sente que o combate está "flutuante", pode ser devido à dependência do jogo em efeitos de hit-stop em vez de física pura. Para tornar o jogo mais responsivo, tente o seguinte:
+
+1.  **Desativar V-Sync:** Use um monitor G-Sync ou FreeSync para reduzir o atraso de entrada (input lag).
+2.  **Travar a Taxa de Quadros:** Use uma ferramenta externa como o RTSS para travar sua taxa de quadros em um valor que seu PC possa atingir consistentemente, reduzindo a variância do tempo de quadro.
+3.  **Priorizar Upgrades de Vida:** Como o jogo é atualmente bastante difícil, garantir uma taxa de quadros suave é o melhor atributo "defensivo" que você pode ter. Quedas de quadros geralmente levam a parries perdidos ou a ser pego em combos inimigos.
+
+> **💡 Dica:** Se você estiver tendo dificuldades com a dificuldade do jogo, foque sua meta-progressão nos upgrades de vida máxima e no nó de janela de invulnerabilidade. Isso torna o jogo muito mais tolerante enquanto você ajusta suas configurações gráficas.
+
+## Onde Comprar e Suporte Oficial
+
+Morbid Metal está disponível no Steam. Para as informações mais atualizadas sobre patches e correções de desempenho, confira a [Página da Loja Steam de Morbid Metal](https://store.steampowered.com/app/1866130/Morbid_Metal/). O desenvolvedor é ativo na comunidade e frequentemente aborda bugs específicos de hardware relatados pelos jogadores durante a fase de Acesso Antecipado.
+
+## FAQ
+
+**P: Morbid Metal suporta Steam Deck?**
+
+R: Embora não haja um status oficial de "Verificado" até abril de 2026, o jogo é jogável no Steam Deck. No entanto, você precisará usar o FSR (FidelityFX Super Resolution) e definir a maioria das opções gráficas para Baixo para manter 30-40 FPS estáveis. O stutter de travessia é mais pronunciado no hardware do Deck.
+
+**P: Por que minha GPU de ponta (série RTX 40/50) está sofrendo em 1440p?**
+
+R: Morbid Metal é atualmente muito intensivo em GPU. Certifique-se de ter o DLSS ativado. Se você ainda estiver vendo alto uso, verifique se está rodando em resolução nativa sem upscaling, pois os efeitos cinematográficos e a iluminação do jogo são bastante exigentes.
+
+**P: Existe uma maneira de corrigir o stutter de travessia?**
+
+R: Não há uma correção 100% para o stutter de travessia, pois ele está ligado a como o motor Unity carrega os segmentos do mapa. No entanto, instalar o jogo no SSD NVMe mais rápido disponível e garantir que você tenha pelo menos 16 GB de RAM de alta velocidade pode minimizar a duração desses engasgos.
+
+**P: Quais são os requisitos mínimos de morbid metal para pc para 60 FPS?**
+
+R: Para atingir 60 FPS consistentes em 1080p, recomendamos pelo menos uma RTX 3060 ou equivalente, combinada com um processador moderno de 6 núcleos. O uso de DLSS ou FSR no modo "Equilibrado" é altamente recomendado para suavizar quedas durante lutas intensas contra chefes.
