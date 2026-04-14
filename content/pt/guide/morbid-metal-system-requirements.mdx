@@ -1,0 +1,117 @@
+export const metadata = {
+  title: "Requisitos de Sistema de Morbid Metal: Guia de Desempenho e Otimização para PC 2026",
+  description: "Confira os requisitos de sistema de Morbid Metal para garantir que seu PC aguente este roguelite de troca de formas. Inclui dicas de otimização, desempenho no Steam Deck e benchmarks de hardware.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Morbid+Metal+Requirements",
+  date: "2026-04-15",
+  author: "Equipe da Wiki de Morbid Metal"
+}
+
+Navegar pela distopia fragmentada do mais recente título de ação da Screen Juice exige mais do que apenas reflexos rápidos; requer uma máquina que consiga acompanhar seu ritmo implacável. Compreender os **requisitos de sistema de morbid metal** é o primeiro passo para qualquer jogador que deseja dominar a arte do combate com troca de formas. Como um roguelite que enfatiza a precisão cirúrgica e o ímpeto, até mesmo um pequeno engasgo de quadros pode significar a diferença entre um "esquiva perfeita" bem-sucedida e o fim prematuro da sua jornada. Neste guia, detalhamos exatamente qual hardware você precisa para rodar a simulação sem problemas, como o jogo se comporta em dispositivos portáteis como o Steam Deck e quais configurações você deve ajustar para eliminar a dívida técnica frequentemente encontrada em títulos de acesso antecipado. Esteja você jogando como Flux, Echo ou Vector, garantir que os **requisitos de sistema de morbid metal** sejam atendidos permitirá que a estética industrial e sombria do jogo brilhe sem comprometer sua eficiência no combate.
+
+## Requisitos Oficiais de Sistema de Morbid Metal
+
+A base técnica deste título é construída na Unreal Engine, o que permite uma renderização metálica impressionante e efeitos de partículas complexos. No entanto, como o jogo apresenta troca de personagens em alta velocidade — onde as hitboxes e a física se recalibram no ar — as demandas de CPU e GPU são maiores do que a média dos roguelites independentes.
+
+Embora as especificações de entrada sejam relativamente acessíveis, o desempenho no "mundo real" em 2026 sugere que atender ao mínimo muitas vezes não é suficiente para uma experiência estável de 60 FPS durante encontros de combate intensos.
+
+| Componente | Requisitos Mínimos | Recomendado (Padrões de 2026) |
+| :--- | :--- | :--- |
+| **SO** | Windows 10/11 (64 bits) | Windows 11 (64 bits) |
+| **Processador** | Intel i3-9100F / Ryzen 3 3100 | Intel i5-12400 / Ryzen 5 5600 |
+| **Memória** | 8 GB de RAM | 16 GB de RAM |
+| **Placa de Vídeo** | NVIDIA GTX 1650 (4GB) | NVIDIA RTX 3060 / RX 6700 XT |
+| **DirectX** | Versão 11 | Versão 12 |
+| **Armazenamento** | 15 GB de espaço disponível | SSD de 15 GB (Altamente Recomendado) |
+
+> **Aviso:** Jogadores que rodam nas especificações mínimas absolutas podem sofrer engasgos significativos de frame pacing durante explosões pesadas de partículas, particularmente ao usar as habilidades de agressão pesada de Flux ou durante transições de chefes.
+
+## Análise de Desempenho e Dicas de Otimização
+
+Até 2026, o jogo permanece em um estado de evolução. Embora o apoio de publicação da Ubisoft tenha proporcionado um alcance maior, a "dívida técnica" ainda é visível em certas áreas da simulação. Uma das reclamações mais frequentes envolve a resolução da janela sendo redefinida após sessões específicas, ou elementos da interface do usuário (UI) tornando-se sem resposta após longas sessões.
+
+Para obter o máximo do seu hardware, considere as seguintes etapas de otimização:
+
+### Detalhamento das Configurações Gráficas
+A implementação da Unreal Engine neste jogo leva as superfícies metálicas a um ponto onde você pode ver arranhões e distorção por calor em aberturas de exaustão. Embora belos, esses recursos sobrecarregam pesadamente a GPU.
+
+| Configuração | Impacto | Recomendado para Estabilidade |
+| :--- | :--- | :--- |
+| **Qualidade de Partículas** | Alto | **Baixo / Médio** |
+| **Qualidade de Sombras** | Médio | **Médio** |
+| **Pós-processamento** | Alto | **Baixo** (Reduz o atraso de entrada) |
+| **Qualidade de Textura** | Baixo | **Alto** (Se a VRAM permitir) |
+| **Anti-Aliasing** | Médio | **TAA ou DLSS/FSR** |
+
+### Lidando com o Frame Pacing
+O combate neste jogo depende de uma "lentidão cinematográfica" acionada por esquivas perfeitas. Se a sua taxa de quadros for inconsistente, a transição para essa lentidão pode parecer brusca em vez de fluida. Recomendamos limitar sua taxa de quadros a um número estável (por exemplo, 60 ou 120) em vez de deixá-la ilimitada, pois os ambientes procedurais podem causar picos repentinos de uso.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/Ot7Ao2z9o5w"
+    title="Morbid Metal Review: The Shapeshifting Roguelite That Actually Gets Combat Right"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Troca de Formas e Carga do Motor
+
+A mecânica central do jogo — alternar entre Flux, Echo e Vector — não é apenas uma mudança cosmética. Pressionar o botão de troca fratura instantaneamente a física do personagem e recalibra os arcos de ataque. Do ponto de vista técnico, isso significa que o motor está constantemente carregando e descarregando diferentes conjuntos de ativos e dados de colisão.
+
+1.  **Flux:** Alta agressividade em combate corpo a corpo. Seus golpes pesados geram efeitos de partículas significativos ao impactar inimigos blindados, o que pode causar quedas de quadros em GPUs mais antigas.
+2.  **Echo:** Pressão à distância. Controlar o espaço com projéteis exige que o motor rastreie múltiplas entidades ativas, aumentando a carga na CPU.
+3.  **Vector:** Pivô tático. Seus movimentos estilo "blink" de alta mobilidade testam a capacidade do motor de renderizar novos ativos ambientais rapidamente enquanto você percorre os corredores.
+
+Se você notar que a troca de personagens causa um breve "engasgo" ou congelamento, é provável que sua unidade de armazenamento esteja lutando para acompanhar. Instalar o jogo em um SSD NVMe é quase obrigatório para manter a "dança através do caos" que os desenvolvedores pretendiam.
+
+## Desempenho no Steam Deck e Portáteis
+
+Para aqueles que desejam levar a simulação para qualquer lugar, os **requisitos de sistema de morbid metal** apresentam um desafio único para o Steam Deck. Embora o jogo seja funcional em portáteis, ele claramente ainda não está totalmente otimizado para a APU personalizada da plataforma.
+
+*   **Estado Atual:** Para manter 30-40 FPS jogáveis, a maioria das configurações deve ser reduzida para "Baixo".
+*   **Vida Útil da Bateria:** Alto consumo de energia devido à renderização da Unreal Engine; espere cerca de 90-120 minutos de jogo com uma carga completa.
+*   **Problemas de Resolução:** Alguns jogadores relatam que o texto da interface pode ser difícil de ler na tela menor, e a resolução ocasionalmente volta para uma proporção não nativa.
+
+> **Dica:** Ative o FSR (FidelityFX Super Resolution) no menu do jogo para ganhar um aumento extra de 10-15% no desempenho em dispositivos portáteis.
+
+## Áudio e Imersão Ambiental
+
+Os requisitos técnicos não dizem respeito apenas aos visuais. O design de áudio é surpreendentemente tátil, com os impactos das armas mudando dependendo se você atinge a blindagem ou a fiação exposta. A trilha sonora é dinâmica, removendo a melodia em favor da tensão rítmica durante as lutas contra chefes.
+
+*   **Vácuo de Áudio:** Quando uma esquiva perfeita é acionada, o áudio diminui para criar um efeito de vácuo. Esta é uma escolha de design deliberada, mas requer uma CPU estável para garantir que o motor de áudio não perca a sincronia com a lentidão visual.
+*   **Gemidos Ambientais:** As ruínas industriais apresentam gemidos mecânicos distantes e assobios de portas pressurizadas. Fones de ouvido de alta qualidade são recomendados para apreciar plenamente o "pavor silencioso" da simulação.
+
+Verifique a [página oficial de Morbid Metal no Steam](https://store.steampowered.com/app/1866170/Morbid_Metal/) para os patches mais recentes e correções de desempenho da comunidade.
+
+## Recomendações de Hardware para 2026
+
+Se você pretende atualizar seu PC especificamente para este título e outros roguelites modernos, sugerimos focar em uma configuração equilibrada. Como o jogo usa "Devil's Bargains" e "Operator's Trials" para testar sua precisão, você vai querer um setup que minimize a latência de entrada.
+
+| Nível de Hardware | Resolução Alvo | GPU Recomendada |
+| :--- | :--- | :--- |
+| **Econômico** | 1080p / 60 FPS (Médio) | RTX 3050 / RX 6600 |
+| **Intermediário** | 1440p / 60 FPS (Alto) | RTX 4060 Ti / RX 7700 XT |
+| **Entusiasta** | 4K / 60+ FPS (Ultra) | RTX 4080 Super / RX 7900 XTX |
+
+O roteiro do primeiro ano promete novos personagens e ambientes expandidos. À medida que o mundo cresce de "hubs de dados fraturados" para "campos de testes abandonados" mais complexos, a demanda no seu hardware provavelmente aumentará. Manter-se ligeiramente acima dos **requisitos mínimos de sistema de morbid metal** garantirá que você esteja pronto para os próximos lançamentos de conteúdo.
+
+## FAQ
+
+**P: Posso rodar Morbid Metal em uma GPU integrada?**
+
+R: Não é recomendado. Embora o jogo possa iniciar em gráficos integrados modernos (como o Radeon 780M), o desempenho provavelmente ficará abaixo de 30 FPS, tornando o combate acelerado de troca de formas quase impossível de gerenciar.
+
+**P: Por que o jogo engasga durante as lutas contra chefes?**
+
+R: Os engasgos são frequentemente causados pelo alto volume de efeitos de partículas e pela mecânica de "lentidão cinematográfica". Reduzir a Qualidade de Partículas e garantir que o jogo esteja instalado em um SSD pode ajudar a mitigar esses problemas.
+
+**P: O jogo suporta monitores ultrawide?**
+
+R: Sim, o jogo suporta resoluções ultrawide, embora alguns jogadores tenham relatado esticamento da interface ou redefinições de resolução ao alternar entre os modos janela e tela cheia.
+
+**P: Os requisitos de sistema de Morbid Metal devem mudar?**
+
+R: À medida que o jogo avança em seu roteiro de acesso antecipado em 2026, os requisitos podem ser refinados. Patches de otimização normalmente reduzem a carga na CPU, mas novos ambientes mais detalhados podem aumentar a demanda da GPU.
